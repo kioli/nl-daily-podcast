@@ -1,0 +1,76 @@
+feeds:
+- name: NOS Algemeen
+  url: https://nos.nl/nieuws
+  region: nl
+  category: algemeen
+  fulltext: true
+  scraper: true
+- name: NOS Binnenland
+  url: https://nos.nl/nieuws/binnenland
+  region: nl
+  category: binnenland
+  fulltext: true
+  scraper: true
+- name: NOS Buitenland
+  url: https://nos.nl/nieuws/buitenland
+  region: nl
+  category: buitenland
+  fulltext: true
+  scraper: true
+- name: NOS Economie
+  url: https://nos.nl/nieuws/economie
+  region: nl
+  category: economie
+  fulltext: true
+  scraper: true
+- name: NOS Sport
+  url: https://nos.nl/nieuws/sport
+  region: nl
+  category: sport
+  fulltext: true
+  scraper: true
+- name: NU.nl Algemeen
+  url: https://www.nu.nl/rss/algemeen
+  region: nl
+  category: algemeen
+  fulltext: false
+- name: NU.nl Binnenland
+  url: https://www.nu.nl/rss/binnenland
+  region: nl
+  category: binnenland
+  fulltext: false
+- name: NU.nl Buitenland
+  url: https://www.nu.nl/rss/buitenland
+  region: nl
+  category: buitenland
+  fulltext: false
+- name: NU.nl Economie
+  url: https://www.nu.nl/rss/economie
+  region: nl
+  category: economie
+  fulltext: false
+- name: NU.nl Sport
+  url: https://www.nu.nl/rss/sport
+  region: nl
+  category: sport
+  fulltext: false
+- name: DutchNews.nl
+  url: https://www.dutchnews.nl/feed/
+  region: nl
+  category: algemeen
+  fulltext: true
+- name: The Guardian - World
+  url: https://www.theguardian.com/world/rss
+  region: world
+  category: buitenland
+  fulltext: true
+- name: BBC News - World
+  url: http://feeds.bbci.co.uk/news/world/rss.xml
+  region: world
+  category: buitenland
+  fulltext: true
+- name: Al Jazeera - All
+  url: https://www.aljazeera.com/xml/rss/all.xml
+  region: world
+  category: buitenland
+  fulltext: true

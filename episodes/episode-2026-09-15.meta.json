@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-15",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1249,
+  "est_minutes": 10,
+  "n_articles": 24,
+  "n_world_sources": 8,
+  "sources_used": [
+    "BBC News - World",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "NU.nl Buitenland",
+    "NU.nl Sport",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "‘I believed the hype’: the white South Africans denied refugee status in the US",
+      "link": "https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Ebola outbreak in DRC has peaked, say authorities, as infection rates slow",
+      "link": "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "The London hospital funded by donors who invested in the slave trade",
+      "link": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
+      "link": "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Denmark says Russian warship fired flares at military helicopter",
+      "link": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "What weapon could the US have put into space?",
+      "link": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Suspected sabotage causes major Netherlands rail disruption",
+      "link": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+      "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "NU.nl Sport",
+      "category": "sport",
+      "title": "Wielrenner Sevilla (49) tijdens trainingsrit beroofd door gewapende Colombianen",
+      "link": "https://www.nu.nl/wielrennen/6409870/wielrenner-sevilla-49-tijdens-trainingsrit-beroofd-door-gewapende-colombianen.html"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "2631159 spoorsaboteurs kunnen hoge straffen tegemoetzien ze namen alle risico s voor lief",
+      "link": "https://nos.nl/artikel/2631159-spoorsaboteurs-kunnen-hoge-straffen-tegemoetzien-ze-namen-alle-risico-s-voor-lief"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "2631114 planbureau doorsnee huishouden gaat er door prinsjesdagplannen minder op achteruit",
+      "link": "https://nos.nl/artikel/2631114-planbureau-doorsnee-huishouden-gaat-er-door-prinsjesdagplannen-minder-op-achteruit"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "2631139 brits ziekenhuis had moord op baby s kunnen voorkomen oordeelt commissie",
+      "link": "https://nos.nl/artikel/2631139-brits-ziekenhuis-had-moord-op-baby-s-kunnen-voorkomen-oordeelt-commissie"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "2631141 boerenactivisten mogelijk verantwoordelijk voor sabotage op het spoor",
+      "link": "https://nos.nl/artikel/2631141-boerenactivisten-mogelijk-verantwoordelijk-voor-sabotage-op-het-spoor"
+    },
+    {
+      "source": "NU.nl Sport",
+      "category": "sport",
+      "title": "AZ heeft Kees Smit terug en kijkt uit naar sfeer in Sunderland: 'Dit ademt voetbal'",
+      "link": "https://www.nu.nl/voetbal/6409866/az-heeft-kees-smit-terug-en-kijkt-uit-naar-sfeer-in-sunderland-dit-ademt-voetbal.html"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "2631158 vs bouwde netwerk van militaire bases rond iran nu blijken die zelf doelwit",
+      "link": "https://nos.nl/artikel/2631158-vs-bouwde-netwerk-van-militaire-bases-rond-iran-nu-blijken-die-zelf-doelwit"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "2630986 wetgeving rond schiphol dichterbij toch heeft raad van state nog kritiek",
+      "link": "https://nos.nl/artikel/2630986-wetgeving-rond-schiphol-dichterbij-toch-heeft-raad-van-state-nog-kritiek"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "2631133 zeker 150 demonstranten opgepakt bij lhbti betoging tegen turkse regering",
+      "link": "https://nos.nl/artikel/2631133-zeker-150-demonstranten-opgepakt-bij-lhbti-betoging-tegen-turkse-regering"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "2631131 tiktokker op vrije voeten na steekpartij amsterdam centraal blijft verdachte",
+      "link": "https://nos.nl/artikel/2631131-tiktokker-op-vrije-voeten-na-steekpartij-amsterdam-centraal-blijft-verdachte"
+    },
+    {
+      "source": "NU.nl Sport",
+      "category": "sport",
+      "title": "Live Eredivisie | Ajax verzuimt in eerste half uur te scoren tegen Willem II",
+      "link": "https://www.nu.nl/voetbal/6409863/live-eredivisie-ajax-verzuimt-in-eerste-half-uur-te-scoren-tegen-willem-ii.html"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "2631147 anonieme doden op texel opgegraven in zoektocht naar vermiste vissers",
+      "link": "https://nos.nl/artikel/2631147-anonieme-doden-op-texel-opgegraven-in-zoektocht-naar-vermiste-vissers"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "2630964 vakbond fnv eist 5 5 procent loonsverhoging inclusief automatische prijscompensatie",
+      "link": "https://nos.nl/artikel/2630964-vakbond-fnv-eist-5-5-procent-loonsverhoging-inclusief-automatische-prijscompensatie"
+    },
+    {
+      "source": "NU.nl Buitenland",
+      "category": "buitenland",
+      "title": "Aanklager eist geen doodstraf tegen zoon die regisseur Rob Reiner doodde",
+      "link": "https://www.nu.nl/film/6409864/aanklager-eist-geen-doodstraf-tegen-zoon-die-regisseur-rob-reiner-doodde.html"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "2631123 zeven mannen opgepakt voor handel in duizenden kilo s illegaal vuurwerk",
+      "link": "https://nos.nl/artikel/2631123-zeven-mannen-opgepakt-voor-handel-in-duizenden-kilo-s-illegaal-vuurwerk"
+    },
+    {
+      "source": "NU.nl Sport",
+      "category": "sport",
+      "title": "FC Utrecht deelt achttien stadionverboden uit na misdragingen tegen Go Ahead",
+      "link": "https://www.nu.nl/voetbal/6409855/fc-utrecht-deelt-achttien-stadionverboden-uit-na-misdragingen-tegen-go-ahead.html"
+    }
+  ]
+}
