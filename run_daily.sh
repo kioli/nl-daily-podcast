@@ -8,7 +8,8 @@ cd /Users/lorenzo.marchiori/Projects/nl-daily-podcast
 
 export MAX_ARTICLES_PER_FEED=4
 export OLLAMA_MODEL="${OLLAMA_MODEL:-qwen2.5:14b}"
-export PUBLIC_BASE_URL="${PUBLIC_BASE_URL:-}"
+export PUBLIC_BASE_URL="${PUBLIC_BASE_URL:-https://kioli.github.io/nl-daily-podcast}"
+export AUTO_PUBLISH="${AUTO_PUBLISH:-1}"
 
 echo "=== $(date) — start daily run (model $OLLAMA_MODEL) ==="
 
