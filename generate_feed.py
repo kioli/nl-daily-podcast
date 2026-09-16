@@ -14,6 +14,7 @@ Output: feed.xml in de projectroot.
 """
 
 import os
+import re
 import json
 import subprocess
 import datetime as dt
@@ -23,6 +24,7 @@ ROOT = Path(__file__).resolve().parent
 EPISODES_DIR = ROOT / "episodes"
 FEED_PATH = ROOT / "feed.xml"
 PUBLIC_BASE_URL = os.environ.get("PUBLIC_BASE_URL", "").rstrip("/")
+MAX_AGE_DAYS = int(os.environ.get("MAX_AGE_DAYS", "14"))
 PODCAST_TITLE = os.environ.get("PODCAST_TITLE", "NL Daily News — B1")
 PODCAST_DESC = (
     "Dagelijks nieuws in eenvoudig Nederlands (B1-niveau). "
@@ -49,7 +51,39 @@ def esc(s):
              .replace('"', "&quot;").replace("'", "&apos;"))
 
 
+def episode_date(stem, meta):
+    date_str = meta.get("date") or re.sub(r".*-(\d{4}-\d{2}-\d{2})$", r"\1", stem)
+    try:
+        return dt.date.fromisoformat(date_str)
+    except Exception:
+        return None
+
+
+def cleanup_old_episodes():
+    """Verwijder afleveringen ouder dan MAX_AGE_DAYS van schijf (en dus uit feed)."""
+    today = dt.date.today()
+    removed = 0
+    for mp3 in EPISODES_DIR.glob("episode-*.mp3"):
+        stem = mp3.stem
+        meta_path = EPISODES_DIR / f"{stem}.meta.json"
+        meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
+        d = episode_date(stem, meta)
+        if d is None:
+            continue
+        age = (today - d).days
+        if age > MAX_AGE_DAYS:
+            for ext in (".mp3", ".txt", ".meta.json", ".wav"):
+                p = EPISODES_DIR / f"{stem}{ext}"
+                if p.exists():
+                    p.unlink()
+            removed += 1
+            print(f"  opruimen: {stem} ({age} dagen oud)")
+    if removed:
+        print(f"  {removed} oude aflevering(en) verwijderd (> {MAX_AGE_DAYS} dagen).")
+
+
 def main():
+    cleanup_old_episodes()
     items = []
     ep_files = sorted(EPISODES_DIR.glob("episode-*.mp3"), reverse=True)
     for mp3 in ep_files:
@@ -58,11 +92,11 @@ def main():
         meta = {}
         if meta_path.exists():
             meta = json.loads(meta_path.read_text(encoding="utf-8"))
-        date_str = meta.get("date") or stem.replace("episode-", "")
+        date_str = meta.get("date") or re.sub(r".*-(\d{4}-\d{2}-\d{2})$", r"\1", stem)
         try:
             d = dt.date.fromisoformat(date_str)
         except Exception:
-            d = dt.date.today()
+            d = dt.date.today() or dt.date(2000, 1, 1)
         secs = ffprobe_duration(mp3)
         size = mp3.stat().st_size
         if PUBLIC_BASE_URL:
@@ -92,6 +126,12 @@ def main():
     lines.append(f"    <itunes:author>{esc(PODCAST_AUTHOR)}</itunes:author>")
     lines.append('    <itunes:category text="News"/>')
     lines.append("    <itunes:explicit>false</itunes:explicit>")
+    # cover image (podcast artwork) — als cover.png in de repo-root staat
+    cover_path = ROOT / "cover.png"
+    if not cover_path.exists():
+        cover_path = ROOT / "cover.jpg"
+    if cover_path.exists() and PUBLIC_BASE_URL:
+        lines.append(f'    <itunes:image href="{PUBLIC_BASE_URL}/{cover_path.name}"/>')
     lines.append(f"    <lastBuildDate>{last_build}</lastBuildDate>")
 
     for it in items:

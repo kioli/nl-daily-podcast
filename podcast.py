@@ -53,7 +53,16 @@ TTS_RATE = os.environ.get("TTS_RATE", "-15%")
 TARGET_WORDS = int(os.environ.get("TARGET_WORDS", "2400"))
 PER_FEED = int(os.environ.get("MAX_ARTICLES_PER_FEED", "4"))
 
-CATEGORY_ORDER = ["binnenland", "buitenland", "economie", "algemeen", "wetenschap", "sport", "cultuur"]
+CATEGORY_ORDER = ["buitenland", "binnenland", "economie", "algemeen", "wetenschap", "sport", "cultuur"]
+SECTION_INTRO = {
+    "buitenland": "Eerst de nieuws uit de wereld.",
+    "binnenland": "Nu de nieuws uit Nederland.",
+    "economie": "Daarna het economische nieuws.",
+    "algemeen": "Verder het algemene nieuws.",
+    "wetenschap": "Nu nieuws uit de wetenschap.",
+    "sport": "Tot slot het sportnieuws.",
+    "cultuur": "Tot slot het cultuurnieuws.",
+}
 WPM = 120  # gesproken woorden/min, vertraagd B1-tempo
 
 
@@ -345,9 +354,10 @@ opsommingstekens, geen koppen, geen inleiding of afsluiting — alleen de \
 nieuwsinhoud voor deze categorie.
 
 STIJL — geef SPESHOOR, niet alleen titels:
-- Elk nieuwsitem begint met een korte AANKONDIGINGSZIN die het onderwerp benoemt, \
-gevolgd door de inhoud. Voorbeeld: "Eerst: de staking van schoonmakers in \
-Nederland." Daarna komt de uitwerking. Deze aankondiging werkt als een hoorbare \
+- Elk nieuwsitem begint met een AANKONDIGINGSZIN die het nummer en het onderwerp \
+noemt, gevolgd door de inhoud. Nummer de items binnen de categorie: "De eerste: \
+de staking van schoonmakers in Nederland." Daarna de uitwerking. "De tweede: ..." \
+voor het volgende item, enzovoort. Deze aankondiging werkt als een hoorbare \
 scheiding tussen items, zodat de luisteraar weet waar het over gaat.
 - Werk elk item uit tot een stukje van enkele zinnen: vertel wat er gebeurt, \
 het belang, en de context die in de samenvatting staat. Behandel het niet als \
@@ -465,11 +475,16 @@ def write_script(selected, date_str):
     parts = []
     parts.append(
         f"Dit is de dagelijkse nieuwtspodcast voor {date_pretty(date_str)}. "
-        f"Hier is het belangrijkste nieuws van vandaag, in eenvoudig Nederlands."
+        f"Hier is het belangrijkste nieuws van vandaag."
     )
     parts.append("")
 
     for cat, items in cats:
+        # sectie-aankondiging als hoorbare structuur
+        section_line = SECTION_INTRO.get(cat)
+        if section_line:
+            parts.append(section_line)
+            parts.append("")
         items_text = "\n".join(f"[{s['source']}] {s['summary']}" for s in items)
         prompt = CAT_PROMPT.format(cat=cat, target=per_cat_target, items=items_text)
         log(f"  script voor categorie '{cat}' ({len(items)} items, doel {per_cat_target} woorden)")
