@@ -62,6 +62,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add episodes/ feed.xml
+          git add -A episodes/ feed.xml
           git commit -m "daily: episode $(date +%F) [skip ci]" || echo "niets te committen"
           git push
