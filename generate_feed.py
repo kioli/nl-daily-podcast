@@ -106,6 +106,7 @@ def main():
         title = f"Aflevering {d.isoformat()}"
         if stem.endswith("-14b") or stem.endswith("-32b"):
             title += f" ({stem.split('-')[-1]})"
+        txt_path = EPISODES_DIR / f"{stem}.txt"
         items.append({
             "title": title,
             "date": d,
@@ -113,12 +114,13 @@ def main():
             "size": size,
             "secs": secs,
             "guid": f"nl-daily-{d.isoformat()}-{stem}",
+            "txt": txt_path.exists(),
         })
 
     last_build = dt.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0200")
     lines = []
     lines.append('<?xml version="1.0" encoding="UTF-8"?>')
-    lines.append('<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">')
+    lines.append('<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">')
     lines.append("  <channel>")
     lines.append(f"    <title>{esc(PODCAST_TITLE)}</title>")
     lines.append(f"    <description>{esc(PODCAST_DESC)}</description>")
@@ -145,6 +147,9 @@ def main():
         lines.append(f"      <enclosure url=\"{esc(it['url'])}\" length=\"{it['size']}\" type=\"audio/mpeg\"/>")
         if it["secs"]:
             lines.append(f"      <itunes:duration>{it['secs']}</itunes:duration>")
+        if it.get("txt"):
+            txt_url = it["url"].rsplit(".", 1)[0] + ".txt"
+            lines.append(f'      <podcast:transcript url="{esc(txt_url)}" type="text/plain" language="nl" rel="captions"/>')
         lines.append("    </item>")
 
     lines.append("  </channel>")

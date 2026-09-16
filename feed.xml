@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>NL Daily News — B1</title>
     <description>Dagelijks nieuws in eenvoudig Nederlands (B1-niveau). Belangrijkste nieuws uit Nederland en de wereld, samengevat en voorgelezen.</description>
@@ -7,13 +7,15 @@
     <itunes:author>Lorenzo</itunes:author>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
-    <lastBuildDate>Wed, 16 Sep 2026 10:44:50 +0200</lastBuildDate>
+    <itunes:image href="https://kioli.github.io/nl-daily-podcast/Cover.jpeg"/>
+    <lastBuildDate>Wed, 16 Sep 2026 13:17:00 +0200</lastBuildDate>
     <item>
       <title>Aflevering 2026-09-16</title>
       <pubDate>Wed, 16 Sep 2026 06:00:00 +0200</pubDate>
       <guid isPermaLink="false">nl-daily-2026-09-16-episode-14b-2026-09-16</guid>
       <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-09-16.mp3" length="21542601" type="audio/mpeg"/>
       <itunes:duration>1795</itunes:duration>
+      <podcast:transcript url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-09-16.txt" type="text/plain" language="nl" rel="captions"/>
     </item>
   </channel>
 </rss>
