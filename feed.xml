@@ -7,13 +7,13 @@
     <itunes:author>Lorenzo</itunes:author>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
-    <lastBuildDate>Wed, 16 Sep 2026 10:13:09 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 10:44:50 +0200</lastBuildDate>
     <item>
       <title>Aflevering 2026-09-16</title>
       <pubDate>Wed, 16 Sep 2026 06:00:00 +0200</pubDate>
       <guid isPermaLink="false">nl-daily-2026-09-16-episode-14b-2026-09-16</guid>
-      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-09-16.mp3" length="16366908" type="audio/mpeg"/>
-      <itunes:duration>1363</itunes:duration>
+      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-09-16.mp3" length="21542601" type="audio/mpeg"/>
+      <itunes:duration>1795</itunes:duration>
     </item>
   </channel>
 </rss>

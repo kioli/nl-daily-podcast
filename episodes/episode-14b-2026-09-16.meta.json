@@ -4,8 +4,8 @@
   "tts": "piper",
   "voice": "nl_NL-alex-medium.onnx",
   "length_scale": "1.15",
-  "words": 4069,
-  "est_minutes": 33,
+  "words": 5415,
+  "est_minutes": 45,
   "n_articles": 22,
   "n_world_sources": 7,
   "sources_used": [
@@ -93,8 +93,8 @@
     {
       "source": "NU.nl Sport",
       "category": "sport",
-      "title": "Mbappé en Vinícius trekken shirt met steunbetuiging voor Ceuta maar half aan",
-      "link": "https://www.nu.nl/voetbal/6409916/mbappe-en-vinicius-trekken-shirt-met-steunbetuiging-voor-ceuta-maar-half-aan.html"
+      "title": "Ajax pikt bij Spurs vertrokken Bissouma op: 'Ik voel me echt gelukkig'",
+      "link": "https://www.nu.nl/voetbal/6409757/ajax-pikt-bij-spurs-vertrokken-bissouma-op-ik-voel-me-echt-gelukkig.html"
     },
     {
       "source": "NOS Algemeen",
@@ -121,12 +121,6 @@
       "link": "https://www.nu.nl/opmerkelijk/6409890/tijdschrift-wordt-132-jaar-te-laat-ingeleverd-bij-amerikaanse-bibliotheek.html"
     },
     {
-      "source": "NU.nl Sport",
-      "category": "sport",
-      "title": "Ajax pikt bij Spurs vertrokken Bissouma op: 'Ik voel me echt gelukkig'",
-      "link": "https://www.nu.nl/voetbal/6409757/ajax-pikt-bij-spurs-vertrokken-bissouma-op-ik-voel-me-echt-gelukkig.html"
-    },
-    {
       "source": "NOS Algemeen",
       "category": "algemeen",
       "title": "2631229 toekomst bondskanselier merz aan zijden draadje vertrek ligt op tafel",
@@ -149,6 +143,12 @@
       "category": "buitenland",
       "title": "In twee maanden tijd zeven vrouwen dood aangetroffen bij Johannesburg",
       "link": "https://www.nu.nl/buitenland/6409892/in-twee-maanden-tijd-zeven-vrouwen-dood-aangetroffen-bij-johannesburg.html"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "2631228 meer dan 100 000 japanners ouder dan 100 jaar zorgen over sociale zekerheid",
+      "link": "https://nos.nl/artikel/2631228-meer-dan-100-000-japanners-ouder-dan-100-jaar-zorgen-over-sociale-zekerheid"
     }
   ]
 }
