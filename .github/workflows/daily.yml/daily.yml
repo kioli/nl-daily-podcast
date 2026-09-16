@@ -1,0 +1,64 @@
+name: Daily podcast
+
+on:
+  schedule:
+    # 05:00 UTC = 07:00 CEST (zomer) / 06:00 CET (winter)
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}  # handmatige trigger
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-podcast
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser trafilatura piper-tts requests pyyaml lxml_html_clean
+
+      - name: Download Piper voice (nl-NL alex)
+        run: |
+          mkdir -p voices
+          curl -sL -o voices/nl_NL-alex-medium.onnx \
+            "https://huggingface.co/rhasspy/piper-voices/resolve/main/nl/nl_NL/alex/medium/nl_NL-alex-medium.onnx"
+          curl -sL -o voices/nl_NL-alex-medium.onnx.json \
+            "https://huggingface.co/rhasspy/piper-voices/resolve/main/nl/nl_NL/alex/medium/nl_NL-alex-medium.onnx.json"
+          ls -la voices/
+
+      - name: Generate episode
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: llama-3.3-70b-versatile
+          MAX_ARTICLES_PER_FEED: "4"
+          PIPER_VOICE: nl_NL-alex-medium.onnx
+          PIPER_LENGTH_SCALE: "1.15"
+          TARGET_WORDS: "2400"
+        run: |
+          DATE=$(date +%F)
+          python podcast.py --max-articles 22 --out "episode-14b-${DATE}"
+
+      - name: Regenerate feed
+        env:
+          PUBLIC_BASE_URL: https://kioli.github.io/nl-daily-podcast
+        run: python generate_feed.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add episodes/ feed.xml
+          git commit -m "daily: episode $(date +%F) [skip ci]" || echo "niets te committen"
+          git push
