@@ -48,6 +48,7 @@ OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "qwen2.5:14b")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL = os.environ.get("GROQ_MODEL", "qwen/qwen3.8-27b")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_CALL_DELAY = float(os.environ.get("GROQ_CALL_DELAY", "8"))
 TTS_VOICE = os.environ.get("TTS_VOICE", "nl-NL-ColetteNeural")
 TTS_RATE = os.environ.get("TTS_RATE", "-15%")
 TARGET_WORDS = int(os.environ.get("TARGET_WORDS", "2400"))
@@ -90,6 +91,8 @@ def llm_chat(messages, temperature=0.2, num_predict=None, num_ctx=8192):
             "Content-Type": "application/json",
         }
         for attempt in range(8):
+            if attempt == 0 and GROQ_CALL_DELAY:
+                time.sleep(GROQ_CALL_DELAY)
             resp = requests.post(GROQ_URL, json=payload, headers=headers, timeout=600)
             if resp.status_code == 429:
                 retry_after = resp.headers.get("Retry-After")
@@ -647,9 +650,6 @@ def main():
         a["summary"] = summ
         cache[a["link"]] = summ
         summaries.append(a)
-        # Groq free tier: ~7000 input tokens/min — pauze tussen LLM-aanroepen
-        if GROQ_API_KEY:
-            time.sleep(3)
         n_llm += 1
         try:
             cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
