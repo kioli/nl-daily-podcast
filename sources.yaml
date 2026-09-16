@@ -1,4 +1,5 @@
 feeds:
+# --- NOS (scraper, fulltext) ---
 - name: NOS Algemeen
   url: https://nos.nl/nieuws
   region: nl
@@ -29,36 +30,39 @@ feeds:
   category: sport
   fulltext: true
   scraper: true
-- name: NU.nl Algemeen
-  url: https://www.nu.nl/rss/algemeen
-  region: nl
-  category: algemeen
-  fulltext: false
-- name: NU.nl Binnenland
-  url: https://www.nu.nl/rss/binnenland
-  region: nl
-  category: binnenland
-  fulltext: false
-- name: NU.nl Buitenland
-  url: https://www.nu.nl/rss/buitenland
-  region: nl
-  category: buitenland
-  fulltext: false
-- name: NU.nl Economie
-  url: https://www.nu.nl/rss/economie
-  region: nl
-  category: economie
-  fulltext: false
-- name: NU.nl Sport
-  url: https://www.nu.nl/rss/sport
-  region: nl
-  category: sport
-  fulltext: false
-- name: DutchNews.nl
-  url: https://www.dutchnews.nl/feed/
+# --- RTL Nieuws (RSS, fulltext) ---
+- name: RTL Algemeen
+  url: https://www.rtlnieuws.nl/rss.xml
   region: nl
   category: algemeen
   fulltext: true
+- name: RTL Binnenland
+  url: https://www.rtlnieuws.nl/nieuws/binnenland/rss.xml
+  region: nl
+  category: binnenland
+  fulltext: true
+- name: RTL Buitenland
+  url: https://www.rtlnieuws.nl/nieuws/buitenland/rss.xml
+  region: nl
+  category: buitenland
+  fulltext: true
+- name: RTL Economie
+  url: https://www.rtlnieuws.nl/nieuws/economie/rss.xml
+  region: nl
+  category: economie
+  fulltext: true
+- name: RTL Sport
+  url: https://www.rtlnieuws.nl/nieuws/sport/rss.xml
+  region: nl
+  category: sport
+  fulltext: true
+# --- Wetenschap ---
+- name: Scientias.nl
+  url: https://www.scientias.nl/feed/
+  region: nl
+  category: wetenschap
+  fulltext: true
+# --- World ---
 - name: The Guardian - World
   url: https://www.theguardian.com/world/rss
   region: world
@@ -71,6 +75,11 @@ feeds:
   fulltext: true
 - name: Al Jazeera - All
   url: https://www.aljazeera.com/xml/rss/all.xml
+  region: world
+  category: buitenland
+  fulltext: true
+- name: Euronews
+  url: https://www.euronews.com/rss
   region: world
   category: buitenland
   fulltext: true
