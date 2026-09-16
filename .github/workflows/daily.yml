@@ -29,6 +29,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser trafilatura piper-tts requests pyyaml lxml_html_clean
 
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+          
       - name: Download Piper voice (nl-NL alex)
         run: |
           mkdir -p voices
