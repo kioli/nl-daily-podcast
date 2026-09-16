@@ -28,6 +28,7 @@ import os
 import sys
 import re
 import json
+import shutil
 import argparse
 import subprocess
 import datetime as dt
@@ -44,7 +45,7 @@ EPISODES_DIR = ROOT / "episodes"
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "qwen2.5:14b")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.1-8b-instant")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 TTS_VOICE = os.environ.get("TTS_VOICE", "nl-NL-ColetteNeural")
 TTS_RATE = os.environ.get("TTS_RATE", "-15%")
@@ -78,7 +79,8 @@ def llm_chat(messages, temperature=0.2, num_predict=None, num_ctx=8192):
             "Content-Type": "application/json",
         }
         resp = requests.post(GROQ_URL, json=payload, headers=headers, timeout=600)
-        resp.raise_for_status()
+        if resp.status_code != 200:
+            raise RuntimeError(f"Groq {resp.status_code}: {resp.text[:300]}")
         return resp.json()["choices"][0]["message"]["content"].strip()
     # lokale Ollama
     options = {"temperature": temperature, "num_ctx": num_ctx}
@@ -512,8 +514,9 @@ def synthesize(text_path, mp3_path):
         log(f"piper-stem niet gevonden: {voice_path}")
         return False
     wav_path = mp3_path.with_suffix(".wav")
+    piper_bin = shutil.which("piper") or str(ROOT / ".venv" / "bin" / "piper")
     piper_cmd = [
-        str(ROOT / ".venv" / "bin" / "piper"),
+        piper_bin,
         "-m", str(voice_path),
         "-c", str(voice_path.with_suffix(".json")),
         "-i", str(text_path),
