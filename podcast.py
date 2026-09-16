@@ -43,6 +43,9 @@ SOURCES_FILE = ROOT / "sources.yaml"
 EPISODES_DIR = ROOT / "episodes"
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "qwen2.5:14b")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 TTS_VOICE = os.environ.get("TTS_VOICE", "nl-NL-ColetteNeural")
 TTS_RATE = os.environ.get("TTS_RATE", "-15%")
 TARGET_WORDS = int(os.environ.get("TARGET_WORDS", "2400"))
@@ -58,8 +61,26 @@ def log(msg):
 
 # ---------- Ollama ----------
 
-def ollama_chat(messages, temperature=0.2, num_predict=None, num_ctx=8192):
-    """Eén synchrone aanroep naar de lokale Ollama-server."""
+def llm_chat(messages, temperature=0.2, num_predict=None, num_ctx=8192):
+    """Eén LLM-aanroep. Gebruikt Groq (cloud) als GROQ_API_KEY gezet is, anders
+    lokale Ollama. Groq is OpenAI-compatible."""
+    if GROQ_API_KEY:
+        payload = {
+            "model": GROQ_MODEL,
+            "messages": messages,
+            "temperature": temperature,
+            "stream": False,
+        }
+        if num_predict:
+            payload["max_tokens"] = num_predict
+        headers = {
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type": "application/json",
+        }
+        resp = requests.post(GROQ_URL, json=payload, headers=headers, timeout=600)
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip()
+    # lokale Ollama
     options = {"temperature": temperature, "num_ctx": num_ctx}
     if num_predict:
         options["num_predict"] = num_predict
@@ -217,7 +238,7 @@ Tekst:
 
 def summarize_article(article, text):
     prompt = SUMMARY_PROMPT.format(source=article["source"], text=text)
-    msg = ollama_chat(
+    msg = llm_chat(
         [{"role": "user", "content": prompt}],
         temperature=0.1,
         num_predict=300,
@@ -438,7 +459,7 @@ def write_script(selected, date_str):
         prompt = CAT_PROMPT.format(cat=cat, target=per_cat_target, items=items_text)
         log(f"  script voor categorie '{cat}' ({len(items)} items, doel {per_cat_target} woorden)")
         try:
-            chunk = ollama_chat([{"role": "user", "content": prompt}], temperature=0.2, num_predict=1800)
+            chunk = llm_chat([{"role": "user", "content": prompt}], temperature=0.2, num_predict=1800)
         except Exception as e:
             log(f"    categorie '{cat}' faalde: {e} — overslaan")
             continue
@@ -458,7 +479,7 @@ def write_script(selected, date_str):
         )
         prompt = EXPAND_PROMPT.format(target=TARGET_WORDS, draft=draft, sources=sources_text)
         try:
-            expanded = ollama_chat(
+            expanded = llm_chat(
                 [{"role": "user", "content": prompt}],
                 temperature=0.2,
                 num_predict=3000,
