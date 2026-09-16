@@ -4,15 +4,14 @@
   "tts": "piper",
   "voice": "nl_NL-alex-medium.onnx",
   "length_scale": "1.15",
-  "words": 4397,
-  "est_minutes": 36,
+  "words": 4069,
+  "est_minutes": 33,
   "n_articles": 22,
   "n_world_sources": 7,
   "sources_used": [
     "BBC News - World",
     "NOS Algemeen",
     "NOS Binnenland",
-    "NOS Buitenland",
     "NOS Economie",
     "NU.nl Buitenland",
     "NU.nl Sport",
@@ -46,6 +45,12 @@
     {
       "source": "BBC News - World",
       "category": "buitenland",
+      "title": "EU chief opens door for Canada to become 'associate member'",
+      "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
       "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
       "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss"
     },
@@ -56,10 +61,64 @@
       "link": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "source": "BBC News - World",
+      "source": "NU.nl Sport",
+      "category": "sport",
+      "title": "Formule 1-kalender van 2027 bekend: liefst tien sprintraces, primeur voor Monaco",
+      "link": "https://www.nu.nl/formule-1/6409925/formule-1-kalender-van-2027-bekend-liefst-tien-sprintraces-primeur-voor-monaco.html"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "2631233 vijf doden bij droneaanval op oekraiense bus energieaanvallen niet gestopt",
+      "link": "https://nos.nl/artikel/2631233-vijf-doden-bij-droneaanval-op-oekraiense-bus-energieaanvallen-niet-gestopt"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "2631219 schiphol en vakbonden sluiten overeenkomst beveiligers gaan niet meer staken",
+      "link": "https://nos.nl/artikel/2631219-schiphol-en-vakbonden-sluiten-overeenkomst-beveiligers-gaan-niet-meer-staken"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "2631193 wekdienst 16 9 algemene beschouwingen rechtszaak explosie osdorp",
+      "link": "https://nos.nl/artikel/2631193-wekdienst-16-9-algemene-beschouwingen-rechtszaak-explosie-osdorp"
+    },
+    {
+      "source": "NU.nl Buitenland",
       "category": "buitenland",
-      "title": "At least 12 killed after war-damaged Gaza building collapses",
-      "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss"
+      "title": "Von der Leyen wil Europese Veiligheidsraad en Canada 'associatielid' maken",
+      "link": "https://www.nu.nl/buitenland/6409902/von-der-leyen-wil-europese-veiligheidsraad-en-canada-associatielid-maken.html"
+    },
+    {
+      "source": "NU.nl Sport",
+      "category": "sport",
+      "title": "Mbappé en Vinícius trekken shirt met steunbetuiging voor Ceuta maar half aan",
+      "link": "https://www.nu.nl/voetbal/6409916/mbappe-en-vinicius-trekken-shirt-met-steunbetuiging-voor-ceuta-maar-half-aan.html"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "2631232 kosovaarse ex president thaci veroordeeld tot 25 jaar cel voor oorlogsmisdaden",
+      "link": "https://nos.nl/artikel/2631232-kosovaarse-ex-president-thaci-veroordeeld-tot-25-jaar-cel-voor-oorlogsmisdaden"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "2631114 planbureau doorsnee huishouden gaat er door prinsjesdagplannen minder op achteruit",
+      "link": "https://nos.nl/artikel/2631114-planbureau-doorsnee-huishouden-gaat-er-door-prinsjesdagplannen-minder-op-achteruit"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "2631188 zanger ben saunders 43 overleden eerste winnaar the voice of holland",
+      "link": "https://nos.nl/artikel/2631188-zanger-ben-saunders-43-overleden-eerste-winnaar-the-voice-of-holland"
+    },
+    {
+      "source": "NU.nl Buitenland",
+      "category": "buitenland",
+      "title": "Tijdschrift wordt 132 jaar te laat ingeleverd bij Amerikaanse bibliotheek",
+      "link": "https://www.nu.nl/opmerkelijk/6409890/tijdschrift-wordt-132-jaar-te-laat-ingeleverd-bij-amerikaanse-bibliotheek.html"
     },
     {
       "source": "NU.nl Sport",
@@ -70,38 +129,8 @@
     {
       "source": "NOS Algemeen",
       "category": "algemeen",
-      "title": "2631219 schiphol en vakbonden sluiten overeenkomst beveiligers gaan niet meer staken",
-      "link": "https://nos.nl/artikel/2631219-schiphol-en-vakbonden-sluiten-overeenkomst-beveiligers-gaan-niet-meer-staken"
-    },
-    {
-      "source": "NOS Economie",
-      "category": "economie",
-      "title": "2631114 planbureau doorsnee huishouden gaat er door prinsjesdagplannen minder op achteruit",
-      "link": "https://nos.nl/artikel/2631114-planbureau-doorsnee-huishouden-gaat-er-door-prinsjesdagplannen-minder-op-achteruit"
-    },
-    {
-      "source": "NOS Buitenland",
-      "category": "buitenland",
-      "title": "2631196 helikopter van nbc news stort neer tijdens filmen dodelijk ongeluk",
-      "link": "https://nos.nl/artikel/2631196-helikopter-van-nbc-news-stort-neer-tijdens-filmen-dodelijk-ongeluk"
-    },
-    {
-      "source": "NOS Binnenland",
-      "category": "binnenland",
-      "title": "2631193 wekdienst 16 9 algemene beschouwingen rechtszaak explosie osdorp",
-      "link": "https://nos.nl/artikel/2631193-wekdienst-16-9-algemene-beschouwingen-rechtszaak-explosie-osdorp"
-    },
-    {
-      "source": "NU.nl Sport",
-      "category": "sport",
-      "title": "Bartina Koeman (65), vrouw van oud-bondscoach Ronald Koeman, overleden",
-      "link": "https://www.nu.nl/algemeen/6409907/bartina-koeman-65-vrouw-van-oud-bondscoach-ronald-koeman-overleden.html"
-    },
-    {
-      "source": "NOS Algemeen",
-      "category": "algemeen",
-      "title": "2631207 medewerker franse naschoolse opvang krijgt jaar huisarrest voor seksueel misbruik",
-      "link": "https://nos.nl/artikel/2631207-medewerker-franse-naschoolse-opvang-krijgt-jaar-huisarrest-voor-seksueel-misbruik"
+      "title": "2631229 toekomst bondskanselier merz aan zijden draadje vertrek ligt op tafel",
+      "link": "https://nos.nl/artikel/2631229-toekomst-bondskanselier-merz-aan-zijden-draadje-vertrek-ligt-op-tafel"
     },
     {
       "source": "NOS Economie",
@@ -110,46 +139,16 @@
       "link": "https://nos.nl/artikel/2630986-wetgeving-rond-schiphol-dichterbij-toch-heeft-raad-van-state-nog-kritiek"
     },
     {
-      "source": "NU.nl Buitenland",
-      "category": "buitenland",
-      "title": "Von der Leyen wil Europese Veiligheidsraad en reikt hand uit naar Canada",
-      "link": "https://www.nu.nl/buitenland/6409902/von-der-leyen-wil-europese-veiligheidsraad-en-reikt-hand-uit-naar-canada.html"
-    },
-    {
-      "source": "NOS Binnenland",
-      "category": "binnenland",
-      "title": "2631188 zanger ben saunders 43 overleden eerste winnaar the voice of holland",
-      "link": "https://nos.nl/artikel/2631188-zanger-ben-saunders-43-overleden-eerste-winnaar-the-voice-of-holland"
-    },
-    {
-      "source": "NU.nl Sport",
-      "category": "sport",
-      "title": "NU+ | Kun je succesvol terugkeren als topsporter? 'Uren op het ijs zijn cruciaal'",
-      "link": "https://www.nu.nl/nujij/6409818/kun-je-succesvol-terugkeren-als-topsporter-uren-op-het-ijs-zijn-cruciaal.html"
-    },
-    {
-      "source": "NOS Algemeen",
-      "category": "algemeen",
-      "title": "2631202 von der leyen roept in jaarlijkse toespraak op tot oprichten europese veiligheidsraad",
-      "link": "https://nos.nl/artikel/2631202-von-der-leyen-roept-in-jaarlijkse-toespraak-op-tot-oprichten-europese-veiligheidsraad"
-    },
-    {
-      "source": "NOS Economie",
-      "category": "economie",
-      "title": "2630964 vakbond fnv eist 5 5 procent loonsverhoging inclusief automatische prijscompensatie",
-      "link": "https://nos.nl/artikel/2630964-vakbond-fnv-eist-5-5-procent-loonsverhoging-inclusief-automatische-prijscompensatie"
-    },
-    {
-      "source": "NU.nl Buitenland",
-      "category": "buitenland",
-      "title": "Tijdschrift wordt 132 jaar te laat ingeleverd bij Amerikaanse bibliotheek",
-      "link": "https://www.nu.nl/opmerkelijk/6409890/tijdschrift-wordt-132-jaar-te-laat-ingeleverd-bij-amerikaanse-bibliotheek.html"
-    },
-    {
       "source": "NOS Binnenland",
       "category": "binnenland",
       "title": "2631176 branden in de berm en tientallen sabotageacties op het spoor een overzicht van de dag",
       "link": "https://nos.nl/artikel/2631176-branden-in-de-berm-en-tientallen-sabotageacties-op-het-spoor-een-overzicht-van-de-dag"
+    },
+    {
+      "source": "NU.nl Buitenland",
+      "category": "buitenland",
+      "title": "In twee maanden tijd zeven vrouwen dood aangetroffen bij Johannesburg",
+      "link": "https://www.nu.nl/buitenland/6409892/in-twee-maanden-tijd-zeven-vrouwen-dood-aangetroffen-bij-johannesburg.html"
     }
   ]
 }
