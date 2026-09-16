@@ -41,7 +41,7 @@ jobs:
       - name: Generate episode
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_MODEL: llama-3.3-70b-versatile
+          GROQ_MODEL: llama-3.1-8b-instant
           MAX_ARTICLES_PER_FEED: "4"
           PIPER_VOICE: nl_NL-alex-medium.onnx
           PIPER_LENGTH_SCALE: "1.15"
