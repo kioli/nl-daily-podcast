@@ -28,6 +28,7 @@ import os
 import sys
 import re
 import json
+import time
 import shutil
 import argparse
 import subprocess
@@ -64,7 +65,8 @@ def log(msg):
 
 def llm_chat(messages, temperature=0.2, num_predict=None, num_ctx=8192):
     """Eén LLM-aanroep. Gebruikt Groq (cloud) als GROQ_API_KEY gezet is, anders
-    lokale Ollama. Groq is OpenAI-compatible."""
+    lokale Ollama. Groq is OpenAI-compatible. Handelt 429 rate-limit af met
+    backoff (Groq free tier: ~7000 input tokens/min)."""
     if GROQ_API_KEY:
         payload = {
             "model": GROQ_MODEL,
@@ -78,10 +80,21 @@ def llm_chat(messages, temperature=0.2, num_predict=None, num_ctx=8192):
             "Authorization": f"Bearer {GROQ_API_KEY}",
             "Content-Type": "application/json",
         }
-        resp = requests.post(GROQ_URL, json=payload, headers=headers, timeout=600)
-        if resp.status_code != 200:
-            raise RuntimeError(f"Groq {resp.status_code}: {resp.text[:300]}")
-        return resp.json()["choices"][0]["message"]["content"].strip()
+        for attempt in range(8):
+            resp = requests.post(GROQ_URL, json=payload, headers=headers, timeout=600)
+            if resp.status_code == 429:
+                retry_after = resp.headers.get("Retry-After")
+                wait = float(retry_after) if retry_after else min(60, 2 ** attempt * 3)
+                log(f"  Groq 429 rate-limit, wacht {wait:.0f}s (poging {attempt+1}/8)")
+                time.sleep(wait)
+                continue
+            if resp.status_code in (502, 503, 504):
+                time.sleep(min(30, 2 ** attempt * 2))
+                continue
+            if resp.status_code != 200:
+                raise RuntimeError(f"Groq {resp.status_code}: {resp.text[:300]}")
+            return resp.json()["choices"][0]["message"]["content"].strip()
+        raise RuntimeError("Groq rate-limit: opgegeven na 8 pogingen")
     # lokale Ollama
     options = {"temperature": temperature, "num_ctx": num_ctx}
     if num_predict:
@@ -619,6 +632,9 @@ def main():
         a["summary"] = summ
         cache[a["link"]] = summ
         summaries.append(a)
+        # Groq free tier: ~7000 input tokens/min — pauze tussen LLM-aanroepen
+        if GROQ_API_KEY:
+            time.sleep(3)
         n_llm += 1
         try:
             cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
