@@ -144,9 +144,10 @@ def scrape_nos_section(src):
         if path in seen:
             continue
         seen.add(path)
-        # titel uit slug
+        # titel uit slug (strip leading article-ID digits)
         slug = path.split("/", 2)[-1]
         slug = slug.split("?")[0]
+        slug = re.sub(r"^\d+", "", slug)
         title = slug.replace("-", " ").strip()
         articles.append({
             "source": src["name"],
@@ -189,6 +190,13 @@ def fetch_feeds(sources):
             title = entry.get("title", "").strip()
             rss_summary = entry.get("summary", "") or entry.get("description", "")
             rss_summary = re.sub(r"<[^>]+>", " ", rss_summary).strip()
+            published = None
+            pt = entry.get("published_parsed") or entry.get("updated_parsed")
+            if pt:
+                try:
+                    published = dt.datetime(*pt[:6], tzinfo=dt.timezone.utc)
+                except Exception:
+                    published = None
             articles.append({
                 "source": src["name"],
                 "region": src["region"],
@@ -197,6 +205,7 @@ def fetch_feeds(sources):
                 "link": link,
                 "rss_summary": rss_summary,
                 "fulltext": src.get("fulltext", True),
+                "published": published,
             })
             taken += 1
         log(f"  {taken} items genomen")
@@ -275,6 +284,10 @@ def summarize_article(article, text):
 
 # ---------- Stap 4: gebalanceerde selectie ----------
 
+MAX_NL = int(os.environ.get("MAX_NL", "8"))
+MAX_WORLD = int(os.environ.get("MAX_WORLD", "14"))
+
+
 def _title_tokens(title):
     return set(re.findall(r"[a-z0-9]+", title.lower()))
 
@@ -303,31 +316,75 @@ def deduplicate(summaries):
     return out
 
 
-def balance(summaries, max_total=18):
-    """Selecteer max_total artikelen, gebalanceerd over categorieën EN over nl/world."""
-    by_cat = {}
-    for s in summaries:
-        by_cat.setdefault(s["category"], []).append(s)
+def score_articles(articles):
+    """Score elk artikel op belangrijkheid:
+    1. cross-fonte frequency (meerdere bronnen over hetzelfde feit = belangrijk)
+    2. recency (verser = iets hoger)
+    3. tekstlengte (meer inhoud = meer substantie)
+    4. Amsterdam-bonus (Lorenzo woont daar)
+    """
+    now = dt.datetime.now(dt.timezone.utc)
+    for i, a in enumerate(articles):
+        a_tok = _title_tokens(a["title"])
+        freq = 0
+        for j, b in enumerate(articles):
+            if i == j or a["source"] == b["source"]:
+                continue
+            b_tok = _title_tokens(b["title"])
+            inter = len(a_tok & b_tok)
+            union = len(a_tok | b_tok) or 1
+            if inter / union > 0.4:
+                freq += 1
+        score = freq * 3
+        pub = a.get("published")
+        if pub:
+            try:
+                hours_old = (now - pub).total_seconds() / 3600
+                score += max(0, 2 - hours_old / 6)
+            except Exception:
+                pass
+        text_len = len(a.get("text", ""))
+        if text_len > 800:
+            score += 1
+        if text_len > 2000:
+            score += 1
+        if a["region"] != "world":
+            combined = (a["title"] + " " + a.get("text", "")).lower()
+            if "amsterdam" in combined:
+                score += 2
+        a["score"] = score
 
-    ordered_cats = [c for c in CATEGORY_ORDER if c in by_cat]
-    ordered_cats += [c for c in by_cat if c not in CATEGORY_ORDER]
 
-    # garandeer een minimale quota voor wereld-nieuws (niet-NU.nl / world region)
-    world = [s for s in summaries if s["region"] == "world"]
-    nl = [s for s in summaries if s["region"] != "world"]
-    min_world = min(len(world), max(4, max_total // 3))  # ~1/3 uit wereldbronnen
+def balance(articles, max_total=22):
+    """Selecteer max_total artikelen: ~MAX_WORLD wereld + ~MAX_NL nederland.
+    Binnen elkquotum: hoogste score eerst. NL ook gebalanceerd over categorieën."""
+    score_articles(articles)
+    world = [a for a in articles if a["region"] == "world"]
+    nl = [a for a in articles if a["region"] != "world"]
+    world.sort(key=lambda a: a["score"], reverse=True)
+    nl.sort(key=lambda a: a["score"], reverse=True)
 
-    selected = []
-    # eerste ronde:优先 world-bronnen om zeker zichtbaar te zijn
-    for s in world:
-        if len(selected) >= min_world:
-            break
-        selected.append(s)
+    n_world = min(MAX_WORLD, len(world))
+    n_nl = min(max_total - n_world, len(nl), MAX_NL)
+    # als er te weinig world is, vul aan met NL
+    if n_world + n_nl < max_total:
+        n_nl = min(max_total - n_world, len(nl))
+
+    selected = world[:n_world]
     selected_links = {s["link"] for s in selected}
 
-    # vul aan per categorie (round-robin), vermijd reeds geselecteerde
-    queue = [[s for s in by_cat[c] if s["link"] not in selected_links] for c in ordered_cats]
-    while queue and len(selected) < max_total:
+    # NL: round-robin per categorie (diversiteit), binnen categorie op score
+    by_cat = {}
+    for a in nl:
+        if a["link"] in selected_links:
+            continue
+        by_cat.setdefault(a["category"], []).append(a)
+    for c in by_cat:
+        by_cat[c].sort(key=lambda a: a["score"], reverse=True)
+    ordered_cats = [c for c in CATEGORY_ORDER if c in by_cat]
+    ordered_cats += [c for c in by_cat if c not in CATEGORY_ORDER]
+    queue = [by_cat[c] for c in ordered_cats]
+    while queue and len(selected) < n_world + n_nl:
         progressed = False
         for i in range(len(queue) - 1, -1, -1):
             if not queue[i]:
@@ -335,7 +392,7 @@ def balance(summaries, max_total=18):
                 continue
             selected.append(queue[i].pop(0))
             progressed = True
-            if len(selected) >= max_total:
+            if len(selected) >= n_world + n_nl:
                 break
         if not progressed:
             break

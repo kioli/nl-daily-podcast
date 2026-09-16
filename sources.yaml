@@ -83,3 +83,13 @@ feeds:
   region: world
   category: buitenland
   fulltext: true
+- name: NYT - World
+  url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+  region: world
+  category: buitenland
+  fulltext: true
+- name: EU Observer
+  url: https://euobserver.com/rss/
+  region: world
+  category: buitenland
+  fulltext: true
