@@ -7,27 +7,13 @@
     <itunes:author>Lorenzo</itunes:author>
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
-    <lastBuildDate>Tue, 15 Sep 2026 22:36:28 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 09:05:34 +0200</lastBuildDate>
     <item>
-      <title>Aflevering 2026-09-15 (32b)</title>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 +0200</pubDate>
-      <guid isPermaLink="false">nl-daily-2026-09-15-episode-32b</guid>
-      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-32b.mp3" length="6082291" type="audio/mpeg"/>
-      <itunes:duration>506</itunes:duration>
-    </item>
-    <item>
-      <title>Aflevering 2026-09-15</title>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 +0200</pubDate>
-      <guid isPermaLink="false">nl-daily-2026-09-15-episode-2026-09-15</guid>
-      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-2026-09-15.mp3" length="5242507" type="audio/mpeg"/>
-      <itunes:duration>436</itunes:duration>
-    </item>
-    <item>
-      <title>Aflevering 2026-09-15 (14b)</title>
-      <pubDate>Tue, 15 Sep 2026 06:00:00 +0200</pubDate>
-      <guid isPermaLink="false">nl-daily-2026-09-15-episode-14b</guid>
-      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b.mp3" length="6080097" type="audio/mpeg"/>
-      <itunes:duration>506</itunes:duration>
+      <title>Aflevering 2026-09-16</title>
+      <pubDate>Wed, 16 Sep 2026 06:00:00 +0200</pubDate>
+      <guid isPermaLink="false">nl-daily-2026-09-16-episode-14b-2026-09-16</guid>
+      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-09-16.mp3" length="6571617" type="audio/mpeg"/>
+      <itunes:duration>547</itunes:duration>
     </item>
   </channel>
 </rss>

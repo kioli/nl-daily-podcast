@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "model": "qwen2.5:14b",
   "tts": "piper",
   "voice": "nl_NL-alex-medium.onnx",
   "length_scale": "1.15",
-  "words": 1414,
-  "est_minutes": 11,
+  "words": 1539,
+  "est_minutes": 12,
   "n_articles": 22,
   "n_world_sources": 7,
   "sources_used": [
@@ -46,6 +46,12 @@
     {
       "source": "BBC News - World",
       "category": "buitenland",
+      "title": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
+      "link": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
       "title": "Denmark says Russian warship fired flares at military helicopter",
       "link": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
     },
@@ -56,22 +62,16 @@
       "link": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&at_campaign=rss"
     },
     {
-      "source": "BBC News - World",
-      "category": "buitenland",
-      "title": "Suspected sabotage causes major Netherlands rail disruption",
-      "link": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss"
-    },
-    {
       "source": "NU.nl Sport",
       "category": "sport",
-      "title": "Saoedische club moet twee thuisduels zonder publiek spelen na Jota-speekkoren",
-      "link": "https://www.nu.nl/voetbal/6409875/saoedische-club-moet-twee-thuisduels-zonder-publiek-spelen-na-jota-speekkoren.html"
+      "title": "Real Madrid ontsnapt aan blamage bij hekkensluiter Elche door goal in extra tijd",
+      "link": "https://www.nu.nl/voetbal/6409885/real-madrid-ontsnapt-aan-blamage-bij-hekkensluiter-elche-door-goal-in-extra-tijd.html"
     },
     {
       "source": "NOS Algemeen",
       "category": "algemeen",
-      "title": "2631159 spoorsaboteurs kunnen hoge straffen tegemoetzien ze namen alle risico s voor lief",
-      "link": "https://nos.nl/artikel/2631159-spoorsaboteurs-kunnen-hoge-straffen-tegemoetzien-ze-namen-alle-risico-s-voor-lief"
+      "title": "2631186 zevende dode vrouw gevonden bij johannesburg politie waarschuwt vrouwen",
+      "link": "https://nos.nl/artikel/2631186-zevende-dode-vrouw-gevonden-bij-johannesburg-politie-waarschuwt-vrouwen"
     },
     {
       "source": "NOS Economie",
@@ -82,26 +82,26 @@
     {
       "source": "NOS Buitenland",
       "category": "buitenland",
-      "title": "2631139 brits ziekenhuis had moord op baby s kunnen voorkomen oordeelt commissie",
-      "link": "https://nos.nl/artikel/2631139-brits-ziekenhuis-had-moord-op-baby-s-kunnen-voorkomen-oordeelt-commissie"
+      "title": "2631187 twee iraanse boten vernietigd na poging amerikaanse vaartuig in beslag te nemen",
+      "link": "https://nos.nl/artikel/2631187-twee-iraanse-boten-vernietigd-na-poging-amerikaanse-vaartuig-in-beslag-te-nemen"
     },
     {
       "source": "NOS Binnenland",
       "category": "binnenland",
-      "title": "2631141 boerenactivisten mogelijk verantwoordelijk voor sabotage op het spoor",
-      "link": "https://nos.nl/artikel/2631141-boerenactivisten-mogelijk-verantwoordelijk-voor-sabotage-op-het-spoor"
+      "title": "2631159 spoorsaboteurs kunnen hoge straffen tegemoetzien ze namen alle risico s voor lief",
+      "link": "https://nos.nl/artikel/2631159-spoorsaboteurs-kunnen-hoge-straffen-tegemoetzien-ze-namen-alle-risico-s-voor-lief"
     },
     {
       "source": "NU.nl Sport",
       "category": "sport",
-      "title": "Dertienvoudig Oranje-international Hateboer na negen jaar terug bij FC Groningen",
-      "link": "https://www.nu.nl/voetbal/6409820/dertienvoudig-oranje-international-hateboer-na-negen-jaar-terug-bij-fc-groningen.html"
+      "title": "Ajax gaat transfervrije Bissouma snel presenteren: 'Ik ben blij met hem'",
+      "link": "https://www.nu.nl/voetbal/6409883/ajax-gaat-transfervrije-bissouma-snel-presenteren-ik-ben-blij-met-hem.html"
     },
     {
       "source": "NOS Algemeen",
       "category": "algemeen",
-      "title": "2631158 vs bouwde netwerk van militaire bases rond iran nu blijken die zelf doelwit",
-      "link": "https://nos.nl/artikel/2631158-vs-bouwde-netwerk-van-militaire-bases-rond-iran-nu-blijken-die-zelf-doelwit"
+      "title": "2631184 na exit macklemore zit ed sheeran nu ook zonder band en supportacts",
+      "link": "https://nos.nl/artikel/2631184-na-exit-macklemore-zit-ed-sheeran-nu-ook-zonder-band-en-supportacts"
     },
     {
       "source": "NOS Economie",
@@ -112,26 +112,26 @@
     {
       "source": "NOS Buitenland",
       "category": "buitenland",
-      "title": "2631133 zeker 150 demonstranten opgepakt bij lhbti betoging tegen turkse regering",
-      "link": "https://nos.nl/artikel/2631133-zeker-150-demonstranten-opgepakt-bij-lhbti-betoging-tegen-turkse-regering"
+      "title": "2631169 rechter blokkeert naam trump op kennedy center weer gebouw per direct dicht",
+      "link": "https://nos.nl/artikel/2631169-rechter-blokkeert-naam-trump-op-kennedy-center-weer-gebouw-per-direct-dicht"
     },
     {
       "source": "NOS Binnenland",
       "category": "binnenland",
-      "title": "2631131 tiktokker op vrije voeten na steekpartij amsterdam centraal blijft verdachte",
-      "link": "https://nos.nl/artikel/2631131-tiktokker-op-vrije-voeten-na-steekpartij-amsterdam-centraal-blijft-verdachte"
+      "title": "2631141 boerenactivisten mogelijk verantwoordelijk voor sabotage op het spoor",
+      "link": "https://nos.nl/artikel/2631141-boerenactivisten-mogelijk-verantwoordelijk-voor-sabotage-op-het-spoor"
     },
     {
       "source": "NU.nl Sport",
       "category": "sport",
-      "title": "Wielrenner Sevilla (49) tijdens trainingsrit beroofd door gewapende Colombianen",
-      "link": "https://www.nu.nl/wielrennen/6409870/wielrenner-sevilla-49-tijdens-trainingsrit-beroofd-door-gewapende-colombianen.html"
+      "title": "Lionel Messi krijgt speciale afscheidsinterland in Argentinië: 'De laatste tango'",
+      "link": "https://www.nu.nl/voetbal/6409881/lionel-messi-krijgt-speciale-afscheidsinterland-in-argentinie-de-laatste-tango.html"
     },
     {
       "source": "NOS Algemeen",
       "category": "algemeen",
-      "title": "2631147 anonieme doden op texel opgegraven in zoektocht naar vermiste vissers",
-      "link": "https://nos.nl/artikel/2631147-anonieme-doden-op-texel-opgegraven-in-zoektocht-naar-vermiste-vissers"
+      "title": "2631176 branden in de berm en tientallen sabotageacties op het spoor een overzicht van de dag",
+      "link": "https://nos.nl/artikel/2631176-branden-in-de-berm-en-tientallen-sabotageacties-op-het-spoor-een-overzicht-van-de-dag"
     },
     {
       "source": "NOS Economie",
@@ -142,14 +142,14 @@
     {
       "source": "NU.nl Buitenland",
       "category": "buitenland",
-      "title": "Aanklager eist geen doodstraf tegen zoon die regisseur Rob Reiner doodde",
-      "link": "https://www.nu.nl/film/6409864/aanklager-eist-geen-doodstraf-tegen-zoon-die-regisseur-rob-reiner-doodde.html"
+      "title": "Medewerker Parijse naschoolse opvang krijgt jaar huisarrest wegens ontucht",
+      "link": "https://www.nu.nl/buitenland/6409871/medewerker-parijse-naschoolse-opvang-krijgt-jaar-huisarrest-wegens-ontucht.html"
     },
     {
       "source": "NOS Binnenland",
       "category": "binnenland",
-      "title": "2631123 zeven mannen opgepakt voor handel in duizenden kilo s illegaal vuurwerk",
-      "link": "https://nos.nl/artikel/2631123-zeven-mannen-opgepakt-voor-handel-in-duizenden-kilo-s-illegaal-vuurwerk"
+      "title": "2631131 tiktokker op vrije voeten na steekpartij amsterdam centraal blijft verdachte",
+      "link": "https://nos.nl/artikel/2631131-tiktokker-op-vrije-voeten-na-steekpartij-amsterdam-centraal-blijft-verdachte"
     }
   ]
 }

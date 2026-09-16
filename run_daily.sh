@@ -6,6 +6,9 @@
 set -e
 cd /Users/lorenzo.marchiori/Projects/nl-daily-podcast
 
+# launchd heeft een minimaal PATH — voeg homebrew toe voor ffmpeg/ollama
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+
 export MAX_ARTICLES_PER_FEED=4
 export OLLAMA_MODEL="${OLLAMA_MODEL:-qwen2.5:14b}"
 export PUBLIC_BASE_URL="${PUBLIC_BASE_URL:-https://kioli.github.io/nl-daily-podcast}"
