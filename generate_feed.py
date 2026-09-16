@@ -126,11 +126,13 @@ def main():
     lines.append(f"    <itunes:author>{esc(PODCAST_AUTHOR)}</itunes:author>")
     lines.append('    <itunes:category text="News"/>')
     lines.append("    <itunes:explicit>false</itunes:explicit>")
-    # cover image (podcast artwork) — als cover.png in de repo-root staat
-    cover_path = ROOT / "cover.png"
-    if not cover_path.exists():
-        cover_path = ROOT / "cover.jpg"
-    if cover_path.exists() and PUBLIC_BASE_URL:
+    # cover image (podcast artwork) — als cover.png/jpg/jpeg in de repo-root staat
+    cover_path = None
+    for name in ("cover.png", "cover.jpg", "cover.jpeg"):
+        if (ROOT / name).exists():
+            cover_path = ROOT / name
+            break
+    if cover_path and PUBLIC_BASE_URL:
         lines.append(f'    <itunes:image href="{PUBLIC_BASE_URL}/{cover_path.name}"/>')
     lines.append(f"    <lastBuildDate>{last_build}</lastBuildDate>")
 
