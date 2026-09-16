@@ -616,11 +616,19 @@ def main():
         a["text"] = extract_text(a)
         log(f"  [{a['source']}] {len(a['text'])} tekens — {a['title'][:60]}")
 
-    log("=== Stap 3: per-artikel samenvatten (Ollama) ===")
+    log(f"=== Stap 3: gebalanceerde selectie (max {args.max_articles}) ===")
+    articles = deduplicate(articles)
+    log(f"  {len(articles)} over na deduplicatie.")
+    selected = balance(articles, max_total=args.max_articles)
+    log(f"  {len(selected)} geselecteerd.")
+    n_world = sum(1 for s in selected if s["region"] == "world")
+    log(f"  waarvan {n_world} wereldbronnen, {len(selected) - n_world} NL-bronnen.")
+
+    log("=== Stap 4: per-artikel samenvatten (alleen geselecteerde) ===")
     SHORT_TEXT_LIMIT = 260  # onder deze grens: tekst letterlijk, geen LLM (geen ruimte voor verzinning)
     summaries = []
     n_short = n_llm = n_cache = 0
-    for i, a in enumerate(articles, 1):
+    for i, a in enumerate(selected, 1):
         text = a["text"]
         # kort tekstje? -> letterlijk als samenvatting, geen LLM, negeer oude cache
         if len(text) < SHORT_TEXT_LIMIT:
@@ -633,15 +641,15 @@ def main():
                 except Exception:
                     pass
             n_short += 1
-            log(f"  ({i}/{len(articles)}) {a['source']} — kort ({len(text)} tek), letterlijk")
+            log(f"  ({i}/{len(selected)}) {a['source']} — kort ({len(text)} tek), letterlijk")
             continue
         if a["link"] in cache:
             a["summary"] = cache[a["link"]]
             summaries.append(a)
             n_cache += 1
-            log(f"  ({i}/{len(articles)}) {a['source']} — cache hit")
+            log(f"  ({i}/{len(selected)}) {a['source']} — cache hit")
             continue
-        log(f"  ({i}/{len(articles)}) {a['source']} — {a['title'][:50]}")
+        log(f"  ({i}/{len(selected)}) {a['source']} — {a['title'][:50]}")
         try:
             summ = summarize_article(a, a["text"])
         except Exception as e:
@@ -657,16 +665,8 @@ def main():
             pass
     log(f"  samenvattingen: {n_llm} via LLM, {n_cache} uit cache, {n_short} letterlijk (kort).")
 
-    log(f"=== Stap 4: gebalanceerde selectie (max {args.max_articles}) ===")
-    summaries = deduplicate(summaries)
-    log(f"  {len(summaries)} over na deduplicatie.")
-    selected = balance(summaries, max_total=args.max_articles)
-    log(f"  {len(selected)} geselecteerd.")
-    n_world = sum(1 for s in selected if s["region"] == "world")
-    log(f"  waarvan {n_world} wereldbronnen, {len(selected) - n_world} NL-bronnen.")
-
     log("=== Stap 5: eindscript schrijven (Ollama) ===")
-    script = write_script(selected, date_str)
+    script = write_script(summaries, date_str)
     words = len(script.split())
     log(f"  script: {words} woorden (~{words // WPM} min uitlezing @ {WPM} wpm)")
 
