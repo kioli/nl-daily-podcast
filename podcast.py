@@ -562,6 +562,32 @@ def _is_degenerate(text):
     return any(c >= 4 for c in pcounts.values())
 
 
+def _truncate_degenerate(text):
+    """Knip de herhalings-loop af: behoud alles tot vlak voor de eerste
+    zin die 3+ keer herhaald wordt."""
+    sentences = re.split(r"([.!?]+)", text)
+    # reconstruct sentence list
+    sents = []
+    buf = ""
+    for part in sentences:
+        buf += part
+        if re.match(r"[.!?]+", part):
+            sents.append(buf.strip())
+            buf = ""
+    if buf.strip():
+        sents.append(buf.strip())
+    seen = {}
+    cutoff = len(sents)
+    for i, s in enumerate(sents):
+        key = s.lower().strip()
+        if len(key) > 15:
+            seen[key] = seen.get(key, 0) + 1
+            if seen[key] >= 3:
+                cutoff = i
+                break
+    return " ".join(sents[:cutoff]).strip()
+
+
 def write_script(selected, date_str):
     """Genereer het script per categorie (korte aanroepen) en voeg samen; breid \
     daarna globaal uit als het te kort is."""
@@ -577,33 +603,42 @@ def write_script(selected, date_str):
 
     for cat, items in cats:
         n_items = len(items)
-        per_cat_target = max(250, 180 * n_items)  # ~180 woorden per item, min 250
         # sectie-aankondiging als hoorbare structuur
         section_line = SECTION_INTRO.get(cat)
         if section_line:
             parts.append(section_line)
             parts.append("")
-        items_text = "\n".join(f"[{s['source']}] {s['summary']}" for s in items)
-        prompt = CAT_PROMPT.format(cat=cat, target=per_cat_target, per_item=per_cat_target // max(1, n_items), items=items_text, n_items_hint=n_items)
-        log(f"  script voor categorie '{cat}' ({n_items} items, doel {per_cat_target} woorden)")
-        try:
-            chunk = llm_chat([{"role": "user", "content": prompt}], temperature=0.2, num_predict=1800)
-        except Exception as e:
-            log(f"    categorie '{cat}' faalde: {e} — overslaan")
-            continue
-        if _is_degenerate(chunk):
-            log(f"    categorie '{cat}' gedegenereerd (herhalings-loop) — overslaan")
-            continue
-        parts.append(chunk)
-        parts.append("")
+        # split grote categorieën in chunks van max 5 items (voorkomt degeneratie)
+        CHUNK_SIZE = 5
+        chunks = [items[i:i+CHUNK_SIZE] for i in range(0, n_items, CHUNK_SIZE)]
+        cat_parts = []
+        for ci, chunk_items in enumerate(chunks):
+            cn = len(chunk_items)
+            chunk_target = max(250, 180 * cn)
+            items_text = "\n".join(f"[{s['source']}] {s['summary']}" for s in chunk_items)
+            prompt = CAT_PROMPT.format(cat=cat, target=chunk_target, per_item=chunk_target // max(1, cn), items=items_text, n_items_hint=cn)
+            log(f"  script voor categorie '{cat}' (chunk {ci+1}/{len(chunks)}, {cn} items, doel {chunk_target} woorden)")
+            try:
+                chunk = llm_chat([{"role": "user", "content": prompt}], temperature=0.2, num_predict=1800)
+            except Exception as e:
+                log(f"    categorie '{cat}' chunk {ci+1} faalde: {e} — overslaan")
+                continue
+            if _is_degenerate(chunk):
+                chunk = _truncate_degenerate(chunk)
+                log(f"    categorie '{cat}' chunk {ci+1} herhalings-loop afgekapt")
+            if chunk.strip():
+                cat_parts.append(chunk)
+        if cat_parts:
+            parts.append("\n\n".join(cat_parts))
+            parts.append("")
 
     parts.append("Dat was het nieuws van vandaag. Bedankt voor het luisteren.")
     draft = "\n".join(parts)
     draft_words = len(draft.split())
     log(f"  concept na stap 1: {draft_words} woorden")
 
-    # Stap 2: globale uitbreiding als het concept te kort is
-    if draft_words < int(TARGET_WORDS * 0.85):
+    # Stap 2: globale uitbreiding alleen als stap 1 écht te kort is (structuur behouden)
+    if draft_words < int(TARGET_WORDS * 0.5):
         log(f"  concept onder doel ({TARGET_WORDS}) — globale uitbreiding (stap 2)")
         sources_text = "\n".join(
             f"[{s['source']}] ({s['category']}) {s['summary']}" for s in selected
