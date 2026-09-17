@@ -4,8 +4,8 @@
   "tts": "piper",
   "voice": "nl_NL-alex-medium.onnx",
   "length_scale": "1.15",
-  "words": 5334,
-  "est_minutes": 44,
+  "words": 4789,
+  "est_minutes": 39,
   "n_articles": 22,
   "n_world_sources": 14,
   "sources_used": [
@@ -13,14 +13,20 @@
     "BBC News - World",
     "Euronews",
     "NOS Algemeen",
+    "NOS Binnenland",
     "NOS Economie",
-    "RTL Binnenland",
     "RTL Buitenland",
     "RTL Sport",
     "Scientias.nl",
     "The Guardian - World"
   ],
   "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Cuts to income tax: experts back the measures but warn situation in Portugal may worsen",
+      "link": "https://www.euronews.com/business/2026/09/17/cuts-to-income-tax-experts-back-the-measures-but-warn-situation-in-portugal-may-worsen"
+    },
     {
       "source": "Euronews",
       "category": "buitenland",
@@ -38,12 +44,6 @@
       "category": "buitenland",
       "title": "Climate change was key factor in deadly Nepal-China flood, scientists say",
       "link": "https://www.euronews.com/2026/09/17/climate-change-was-key-factor-in-deadly-nepal-china-flood-scientists-say"
-    },
-    {
-      "source": "Euronews",
-      "category": "buitenland",
-      "title": "Rheinmetall boss Papperger: \"Robots will come\"",
-      "link": "https://www.euronews.com/business/2026/09/17/rheinmetall-boss-papperger-robots-will-come"
     },
     {
       "source": "BBC News - World",
@@ -126,14 +126,14 @@
     {
       "source": "NOS Economie",
       "category": "economie",
-      "title": "nederland zakt verder weg op wereldwijde ranglijst voor gendergelijkheid",
-      "link": "https://nos.nl/artikel/2631322-nederland-zakt-verder-weg-op-wereldwijde-ranglijst-voor-gendergelijkheid"
+      "title": "boekhouden op de vierkante centimeter over begroting ergert economen",
+      "link": "https://nos.nl/artikel/2631331-boekhouden-op-de-vierkante-centimeter-over-begroting-ergert-economen"
     },
     {
-      "source": "RTL Binnenland",
+      "source": "NOS Binnenland",
       "category": "binnenland",
-      "title": "Genderkloof neemt toe, Nederland zakt verder weg op wereldwijde ranglijst",
-      "link": "https://www.rtl.nl/nieuws/binnenland/artikel/5652693/vrouwenemancipatie-nederland-zakt-verder-weg-kloof-mannen-vrouwen"
+      "title": "dertig jaar pokemon liefhebbers staan uren in de rij voor speciale kaarten",
+      "link": "https://nos.nl/artikel/2631303-dertig-jaar-pokemon-liefhebbers-staan-uren-in-de-rij-voor-speciale-kaarten"
     },
     {
       "source": "RTL Buitenland",
