@@ -292,26 +292,39 @@ def _title_tokens(title):
     return set(re.findall(r"[a-z0-9]+", title.lower()))
 
 
+def _content_signature(article):
+    """Handtekening op basis van titel + eerste deel van de tekst (voor cross-categorie dedup)."""
+    raw = article["title"] + " " + (article.get("text", "") or "")[:400]
+    return set(re.findall(r"[a-z0-9]{4,}", raw.lower()))
+
+
 def deduplicate(summaries):
-    """Verwijder exacte duplicaten (zelfde link) en bijna-duplicaten (titel-overlap)."""
+    """Verwijder exacte duplicaten (zelfde link) en bijna-duplicaten.
+    Gebruikt zowel titel-overlap als content-overlap om hetzelfde verhaal
+    dat in meerdere feeds/categorieën verschijnt te herkennen."""
     seen_links = set()
-    seen_sigs = []
+    seen_title_sigs = []
+    seen_content_sigs = []
     out = []
     for s in summaries:
         if s["link"] in seen_links:
             continue
-        tok = _title_tokens(s["title"])
+        title_tok = _title_tokens(s["title"])
+        content_sig = _content_signature(s)
         dup = False
-        for prev_tok in seen_sigs:
-            inter = len(tok & prev_tok)
-            union = len(tok | prev_tok) or 1
-            if inter / union > 0.6:
+        for prev_title, prev_content in zip(seen_title_sigs, seen_content_sigs):
+            t_inter = len(title_tok & prev_title)
+            t_union = len(title_tok | prev_title) or 1
+            c_inter = len(content_sig & prev_content)
+            c_union = len(content_sig | prev_content) or 1
+            if t_inter / t_union > 0.4 or c_inter / c_union > 0.3:
                 dup = True
                 break
         if dup:
             continue
         seen_links.add(s["link"])
-        seen_sigs.append(tok)
+        seen_title_sigs.append(title_tok)
+        seen_content_sigs.append(content_sig)
         out.append(s)
     return out
 
@@ -525,6 +538,28 @@ def _is_clean_dutch(text):
     return bad == 0
 
 
+def _is_degenerate(text):
+    """True als tekst herhalings-degeneratie bevat: dezelfde zin of phrase
+    te vaak herhaald (LLM raakt in een loop bij het opvullen van lengte)."""
+    sentences = re.split(r"[.!?]+", text)
+    sentences = [s.strip().lower() for s in sentences if len(s.strip()) > 15]
+    if len(sentences) < 6:
+        return False
+    from collections import Counter
+    counts = Counter(sentences)
+    # een zin die 3+ keer letterlijk herhaald = degeneratie
+    if any(c >= 3 for c in counts.values()):
+        return True
+    # ook: korte phrases (6+ woorden) die 4+ keer herhalen
+    phrases = []
+    for s in sentences:
+        words = s.split()
+        for i in range(0, max(1, len(words) - 5)):
+            phrases.append(" ".join(words[i:i+6]))
+    pcounts = Counter(phrases)
+    return any(c >= 4 for c in pcounts.values())
+
+
 def write_script(selected, date_str):
     """Genereer het script per categorie (korte aanroepen) en voeg samen; breid \
     daarna globaal uit als het te kort is."""
@@ -553,6 +588,9 @@ def write_script(selected, date_str):
         except Exception as e:
             log(f"    categorie '{cat}' faalde: {e} — overslaan")
             continue
+        if _is_degenerate(chunk):
+            log(f"    categorie '{cat}' gedegenereerd (herhalings-loop) — overslaan")
+            continue
         parts.append(chunk)
         parts.append("")
 
@@ -578,6 +616,8 @@ def write_script(selected, date_str):
             exp_words = len(expanded.split())
             if not _is_clean_dutch(expanded):
                 log(f"  uitbreiding gedegenereerd (niet-Latijnse tekens) — houd concept")
+            elif _is_degenerate(expanded):
+                log(f"  uitbreiding gedegenereerd (herhalings-loop) — houd concept")
             elif exp_words > draft_words:
                 log(f"  uitgebreid: {exp_words} woorden (was {draft_words})")
                 return expanded
