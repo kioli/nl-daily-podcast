@@ -577,7 +577,7 @@ def write_script(selected, date_str):
 
     for cat, items in cats:
         n_items = len(items)
-        per_cat_target = max(180, 120 * n_items)  # ~120 woorden per item, min 180
+        per_cat_target = max(250, 180 * n_items)  # ~180 woorden per item, min 250
         # sectie-aankondiging als hoorbare structuur
         section_line = SECTION_INTRO.get(cat)
         if section_line:
