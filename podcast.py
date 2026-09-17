@@ -456,7 +456,7 @@ Taal: B1-Nederlands — korte, duidelijke zinnen, gewone woorden. Rustige, \
 feitelijke toon, niet sensatiegericht.
 
 LENGTE: Doel voor deze categorie: ongeveer {target} woorden. Dat is ruim \
-{target // max(1, n_items_hint)} woorden per item. Schrijf elk item volledig \
+{per_item} woorden per item. Schrijf elk item volledig \
 uit (3-5 zinnen) maar voeg GEEN extra items toe om de lengte te halen — \
 liever korter dan doel dan verzinnen of herhalen. Blijf uitsluitend bij de \
 feiten uit de samenvattingen.
@@ -584,7 +584,7 @@ def write_script(selected, date_str):
             parts.append(section_line)
             parts.append("")
         items_text = "\n".join(f"[{s['source']}] {s['summary']}" for s in items)
-        prompt = CAT_PROMPT.format(cat=cat, target=per_cat_target, items=items_text, n_items_hint=n_items)
+        prompt = CAT_PROMPT.format(cat=cat, target=per_cat_target, per_item=per_cat_target // max(1, n_items), items=items_text, n_items_hint=n_items)
         log(f"  script voor categorie '{cat}' ({n_items} items, doel {per_cat_target} woorden)")
         try:
             chunk = llm_chat([{"role": "user", "content": prompt}], temperature=0.2, num_predict=1800)
