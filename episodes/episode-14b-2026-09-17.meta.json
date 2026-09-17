@@ -4,8 +4,8 @@
   "tts": "piper",
   "voice": "nl_NL-alex-medium.onnx",
   "length_scale": "1.15",
-  "words": 4789,
-  "est_minutes": 39,
+  "words": 1950,
+  "est_minutes": 16,
   "n_articles": 22,
   "n_world_sources": 14,
   "sources_used": [
@@ -14,36 +14,54 @@
     "Euronews",
     "NOS Algemeen",
     "NOS Binnenland",
+    "NOS Buitenland",
     "NOS Economie",
-    "RTL Buitenland",
     "RTL Sport",
     "Scientias.nl",
     "The Guardian - World"
   ],
   "articles": [
     {
-      "source": "Euronews",
+      "source": "Al Jazeera - All",
       "category": "buitenland",
-      "title": "Cuts to income tax: experts back the measures but warn situation in Portugal may worsen",
-      "link": "https://www.euronews.com/business/2026/09/17/cuts-to-income-tax-experts-back-the-measures-but-warn-situation-in-portugal-may-worsen"
+      "title": "India warns new US tariffs over Russian oil could impact ties",
+      "link": "https://www.aljazeera.com/news/2026/9/17/india-warns-new-us-tariffs-over-russian-oil-could-impact-ties?traffic_source=rss"
     },
     {
       "source": "Euronews",
       "category": "buitenland",
-      "title": "The \"Canada effect\": Which European companies could benefit from closer ties?",
-      "link": "https://www.euronews.com/business/2026/09/17/the-canada-effect-which-european-companies-could-benefit-from-closer-ties"
+      "title": "US Congress approves Russia sanctions that impact China and India",
+      "link": "https://www.euronews.com/2026/09/17/us-congress-approves-russia-sanctions-that-impact-china-and-india"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Australia and New Zealand could follow Canada into associated EU membership, Metsola tells Euronews",
+      "link": "https://www.euronews.com/my-europe/2026/09/17/australia-and-new-zealand-could-follow-canada-into-associated-eu-membership-metsola-tells-"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "After two deaths: malaria warning in Frankfurt",
+      "link": "https://www.euronews.com/health/2026/09/17/after-two-deaths-malaria-warning-in-frankfurt"
     },
     {
       "source": "Al Jazeera - All",
       "category": "buitenland",
-      "title": "What are the biggest AI companies and how much are they worth?",
-      "link": "https://www.aljazeera.com/news/2026/9/17/what-are-the-biggest-ai-companies-and-how-much-are-they-worth?traffic_source=rss"
+      "title": "Israel weaponises AI for West Bank demolitions",
+      "link": "https://www.aljazeera.com/news/2026/9/17/israel-weaponises-ai-for-west-bank-demolitions?traffic_source=rss"
     },
     {
-      "source": "Euronews",
+      "source": "Al Jazeera - All",
       "category": "buitenland",
-      "title": "Climate change was key factor in deadly Nepal-China flood, scientists say",
-      "link": "https://www.euronews.com/2026/09/17/climate-change-was-key-factor-in-deadly-nepal-china-flood-scientists-say"
+      "title": "OpenAI reports more incidents of models acting deceptively",
+      "link": "https://www.aljazeera.com/news/2026/9/17/openai-reports-more-incidents-of-models-acting-deceptively?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "What are the world’s biggest AI companies and how much are they worth?",
+      "link": "https://www.aljazeera.com/news/2026/9/17/what-are-the-biggest-ai-companies-and-how-much-are-they-worth?traffic_source=rss"
     },
     {
       "source": "BBC News - World",
@@ -58,12 +76,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "source": "Al Jazeera - All",
-      "category": "buitenland",
-      "title": "Argentinian judge orders suspension of Falklands oil project",
-      "link": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss"
-    },
-    {
       "source": "The Guardian - World",
       "category": "buitenland",
       "title": "‘Like a Disney movie’: Three wild dog brothers make Africa’s longest journey",
@@ -74,12 +86,6 @@
       "category": "buitenland",
       "title": "US interest rates raised for first time in three years",
       "link": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "source": "Euronews",
-      "category": "buitenland",
-      "title": "Europe Today: Metsola exclusively on Euronews as Carney addresses EU Parliament amid Trump's tariff threat",
-      "link": "https://www.euronews.com/my-europe/2026/09/17/europe-today-metsola-exclusively-on-euronews-as-carney-addresses-eu-parliament-amid-trumps"
     },
     {
       "source": "BBC News - World",
@@ -100,10 +106,40 @@
       "link": "https://www.theguardian.com/world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination"
     },
     {
-      "source": "The Guardian - World",
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Depay met Corinthians uit Copa Libertadores na gemiste strafschop",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5652769/depay-met-corinthians-uit-copa-libertadores-na-gemiste-strafschop"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "169 jaar na zijn geboorte: waarom Tsiolkovski nog steeds de vader van de ruimtevaart is",
+      "link": "https://scientias.nl/tsiolkovski-169/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "vers geplante loofbomen moeten natuurbranden op veluwe afremmen",
+      "link": "https://nos.nl/artikel/2631349-vers-geplante-loofbomen-moeten-natuurbranden-op-veluwe-afremmen"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "boekhouden op de vierkante centimeter over begroting ergert economen",
+      "link": "https://nos.nl/artikel/2631331-boekhouden-op-de-vierkante-centimeter-over-begroting-ergert-economen"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "wekdienst 17 9 dag 2 algemene beschouwingen eu presenteert jongerenregels sociale media",
+      "link": "https://nos.nl/artikel/2631332-wekdienst-17-9-dag-2-algemene-beschouwingen-eu-presenteert-jongerenregels-sociale-media"
+    },
+    {
+      "source": "NOS Buitenland",
       "category": "buitenland",
-      "title": "Al-Qaida and IS-linked violence in Africa’s Sahel belt set to hit record levels this year",
-      "link": "https://www.theguardian.com/world/2026/sep/16/al-qaida-and-is-linked-violence-in-africas-sahel-belt-set-to-hit-record-levels-this-year"
+      "title": "vs dreigt met sancties als eu en canada nauwer gaan samenwerken",
+      "link": "https://nos.nl/artikel/2631337-vs-dreigt-met-sancties-als-eu-en-canada-nauwer-gaan-samenwerken"
     },
     {
       "source": "RTL Sport",
@@ -116,42 +152,6 @@
       "category": "wetenschap",
       "title": "De Middellandse Zee warmt steeds sneller op",
       "link": "https://scientias.nl/de-middellandse-zee-warmt-steeds-sneller-op/"
-    },
-    {
-      "source": "NOS Algemeen",
-      "category": "algemeen",
-      "title": "wekdienst 17 9 dag 2 algemene beschouwingen eu presenteert jongerenregels sociale media",
-      "link": "https://nos.nl/artikel/2631332-wekdienst-17-9-dag-2-algemene-beschouwingen-eu-presenteert-jongerenregels-sociale-media"
-    },
-    {
-      "source": "NOS Economie",
-      "category": "economie",
-      "title": "boekhouden op de vierkante centimeter over begroting ergert economen",
-      "link": "https://nos.nl/artikel/2631331-boekhouden-op-de-vierkante-centimeter-over-begroting-ergert-economen"
-    },
-    {
-      "source": "NOS Binnenland",
-      "category": "binnenland",
-      "title": "dertig jaar pokemon liefhebbers staan uren in de rij voor speciale kaarten",
-      "link": "https://nos.nl/artikel/2631303-dertig-jaar-pokemon-liefhebbers-staan-uren-in-de-rij-voor-speciale-kaarten"
-    },
-    {
-      "source": "RTL Buitenland",
-      "category": "buitenland",
-      "title": "Dode door overstromingen bij Barcelona, ook in Valencia overlast",
-      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5652718/dode-overstromingen-barcelona-overlast-valencia-spanje-regenval"
-    },
-    {
-      "source": "RTL Sport",
-      "category": "sport",
-      "title": "AZ begint aan Europa League met nipte nederlaag bij Sunderland",
-      "link": "https://www.rtl.nl/nieuws/sport/artikel/5652645/az-begint-aan-europa-league-met-nipte-nederlaag-bij-sunderland"
-    },
-    {
-      "source": "Scientias.nl",
-      "category": "wetenschap",
-      "title": "Geen beunhaas maar beunaap: chimpansees gebruiken geavanceerde onderwijstechniek",
-      "link": "https://scientias.nl/geen-beunhaas-maar-beunaap-chimpansees-gebruiken-geavanceerde-onderwijstechniek/"
     }
   ]
 }
