@@ -145,6 +145,8 @@ def main():
         lines.append(f"      <pubDate>{pub}</pubDate>")
         lines.append(f"      <guid isPermaLink=\"false\">{it['guid']}</guid>")
         lines.append(f"      <enclosure url=\"{esc(it['url'])}\" length=\"{it['size']}\" type=\"audio/mpeg\"/>")
+        if cover_path and PUBLIC_BASE_URL:
+            lines.append(f'      <itunes:image href="{PUBLIC_BASE_URL}/{cover_path.name}"/>')
         if it["secs"]:
             lines.append(f"      <itunes:duration>{it['secs']}</itunes:duration>")
         if it.get("txt"):
