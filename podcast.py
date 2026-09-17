@@ -427,14 +427,15 @@ opsommingstekens, geen koppen, geen inleiding of afsluiting — alleen de \
 nieuwsinhoud voor deze categorie.
 
 STIJL — geef SPESHOOR, niet alleen titels:
+- Schrijf precies ÉÉN item per bronnensamenvatting hieronder. Splits één artikel NOOIT in meerdere items of "angles". Als er 3 samenvattingen staan, schrijf precies 3 items (De eerste, De tweede, De derde) — niet meer.
 - Elk nieuwsitem begint met een AANKONDIGINGSZIN die het nummer en het onderwerp \
 noemt, gevolgd door de inhoud. Nummer de items binnen de categorie: "De eerste: \
 de staking van schoonmakers in Nederland." Daarna de uitwerking. "De tweede: ..." \
 voor het volgende item, enzovoort. Deze aankondiging werkt als een hoorbare \
 scheiding tussen items, zodat de luisteraar weet waar het over gaat.
-- Werk elk item uit tot een stukje van enkele zinnen: vertel wat er gebeurt, \
+- Werk elk item uit tot een stukje van 3-5 zinnen: vertel wat er gebeurt, \
 het belang, en de context die in de samenvatting staat. Behandel het niet als \
-een koppenlijst.
+een koppenlijst. Liever kort en correct dan lang en opgevuld.
 - Een korte verbindende zin tussen items is goed ("Daarna nieuws uit het \
 buitenland."), zodat het geen losse opsomming lijkt — maar geen lange overgangen.
 - Als MEERDERE bronnen dezelfde gebeurtenis belichten, zet ze NAAST ELKAAR in \
@@ -454,10 +455,11 @@ verzinnen. Liever kort en correct dan lang en verzonnen.
 Taal: B1-Nederlands — korte, duidelijke zinnen, gewone woorden. Rustige, \
 feitelijke toon, niet sensatiegericht.
 
-LENGTE — kritiek: schrijf ruim. Doel voor deze categorie: ongeveer {target} \
-woorden. Werk elk item uit tot minstens 4-6 zinnen. Als je onder het doel \
-blijft, schrijf dan meer uit per item — maar blijf uitsluitend bij de feiten \
-uit de samenvattingen.
+LENGTE: Doel voor deze categorie: ongeveer {target} woorden. Dat is ruim \
+{target // max(1, n_items_hint)} woorden per item. Schrijf elk item volledig \
+uit (3-5 zinnen) maar voeg GEEN extra items toe om de lengte te halen — \
+liever korter dan doel dan verzinnen of herhalen. Blijf uitsluitend bij de \
+feiten uit de samenvattingen.
 
 Samenvattingen (categorie: {cat}):
 
@@ -565,7 +567,6 @@ def write_script(selected, date_str):
     daarna globaal uit als het te kort is."""
     cats = group_by_category(selected)
     n_cats = max(1, len(cats))
-    per_cat_target = max(420, (TARGET_WORDS * 13) // (n_cats * 10))  # ruim doel per categorie
 
     parts = []
     parts.append(
@@ -575,14 +576,16 @@ def write_script(selected, date_str):
     parts.append("")
 
     for cat, items in cats:
+        n_items = len(items)
+        per_cat_target = max(180, 120 * n_items)  # ~120 woorden per item, min 180
         # sectie-aankondiging als hoorbare structuur
         section_line = SECTION_INTRO.get(cat)
         if section_line:
             parts.append(section_line)
             parts.append("")
         items_text = "\n".join(f"[{s['source']}] {s['summary']}" for s in items)
-        prompt = CAT_PROMPT.format(cat=cat, target=per_cat_target, items=items_text)
-        log(f"  script voor categorie '{cat}' ({len(items)} items, doel {per_cat_target} woorden)")
+        prompt = CAT_PROMPT.format(cat=cat, target=per_cat_target, items=items_text, n_items_hint=n_items)
+        log(f"  script voor categorie '{cat}' ({n_items} items, doel {per_cat_target} woorden)")
         try:
             chunk = llm_chat([{"role": "user", "content": prompt}], temperature=0.2, num_predict=1800)
         except Exception as e:
