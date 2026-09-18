@@ -1,10 +1,7 @@
 name: Daily podcast
 
 on:
-  schedule:
-    # 05:00 UTC = 07:00 CEST (zomer) / 06:00 CET (winter)
-    - cron: "7 5 * * *"
-  workflow_dispatch: {}  # handmatige trigger
+  workflow_dispatch: {}  # cron-job.org chiama questo endpoint quotidianamente
 
 permissions:
   contents: write
