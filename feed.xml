@@ -8,7 +8,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://kioli.github.io/nl-daily-podcast/Cover.jpeg"/>
-    <lastBuildDate>Fri, 18 Sep 2026 07:09:03 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 04:17:02 +0200</lastBuildDate>
+    <item>
+      <title>Aflevering 2026-09-19</title>
+      <pubDate>Sat, 19 Sep 2026 06:00:00 +0200</pubDate>
+      <guid isPermaLink="false">nl-daily-2026-09-19-episode-14b-2026-09-19</guid>
+      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-09-19.mp3" length="7654027" type="audio/mpeg"/>
+      <itunes:image href="https://kioli.github.io/nl-daily-podcast/Cover.jpeg"/>
+      <itunes:duration>637</itunes:duration>
+      <podcast:transcript url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-09-19.txt" type="text/plain" language="nl" rel="captions"/>
+    </item>
     <item>
       <title>Aflevering 2026-09-18</title>
       <pubDate>Fri, 18 Sep 2026 06:00:00 +0200</pubDate>
