@@ -1,0 +1,158 @@
+{
+  "date": "2026-09-20",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 2186,
+  "est_minutes": 18,
+  "n_articles": 22,
+  "n_world_sources": 14,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Morocco’s PJD: what has the party learned from its dramatic fall",
+      "link": "https://www.aljazeera.com/news/2026/9/20/moroccos-pjd-what-has-the-party-learned-from-its-dramatic-fall?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Ed Sheeran calls Gaza situation ‘unjustifiable’ after Palestine controversy",
+      "link": "https://www.aljazeera.com/news/2026/9/20/ed-sheeran-calls-gaza-situation-unjustifiable-after-palestine-controversy?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Ed Sheeran admits 'mistakes' as he addresses Macklemore controversy at Philadelphia show",
+      "link": "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+      "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Our head teacher was an abuser. We joined forces to get justice - now we're married",
+      "link": "https://www.bbc.co.uk/news/articles/cg4d9vly636o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Nato welcomes Greenland deal as Trump says it will give US 'permanent security control'",
+      "link": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Tense Berlin election finale: who is to emerge strongest in the capital?",
+      "link": "https://www.euronews.com/my-europe/2026/09/19/tense-berlin-election-finale-who-is-to-emerge-strongest-in-the-capital"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Germany's defence chief Carsten Breuer chosen to head NATO military committee",
+      "link": "https://www.euronews.com/my-europe/2026/09/19/germanys-defence-chief-carsten-breuer-chosen-to-head-nato-military-committee"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Men deported from US bound and beaten in Equatorial Guinea detention hotel, lawyers say",
+      "link": "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died",
+      "link": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "British woman who was kidnapped in Malawi rescued by police after shootout",
+      "link": "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Louisiana firefighters find feline native to sub-Saharan Africa while responding to house fire",
+      "link": "https://www.theguardian.com/us-news/2026/sep/18/louisiana-firefighters-sub-saharan-africa-feline"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "Ozone layer recovery is on track, but UV exposure risk remains high in Europe",
+      "link": "https://euobserver.com/237834/ozone-layer-recovery-is-on-track-but-uv-exposure-risk-remains-high-in-europe/"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "Polish leader Tusk exposes classified figures on sky-high Ukrainian casualties (Ukraine Battlefield update, Day 1,667)",
+      "link": "https://euobserver.com/238438/polish-leader-tusk-exposes-classified-figures-on-sky-high-ukrainian-casualties-ukraine-battlefield-update-day-1667/"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Ajax komt thuis niet verder dan gelijkspel tegen Excelsior",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5653785/ajax-komt-thuis-niet-verder-dan-gelijkspel-tegen-excelsior"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Van ISS tot museum: waarom ESA en Pokémon samenwerken",
+      "link": "https://scientias.nl/esa-pokemon-space-week-2026/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "influencer zegt dat explosie in amsterdam op haar was gericht laffe daad",
+      "link": "https://nos.nl/artikel/2631711-influencer-zegt-dat-explosie-in-amsterdam-op-haar-was-gericht-laffe-daad"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "commerciele creches blijven ontevreden over plannen gratis kinderopvang",
+      "link": "https://nos.nl/artikel/2631617-commerciele-creches-blijven-ontevreden-over-plannen-gratis-kinderopvang"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "problemen twentekanaal op lange lijst uitdagingen klanten gaan vertrouwen verliezen",
+      "link": "https://nos.nl/artikel/2631676-problemen-twentekanaal-op-lange-lijst-uitdagingen-klanten-gaan-vertrouwen-verliezen"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "trump wil ontwikkeling van ai versnellen en kondigt ai force aan",
+      "link": "https://nos.nl/artikel/2631710-trump-wil-ontwikkeling-van-ai-versnellen-en-kondigt-ai-force-aan"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Sc Heerenveen boekt bij Sparta tweede zege van het seizoen",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5653759/sc-heerenveen-boekt-bij-sparta-tweede-zege-van-het-seizoen"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Waarom alleen het aanleggen van nieuwe bossen niet genoeg is",
+      "link": "https://scientias.nl/waarom-alleen-het-aanleggen-van-nieuwe-bossen-niet-genoeg-is/"
+    }
+  ]
+}
