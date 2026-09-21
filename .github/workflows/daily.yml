@@ -49,7 +49,7 @@ jobs:
           TARGET_WORDS: "2400"
         run: |
           DATE=$(date +%F)
-          python podcast.py --max-articles 22 --out "episode-14b-${DATE}"
+          python podcast.py --max-articles 14 --out "episode-14b-${DATE}"
 
       - name: Regenerate feed
         env:

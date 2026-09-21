@@ -284,8 +284,8 @@ def summarize_article(article, text):
 
 # ---------- Stap 4: gebalanceerde selectie ----------
 
-MAX_NL = int(os.environ.get("MAX_NL", "8"))
-MAX_WORLD = int(os.environ.get("MAX_WORLD", "14"))
+MAX_NL = int(os.environ.get("MAX_NL", "6"))
+MAX_WORLD = int(os.environ.get("MAX_WORLD", "8"))
 
 
 def _title_tokens(title):
@@ -368,9 +368,10 @@ def score_articles(articles):
         a["score"] = score
 
 
-def balance(articles, max_total=22):
+def balance(articles, max_total=14):
     """Selecteer max_total artikelen: ~MAX_WORLD wereld + ~MAX_NL nederland.
-    Binnen elkquotum: hoogste score eerst. NL ook gebalanceerd over categorieën."""
+    Binnen elk quotum: hoogste score eerst. wereld met per-bron cap (max 3)
+    voor diversiteit; NL round-robin per categorie."""
     score_articles(articles)
     world = [a for a in articles if a["region"] == "world"]
     nl = [a for a in articles if a["region"] != "world"]
@@ -383,13 +384,32 @@ def balance(articles, max_total=22):
     if n_world + n_nl < max_total:
         n_nl = min(max_total - n_world, len(nl))
 
-    selected = world[:n_world]
-    selected_links = {s["link"] for s in selected}
+    # wereld: max 3 per bron, hoogste score eerst; vul aan als cap te streng is
+    selected = []
+    sel_links = set()
+    per_source = {}
+    for a in world:
+        if len(selected) >= n_world:
+            break
+        ps = per_source.get(a["source"], 0)
+        if ps >= 3:
+            continue
+        selected.append(a)
+        sel_links.add(a["link"])
+        per_source[a["source"]] = ps + 1
+    if len(selected) < n_world:
+        for a in world:
+            if len(selected) >= n_world:
+                break
+            if a["link"] in sel_links:
+                continue
+            selected.append(a)
+            sel_links.add(a["link"])
 
     # NL: round-robin per categorie (diversiteit), binnen categorie op score
     by_cat = {}
     for a in nl:
-        if a["link"] in selected_links:
+        if a["link"] in sel_links:
             continue
         by_cat.setdefault(a["category"], []).append(a)
     for c in by_cat:
@@ -397,7 +417,8 @@ def balance(articles, max_total=22):
     ordered_cats = [c for c in CATEGORY_ORDER if c in by_cat]
     ordered_cats += [c for c in by_cat if c not in CATEGORY_ORDER]
     queue = [by_cat[c] for c in ordered_cats]
-    while queue and len(selected) < n_world + n_nl:
+    target = n_world + n_nl
+    while queue and len(selected) < target:
         progressed = False
         for i in range(len(queue) - 1, -1, -1):
             if not queue[i]:
@@ -405,7 +426,7 @@ def balance(articles, max_total=22):
                 continue
             selected.append(queue[i].pop(0))
             progressed = True
-            if len(selected) >= n_world + n_nl:
+            if len(selected) >= target:
                 break
         if not progressed:
             break
@@ -433,11 +454,13 @@ noemt, gevolgd door de inhoud. Nummer de items binnen de categorie: "De eerste: 
 de staking van schoonmakers in Nederland." Daarna de uitwerking. "De tweede: ..." \
 voor het volgende item, enzovoort. Deze aankondiging werkt als een hoorbare \
 scheiding tussen items, zodat de luisteraar weet waar het over gaat.
-- Werk elk item uit tot een stukje van 3-5 zinnen: vertel wat er gebeurt, \
+- Werk elk item uit tot een stukje van 4-6 zinnen: vertel wat er gebeurt, \
 het belang, en de context die in de samenvatting staat. Behandel het niet als \
 een koppenlijst. Liever kort en correct dan lang en opgevuld.
-- Een korte verbindende zin tussen items is goed ("Daarna nieuws uit het \
-buitenland."), zodat het geen losse opsomming lijkt — maar geen lange overgangen.
+- Voeg GEEN eigen tussenzinnetjes toe tussen items (zoals "Daarna nieuws uit \
+het buitenland.") — de sectie-aankondiging voor de categorie staat al. Eén \
+korte verbindingszin tussen items is maximaal toegestaan, maar geen lange \
+overgangen en geen herhaling van de categorienaam.
 - Als MEERDERE bronnen dezelfde gebeurtenis belichten, zet ze NAAST ELKAAR in \
 één passage: laat zien wat ze benadrukken, waar ze overeenkomen of verschillen. \
 Bijvoorbeeld: "BBC benadrukt ... terwijl The Guardian vooral meldt dat ...".
@@ -457,7 +480,7 @@ feitelijke toon, niet sensatiegericht.
 
 LENGTE: Doel voor deze categorie: ongeveer {target} woorden. Dat is ruim \
 {per_item} woorden per item. Schrijf elk item volledig \
-uit (3-5 zinnen) maar voeg GEEN extra items toe om de lengte te halen — \
+uit (4-6 zinnen) maar voeg GEEN extra items toe om de lengte te halen — \
 liever korter dan doel dan verzinnen of herhalen. Blijf uitsluitend bij de \
 feiten uit de samenvattingen.
 
@@ -588,6 +611,94 @@ def _truncate_degenerate(text):
     return " ".join(sents[:cutoff]).strip()
 
 
+# ---------- Script post-processing: dedupe + globale nummering ----------
+
+_DUTCH_ORDINALS = [
+    "eerste", "tweede", "derde", "vierde", "vijfde", "zesde", "zevende",
+    "achtste", "negende", "tiende", "elfde", "twaalfde", "dertiende",
+    "veertiende", "vijftiende", "zestiende", "zeventiende", "achttiende",
+    "negentiende", "twintigste",
+]
+_ORDINAL_RE = re.compile(r"^De (?:%s):" % "|".join(_DUTCH_ORDINALS), re.MULTILINE)
+
+# Ruis die het model binnen één categorie gegenereert (geen echte
+# sectie-aankondiging) — de echte sectie-aankondigingen staan in SECTION_INTRO
+# met andere formulering.
+_CONNECTIVE_RE = re.compile(
+    r"^[ \t]*Daarna (?:nog (?:meer )?)?nieuws uit het buitenland\.?[ \t]*\n?",
+    re.MULTILINE,
+)
+
+_CLOSING_RE = re.compile(
+    r"\n*Dat was het nieuws van vandaag\. Bedankt voor het luisteren\.\s*$",
+    re.DOTALL,
+)
+
+
+def _item_signature(item):
+    return set(re.findall(r"[a-z0-9]{4,}", item.lower()))
+
+
+def _dedupe_items(text):
+    """Verwijder nieuwsitems die (bijna) identiek zijn aan een eerder item.
+    Items worden herkend aan een regel die begint met 'De <rangtelwoord>:'.
+    Vangt de EXPAND-stap die hele blokken dubbelt (2x, wat _is_degenerate met
+    drempel 3x mist)."""
+    matches = list(_ORDINAL_RE.finditer(text))
+    if len(matches) < 2:
+        return text
+    preamble = text[:matches[0].start()]
+    starts = [m.start() for m in matches]
+    ends = starts[1:] + [len(text)]
+    items = [text[s:e] for s, e in zip(starts, ends)]
+    kept = [items[0]]
+    seen = [_item_signature(items[0])]
+    for it in items[1:]:
+        sig = _item_signature(it)
+        dup = False
+        for prev in seen:
+            inter = len(sig & prev)
+            union = len(sig | prev) or 1
+            if inter / union > 0.6:
+                dup = True
+                break
+        if dup:
+            continue
+        seen.append(sig)
+        kept.append(it)
+    return preamble + "".join(kept)
+
+
+def _renumber_items(text):
+    """Hernummer alle 'De <rangtelwoord>:' regels globaal in volgorde van
+    voorkomen, zodat chunks die lokaal 1-5 nummeren globaal 1-N worden."""
+    idx = 0
+
+    def repl(_m):
+        nonlocal idx
+        label = _DUTCH_ORDINALS[idx] if idx < len(_DUTCH_ORDINALS) else f"{idx + 1}e"
+        idx += 1
+        return f"De {label}:"
+
+    return _ORDINAL_RE.sub(repl, text)
+
+
+def _postprocess_script(text):
+    """Strip ruis-tussentekst, verwijder dubbele items, hernummer globaal.
+    Behoudt de afsluiting buiten de item-dedupe."""
+    closing = ""
+    m = _CLOSING_RE.search(text)
+    if m:
+        closing = "Dat was het nieuws van vandaag. Bedankt voor het luisteren."
+        text = text[:m.start()].rstrip()
+    text = _CONNECTIVE_RE.sub("", text)
+    text = _dedupe_items(text)
+    text = _renumber_items(text)
+    if closing:
+        text = text.rstrip() + "\n\n" + closing + "\n"
+    return text
+
+
 def write_script(selected, date_str):
     """Genereer het script per categorie (korte aanroepen) en voeg samen; breid \
     daarna globaal uit als het te kort is."""
@@ -614,7 +725,7 @@ def write_script(selected, date_str):
         cat_parts = []
         for ci, chunk_items in enumerate(chunks):
             cn = len(chunk_items)
-            chunk_target = max(250, 180 * cn)
+            chunk_target = max(260, 170 * cn)
             items_text = "\n".join(f"[{s['source']}] {s['summary']}" for s in chunk_items)
             prompt = CAT_PROMPT.format(cat=cat, target=chunk_target, per_item=chunk_target // max(1, cn), items=items_text, n_items_hint=cn)
             log(f"  script voor categorie '{cat}' (chunk {ci+1}/{len(chunks)}, {cn} items, doel {chunk_target} woorden)")
@@ -658,13 +769,13 @@ def write_script(selected, date_str):
                 log(f"  uitbreiding gedegenereerd (herhalings-loop) — houd concept")
             elif exp_words > draft_words:
                 log(f"  uitgebreid: {exp_words} woorden (was {draft_words})")
-                return expanded
+                return _postprocess_script(expanded)
             else:
                 log(f"  uitbreiding gaf geen meer ({exp_words}) — houd concept")
         except Exception as e:
             log(f"  uitbreiding faalde: {e} — houd concept")
 
-    return draft
+    return _postprocess_script(draft)
 
 
 # ---------- Stap 6: audio ----------
@@ -713,7 +824,7 @@ def synthesize(text_path, mp3_path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-tts", action="store_true")
-    ap.add_argument("--max-articles", type=int, default=16)
+    ap.add_argument("--max-articles", type=int, default=14)
     ap.add_argument("--out", default=None, help="bestandsnaam zonder extensie")
     args = ap.parse_args()
 
