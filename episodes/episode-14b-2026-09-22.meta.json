@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-22",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1895,
+  "est_minutes": 15,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Algemeen",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Investment funds in Spain step up bets on major property deals in 2026",
+      "link": "https://www.euronews.com/business/2026/09/22/investment-funds-in-spain-step-up-bets-on-major-property-deals-in-2026"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Fuel taxes in Europe: Which country taxes petrol the most?",
+      "link": "https://www.euronews.com/business/2026/09/22/fuel-taxes-in-europe-which-country-taxes-petrol-the-most"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "All major US networks suspend Trump coverage in revolt over White House ban",
+      "link": "https://www.euronews.com/2026/09/22/all-major-us-networks-suspend-trump-coverage-in-revolt-over-white-house-ban"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Brazil election: Lula and Flavio Bolsonaro tied in latest polls",
+      "link": "https://www.aljazeera.com/news/2026/9/22/brazil-election-lula-and-flavio-bolsonaro-tied-in-latest-polls?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Canada’s BC sues OpenAI over ChatGPT role in Tumbler Ridge school shooting",
+      "link": "https://www.aljazeera.com/news/2026/9/22/canadas-bc-sues-openai-over-chatgpt-role-in-tumbler-ridge-school-shooting?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
+      "link": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+      "link": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "First UK charges brought over 1994 Rwanda genocide",
+      "link": "https://www.bbc.co.uk/news/articles/cr2092216nywo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Infantino wil met alle bonden praten over hervormingen FIFA",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5654584/infantino-wil-met-alle-bonden-praten-over-hervormingen-fifa"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Deze zingende lemuur heeft een opvallend trucje gemeen met operazangers",
+      "link": "https://scientias.nl/deze-zingende-lemuur-heeft-een-opvallend-trucje-gemeen-met-operazangers/"
+    },
+    {
+      "source": "RTL Algemeen",
+      "category": "algemeen",
+      "title": "Privacywaakhond waarschuwt voor gluurbrillen, wil verbod op 'gevoelige locaties'",
+      "link": "https://www.rtl.nl/nieuws/tech/artikel/5654428/privacywaakhond-waarschuwt-voor-gluurbrillen-wil-verbod-op-gevoelige"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "groningse ai supercomputer moet nederland minder afhankelijk maken van buitenland",
+      "link": "https://nos.nl/artikel/2631965-groningse-ai-supercomputer-moet-nederland-minder-afhankelijk-maken-van-buitenland"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "politie doet onderzoek naar discriminatie en geweld malieveld",
+      "link": "https://nos.nl/artikel/2631950-politie-doet-onderzoek-naar-discriminatie-en-geweld-malieveld"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "EU-buitenlandchef pleit voor handhaven sancties tegen Rusland: 'Stabiliteit nodig'",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5654641/eu-buitenlandchef-pleit-voor-handhaven-sancties-tegen-rusland"
+    }
+  ]
+}
