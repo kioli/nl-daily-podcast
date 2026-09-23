@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-23",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1416,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Leaders push for stronger AI safeguards at UN as Trump touts 'Super Intelligence'",
+      "link": "https://www.euronews.com/2026/09/23/leaders-push-for-stronger-ai-safeguards-at-un-as-trump-touts-super-intelligence"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
+      "link": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Wall Street’s Nasdaq hits all-time high as AI frenzy gathers pace",
+      "link": "https://www.aljazeera.com/economy/2026/9/23/wall-streets-nasdaq-hits-all-time-high-as-ai-frenzy-gathers-pace?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "France rebukes world over Gaza as Canada, UK back Palestinian state at UNGA",
+      "link": "https://www.aljazeera.com/news/2026/9/23/canada-pledges-aid-for-palestine-as-uk-and-france-demand-action-at-unga?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US to build two military bases in Greenland under new deal with Denmark",
+      "link": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Kyiv and Washington want war in Ukraine to end 'before winter,' Zelenskyy says",
+      "link": "https://www.euronews.com/2026/09/22/kyiv-and-washington-want-war-in-ukraine-to-end-before-winter-zelenskyy-says"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "How Ceuta, football and Israel are shaping Morocco's election",
+      "link": "https://www.bbc.co.uk/news/articles/c8r4v7n6py97o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+      "link": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Minuut stilte bij Nederland - Duitsland voor Bartina Koeman",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5654935/minuut-stilte-bij-nederland-duitsland-voor-bartina-koeman"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Weer kunnen praten mét gebaren: nieuwe neuroprothese kan helpen bij verlamming",
+      "link": "https://scientias.nl/weer-kunnen-praten-met-gebaren-nieuwe-neuroprothese-kan-helpen-bij-verlamming/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "belangrijke oliepijpleiding in saudi arabie weer in gebruik na drone aanval",
+      "link": "https://nos.nl/artikel/2632104-belangrijke-oliepijpleiding-in-saudi-arabie-weer-in-gebruik-na-drone-aanval"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "subsidie voor elektrische occasion vooral interessant voor middeninkomens",
+      "link": "https://nos.nl/artikel/2632059-subsidie-voor-elektrische-occasion-vooral-interessant-voor-middeninkomens"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "week na railsabotage zijn daders nog spoorloos prorail pleit voor surveillancedrones",
+      "link": "https://nos.nl/artikel/2632069-week-na-railsabotage-zijn-daders-nog-spoorloos-prorail-pleit-voor-surveillancedrones"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "opluchting in groenland en denemarken over akkoord met vs maar ook twijfels",
+      "link": "https://nos.nl/artikel/2632103-opluchting-in-groenland-en-denemarken-over-akkoord-met-vs-maar-ook-twijfels"
+    }
+  ]
+}
