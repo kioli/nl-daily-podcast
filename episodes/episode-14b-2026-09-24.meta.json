@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-24",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1289,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Algemeen",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Europe’s fuel crisis: These 10 oil stocks soared as much as 87% in 2026",
+      "link": "https://www.euronews.com/2026/09/24/europes-fuel-crisis-these-10-oil-stocks-soared-as-much-as-87-in-2026"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Chinese goods transshipment haunts Trump-Xi meeting: nine Latin American countries flagged",
+      "link": "https://www.euronews.com/2026/09/24/chinese-goods-transshipment-haunts-trump-xi-meeting-nine-latin-american-countries-flagged"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "US President Trump offers grand welcome to his Chinese counterpart Xi Jinping",
+      "link": "https://www.euronews.com/2026/09/24/us-president-trump-offers-grand-welcoming-to-his-chinese-counterpart-xi-jinping"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "‘They uprooted it all’: Israel bulldozes Palestinian-owned olive groves",
+      "link": "https://www.aljazeera.com/news/2026/9/24/they-uprooted-it-all-israel-bulldozes-palestinian-owned-olive-groves?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
+      "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Australia says OpenAI agent hacked Medicare portal",
+      "link": "https://www.aljazeera.com/news/2026/9/24/australia-says-openai-agent-hacked-medicare-portal?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "AI superpower ambitions take centre stage as Trump and Xi meet",
+      "link": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Iran's president tells Trump it will never 'bend the knee'",
+      "link": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "UCI-baas weet nu al dat WK wielrennen in Nederland succes wordt",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5655162/uci-baas-weet-nu-al-dat-wk-wielrennen-nederland-succes-wordt"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Deze tomaten kregen minder water en werden toch lekkerder, met dank aan simpele technologie",
+      "link": "https://scientias.nl/deze-tomaten-kregen-minder-water-en-werden-toch-lekkerder-met-dank-aan-simpele-technologie/"
+    },
+    {
+      "source": "RTL Algemeen",
+      "category": "algemeen",
+      "title": "Meta haalt kritische video Roel Maalderink over Meta AI-bril offline",
+      "link": "https://www.rtl.nl/nieuws/binnenland/artikel/5655165/meta-kritische-video-roel-maalderink-meta-bril-offline"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "miljoenenstrop transportbranche door problemen met suurhoffbrug",
+      "link": "https://nos.nl/artikel/2632247-miljoenenstrop-transportbranche-door-problemen-met-suurhoffbrug"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "kinderboekenschrijver sjoerd kuyper bekend van het zakmes overleden",
+      "link": "https://nos.nl/artikel/2632187-kinderboekenschrijver-sjoerd-kuyper-bekend-van-het-zakmes-overleden"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Peruanen wilden drugs smokkelen via bagage KLM-vlucht naar Amsterdam",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5655135/peruanen-drugssmokkel-bagage-klm-vlucht-amsterdam"
+    }
+  ]
+}
