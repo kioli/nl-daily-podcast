@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-25",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1238,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "A national project: what green hydrogen is and why Spain is backing it",
+      "link": "https://www.euronews.com/2026/09/25/a-national-project-what-green-hydrogen-is-and-why-spain-is-backing-it"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
+      "link": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Young men flee Tigray amid fears of forced recruitment",
+      "link": "https://www.aljazeera.com/news/2026/9/25/young-men-flee-tigray-amid-fears-of-forced-recruitment?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "CNN, MS NOW, Politico return to White House after court order to lift ban",
+      "link": "https://www.euronews.com/2026/09/25/cnn-ms-now-politico-return-to-white-house-after-court-order-to-lift-ban"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Oil prices jump after Yemen’s Houthis claim attacks on Saudi facilities",
+      "link": "https://www.aljazeera.com/economy/2026/9/25/oil-prices-jump-after-yemens-houthis-claim-attacks-on-saudi-facilities?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Saudi, Turkish, Pakistani chiefs plan urgent talks amid Yemen fighting",
+      "link": "https://www.aljazeera.com/news/2026/9/25/saudi-turkish-pakistani-chiefs-plan-urgent-talks-amid-yemen-fighting?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+      "link": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+      "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Gakpo evenaart Van der Vaart met 25e treffer voor Oranje",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5655390/gakpo-evenaart-van-der-vaart-met-25e-treffer-voor-oranje"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Portemonnee belangrijker dan duurzaamheid: waarom mensen fast fashion blijven kopen",
+      "link": "https://scientias.nl/portemonnee-belangrijker-dan-duurzaamheid-waarom-mensen-fast-fashion-blijven-kopen/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "handen af van internationaal strafhof waarschuwt jetten bij vn",
+      "link": "https://nos.nl/artikel/2632413-handen-af-van-internationaal-strafhof-waarschuwt-jetten-bij-vn"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "werkgevers worstelen met groeiend verzuim door stress je moet er op tijd bij zijn",
+      "link": "https://nos.nl/artikel/2632382-werkgevers-worstelen-met-groeiend-verzuim-door-stress-je-moet-er-op-tijd-bij-zijn"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "orkaanseizoen atlantische oceaan op hoogtepunt maar waar blijven ze",
+      "link": "https://nos.nl/artikel/2632358-orkaanseizoen-atlantische-oceaan-op-hoogtepunt-maar-waar-blijven-ze"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "macklemore kondigt concerten aan opbrengst naar hulporganisaties voor palestijnen",
+      "link": "https://nos.nl/artikel/2632387-macklemore-kondigt-concerten-aan-opbrengst-naar-hulporganisaties-voor-palestijnen"
+    }
+  ]
+}
