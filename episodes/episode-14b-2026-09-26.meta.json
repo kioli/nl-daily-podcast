@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-26",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1309,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
+      "link": "https://www.aljazeera.com/news/2026/9/26/yemeni-leader-urges-public-to-enlist-offers-amnesty-to-houthi-defectors?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "UNGA81: Why has Africa’s Security Council reform push remained unresolved?",
+      "link": "https://www.aljazeera.com/news/2026/9/26/unga81-why-has-africas-security-council-reform-push-remained-unresolved?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "OpenAI bots meddled with multiple US government agency sites",
+      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "South African white genocide does not exist, new ambassador to US tells BBC",
+      "link": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "What is killing whale calves in Patagonia? bacteria under suspicion",
+      "link": "https://www.euronews.com/2026/09/25/what-is-killing-whale-calves-in-patagonia-bacteria-under-suspicion"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "The US lays groundwork for possible military action in Cuba, according to 'CBS News'",
+      "link": "https://www.euronews.com/2026/09/25/the-us-lays-groundwork-for-possible-military-action-in-cuba-according-to-cbs-news"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "AI must serve humans, rather than 'become an instrument of domination and injustice', pope warns",
+      "link": "https://www.euronews.com/2026/09/25/ai-must-serve-humans-rather-than-become-an-instrument-of-domination-and-injustice-pope-war"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Frankrijk verslaat Turkije bij debuut bondscoach Zidane",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5655595/frankrijk-verslaat-turkije-bij-debuut-bondscoach-zidane"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "De indrukwekkende Batavia aan land: zo ging dit huzarenstukje in zijn werk",
+      "link": "https://scientias.nl/de-indrukwekkende-batavia-aan-land-zo-ging-dit-huzarenstukje-in-zijn-werk/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "tiktok schikt voor miljoenen in alabama en komt met tijdslimiet voor kinderen",
+      "link": "https://nos.nl/artikel/2632551-tiktok-schikt-voor-miljoenen-in-alabama-en-komt-met-tijdslimiet-voor-kinderen"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "werkgevers worstelen met groeiend verzuim door stress je moet er op tijd bij zijn",
+      "link": "https://nos.nl/artikel/2632382-werkgevers-worstelen-met-groeiend-verzuim-door-stress-je-moet-er-op-tijd-bij-zijn"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "doodgeschoten man amsterdam werkte in gevangenis onbekend of verdachte hem kende",
+      "link": "https://nos.nl/artikel/2632534-doodgeschoten-man-amsterdam-werkte-in-gevangenis-onbekend-of-verdachte-hem-kende"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Maximumaantal buitenlandse leerlingen per klas in Italië: 'Populistische maatregel'",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5655525/meloni-wil-maximum-aantal-buitenlandse-leerlingen"
+    }
+  ]
+}
