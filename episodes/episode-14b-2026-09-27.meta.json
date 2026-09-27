@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-27",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1622,
+  "est_minutes": 13,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Binnenland",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "German, Russian foreign ministers hold rare talks amid rising tensions",
+      "link": "https://www.aljazeera.com/news/2026/9/27/german-russian-foreign-ministers-hold-rare-talks-amid-rising-tensions?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Pope Leo arrives in Lourdes for second leg of France visit after historic Paris crowds",
+      "link": "https://www.euronews.com/2026/09/26/pope-leo-arrives-in-lourdes-for-second-leg-of-france-visit-after-historic-paris-crowds"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Azerbaijan marks its Remembrance Day looking forward to a future of peace",
+      "link": "https://www.euronews.com/2026/09/26/azerbaijan-marks-its-remembrance-day-looking-forward-to-a-future-of-peace"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Pope praises young people's 'energy and commitment' at huge open-air Mass in Paris",
+      "link": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Oktoberfest halfway through: Is closure of the Wiesn back on the cards?",
+      "link": "https://www.euronews.com/2026/09/26/oktoberfest-wiesn-closure"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
+      "link": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Indian billionaire’s payments firm plots biggest London flotation in years",
+      "link": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Xavi heeft tegen Servië beschikking over alle 24 internationals",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5655716/xavi-heeft-tegen-servie-beschikking-over-alle-24-internationals"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "IJskorrels van Enceladus maken de jacht op buitenaards leven een stuk makkelijker",
+      "link": "https://scientias.nl/ijskorrels-van-enceladus-maken-de-jacht-op-buitenaards-leven-een-stuk-makkelijker/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "venezuela laat opnieuw politieke gevangenen vrij nog honderden zitten vast",
+      "link": "https://nos.nl/artikel/2632684-venezuela-laat-opnieuw-politieke-gevangenen-vrij-nog-honderden-zitten-vast"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "na veelbelovende zomer toch nog spannende weken voor nederlandse wijnboeren",
+      "link": "https://nos.nl/artikel/2632579-na-veelbelovende-zomer-toch-nog-spannende-weken-voor-nederlandse-wijnboeren"
+    },
+    {
+      "source": "RTL Binnenland",
+      "category": "binnenland",
+      "title": "Nabestaanden nemen in Amsterdam afscheid van cipier Marcel: 'Hij was er altijd voor iedereen'",
+      "link": "https://www.rtl.nl/nieuws/binnenland/video/b52a1d52-0994-4731-855e-5d83a202944d/nabestaanden-nemen-afscheid-van-cipier"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "hoe frankrijk lagere inkomens helpt aan een elektrische auto",
+      "link": "https://nos.nl/artikel/2632671-hoe-frankrijk-lagere-inkomens-helpt-aan-een-elektrische-auto"
+    }
+  ]
+}
