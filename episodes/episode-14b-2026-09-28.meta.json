@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-28",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1490,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Algemeen",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Seoul seeks apology after Ukraine 'breached' confidentiality agreement over transfer of North Korean POWs",
+      "link": "https://www.euronews.com/2026/09/28/seoul-seeks-apology-after-ukraine-breached-confidentiality-agreement-over-transfer-of-nort"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "La Rábida monastery: where Columbus persuaded Castile to discover America",
+      "link": "https://www.euronews.com/2026/09/28/la-rabida-monastery-where-columbus-persuaded-castile-to-discover-america"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Anthropic CEO Amodei to have dinner with Trump at White House",
+      "link": "https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Venezuelans rally for opposition leader’s return and presidential elections",
+      "link": "https://www.aljazeera.com/news/2026/9/28/venezuelans-rally-for-opposition-leaders-return-and-presidential-elections?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Palestine Action protesters arrested outside UK Labour Party conference",
+      "link": "https://www.aljazeera.com/news/2026/9/28/palestine-action-protesters-arrested-outside-uk-labour-party-conference?traffic_source=rss"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "THIS WEEK: Interior ministers discuss Fortress Europe, as Kallas goes to Syria",
+      "link": "https://euobserver.com/239836/this-week-interior-ministers-discuss-fortress-europe-as-kallas-goes-to-syria/"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Inside Yemen's front-line city as Houthis battle for control",
+      "link": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Embattled Serbian president resigns, paving way for early elections",
+      "link": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Portugal wint in Oslo van Noorwegen in Nations League",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5655825/portugal-wint-oslo-van-noorwegen-nations-league"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Een blauwe nevel vol jonge sterren: het Zevengesternte zoals je het nog nooit zag",
+      "link": "https://scientias.nl/ruimtefoto-zevengesternte/"
+    },
+    {
+      "source": "RTL Algemeen",
+      "category": "algemeen",
+      "title": "Taylor Swift meest bekroonde artiest ooit bij VMA's, draagt prijs op aan Dolly Parton",
+      "link": "https://www.rtl.nl/boulevard/artikel/5655835/taylor-swift-draagt-winst-bij-vmas-op-aan-dolly-parton"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "na veelbelovende zomer toch nog spannende weken voor nederlandse wijnboeren",
+      "link": "https://nos.nl/artikel/2632579-na-veelbelovende-zomer-toch-nog-spannende-weken-voor-nederlandse-wijnboeren"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "paar duizend demonstranten bij protest stop de oorlogskoorts",
+      "link": "https://nos.nl/artikel/2632764-paar-duizend-demonstranten-bij-protest-stop-de-oorlogskoorts"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Tientallen mensen omgekomen in India en Nepal vanwege zware regenval",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5655831/tientallen-mensen-omgekomen-india-en-nepal-door-zware-regenval"
+    }
+  ]
+}
