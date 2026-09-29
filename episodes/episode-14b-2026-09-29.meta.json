@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-29",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1438,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "‘Inception’ trips, Chinamaxxing and undertourism: Euronews Travel’s top trends and predictions for 2027",
+      "link": "https://www.euronews.com/2026/09/29/inception-trips-chinamaxxing-and-undertourism-euronews-travels-top-trends-and-predictions-"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "'I don't think that is fake news as some have said,' says Leo XIV contradicting Trump on need for AI safety",
+      "link": "https://www.euronews.com/2026/09/29/i-dont-think-that-is-fake-news-as-some-have-said-says-leo-xiv-contradicting-trump-on-need-"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Argentina threatens legal action against UK over Falkland Islands oil exploration",
+      "link": "https://www.bbc.co.uk/news/articles/cq5yj1835y1wo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Russia pounds Ukraine’s Kyiv after deadly strike on Academy of Sciences",
+      "link": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Iran’s Araghchi meets Qatari mediators as US calls for nuclear talks",
+      "link": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "OpenAI scraps rollout of new model over safety concerns",
+      "link": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Evicted Spanish pensioner can move back home, lawyer says",
+      "link": "https://www.bbc.co.uk/news/articles/cmkg8qgy9d9lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Hungary lifts immunity of Prime Minister Magyar, two Orban-era ministers",
+      "link": "https://www.aljazeera.com/news/2026/9/29/hungary-lifts-immunity-of-prime-minister-magyar-two-orban-era-ministers?traffic_source=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Van Bommel wil Nations League met België winnen",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5656028/van-bommel-wil-nations-league-met-belgie-winnen"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Starship gaat orbitaal, Starliner onder vuur en NASA kiest PRIMA",
+      "link": "https://scientias.nl/ruimtevaartupdate-28-09-2026/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "zeker twintig gewonden en 160 arrestaties bij scholierenprotesten in frankrijk",
+      "link": "https://nos.nl/artikel/2632946-zeker-twintig-gewonden-en-160-arrestaties-bij-scholierenprotesten-in-frankrijk"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "economie kreeg klap door de hitte andere landen zijn beter voorbereid",
+      "link": "https://nos.nl/artikel/2632886-economie-kreeg-klap-door-de-hitte-andere-landen-zijn-beter-voorbereid"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "332 asielzoekers vinden betaald werk bij amsterdamse proef doel bereikt",
+      "link": "https://nos.nl/artikel/2632942-332-asielzoekers-vinden-betaald-werk-bij-amsterdamse-proef-doel-bereikt"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "onrust amerikaanse justitie houdt aan tweede man fbi stapt na jaar alweer op",
+      "link": "https://nos.nl/artikel/2632943-onrust-amerikaanse-justitie-houdt-aan-tweede-man-fbi-stapt-na-jaar-alweer-op"
+    }
+  ]
+}
