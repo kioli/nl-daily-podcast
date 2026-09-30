@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-30",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1460,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Three takeaways from Trump's 'Super Intelligence' summit",
+      "link": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Top AI and tech firms sign 'morally binding' accord to 'self-police' development after meeting at White House",
+      "link": "https://www.euronews.com/2026/09/30/top-ai-and-tech-firms-sign-morally-binding-accord-to-self-police-development-after-meeting"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "EU states urged to ‘go beyond’ AI Act to protect people from abusive surveillance",
+      "link": "https://euobserver.com/240371/eu-states-urged-to-go-beyond-ai-act-to-protect-people-from-abusive-surveillance/"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "South Korea demands apology from Pyongyang for landmine blasts that injured three",
+      "link": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Somali pirates killed five crew members on hijacked tanker, officials say",
+      "link": "https://www.aljazeera.com/news/2026/9/30/somali-pirates-killed-five-crew-members-on-hijacked-tanker-officials-say?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US Senate blocks resolution seeking report on Americans killed in West Bank",
+      "link": "https://www.aljazeera.com/news/2026/9/30/us-senate-blocks-resolution-seeking-report-on-americans-killed-in-west-bank?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "A little known greenhouse gas is quietly harming half of Europeans. This Italian city is hit hardest",
+      "link": "https://www.euronews.com/2026/09/30/a-little-known-greenhouse-gas-is-quietly-harming-half-of-europeans-this-italian-city-is-hi"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Chinese AI tool told researchers how to make bioweapons",
+      "link": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Engeland boekt bij Tsjechië eerste zege in Nations League",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5656251/engeland-boekt-bij-tsjechie-eerste-zege-nations-league"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Werkt aspirine tegen dementie? Misschien, bij mensen met deze genen, maar er is een keerzijde",
+      "link": "https://scientias.nl/werkt-aspirine-tegen-dementie-misschien-bij-mensen-met-deze-genen-maar-er-is-een-keerzijde/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "veel datacenters in nederland houden water en stroomverbruik geheim",
+      "link": "https://nos.nl/artikel/2633080-veel-datacenters-in-nederland-houden-water-en-stroomverbruik-geheim"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "ingenieursbureau arcadis schrapt 1000 banen",
+      "link": "https://nos.nl/artikel/2632958-ingenieursbureau-arcadis-schrapt-1000-banen"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "jonge hacker nu ook verdacht van moordopdrachten wie is whizzkid pepijn van der s",
+      "link": "https://nos.nl/artikel/2633068-jonge-hacker-nu-ook-verdacht-van-moordopdrachten-wie-is-whizzkid-pepijn-van-der-s"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "van ouderenzorg tot pensioen burnham wil pleister eraf trekken bij verdeelde britten",
+      "link": "https://nos.nl/artikel/2633055-van-ouderenzorg-tot-pensioen-burnham-wil-pleister-eraf-trekken-bij-verdeelde-britten"
+    }
+  ]
+}
