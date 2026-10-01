@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-01",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1401,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US death row inmate Christa Pike taken to hospital after surviving two lethal injections, says lawyer",
+      "link": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Too early to say who was behind Dubai-Tel Aviv flight attack, Israeli PM says",
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "AFCON 2027: East Africa races to get tournament-ready",
+      "link": "https://www.aljazeera.com/news/2026/10/1/afcon-2027-east-africa-races-to-get-tournament-ready?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US Supreme Court clears way for Christa Pike’s execution in Tennessee",
+      "link": "https://www.aljazeera.com/news/2026/10/1/us-supreme-court-clears-way-for-christa-pikes-execution-in-tennessee?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "UK says Iran may be linked to alleged airbase plot, drawing angry denial",
+      "link": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "'Alternative Nobel' honours women taking on authoritarian rule, patriarchy and Big Tech",
+      "link": "https://www.euronews.com/2026/09/30/alternative-nobel-honours-women-taking-on-authoritarian-rule-patriarchy-and-big-tech"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Trump administration diverts human rights funds to push far-right agenda abroad",
+      "link": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Voetbalsters Chelsea en Lyon spelen gelijk, zege Bayern",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5656487/voetbalsters-chelsea-en-lyon-spelen-gelijk-zege-bayern"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Waarom zijn sommige reptielen geel? Vitamine B2 blijkt een onverwachte rol te spelen",
+      "link": "https://scientias.nl/waarom-zijn-sommige-reptielen-geel-vitamine-b2-blijkt-een-onverwachte-rol-te-spelen/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "overheid neemt toezicht op makelaars over van makelaars zelf",
+      "link": "https://nos.nl/artikel/2633213-overheid-neemt-toezicht-op-makelaars-over-van-makelaars-zelf"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "trump slaat zorgen in de wind ai bedrijven gaan toezicht houden op zichzelf",
+      "link": "https://nos.nl/artikel/2633167-trump-slaat-zorgen-in-de-wind-ai-bedrijven-gaan-toezicht-houden-op-zichzelf"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "einde aan fabers grenscontroles maar bevoegdheden marechaussee worden ruimer",
+      "link": "https://nos.nl/artikel/2633195-einde-aan-fabers-grenscontroles-maar-bevoegdheden-marechaussee-worden-ruimer"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "bloedhete zomer kostte zwitserse gletsjers vele meters ijs dit is de toekomst",
+      "link": "https://nos.nl/artikel/2633211-bloedhete-zomer-kostte-zwitserse-gletsjers-vele-meters-ijs-dit-is-de-toekomst"
+    }
+  ]
+}
