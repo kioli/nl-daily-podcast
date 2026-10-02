@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-02",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1534,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Unamuno and H. G. Wells went to the cinema together: unpublished letter confirms it 90 years on",
+      "link": "https://www.euronews.com/2026/10/02/unamuno-and-h-g-wells-went-to-the-cinema-together-unpublished-letter-confirms-it-90-years"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US to send third aircraft carrier towards Iran: US official to Al Jazeera",
+      "link": "https://www.aljazeera.com/news/2026/10/2/us-to-send-third-aircraft-carrier-towards-iran-us-official-to-al-jazeera?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Row between Ukraine, South Korea mounts over North Korean POWs",
+      "link": "https://www.aljazeera.com/news/2026/10/2/row-between-ukraine-south-korea-mounts-over-north-korean-pows?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "NY's governor appoints special prosecutor in Cornell frat rape investigation",
+      "link": "https://www.bbc.co.uk/news/articles/cr1585y0y90go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
+      "link": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Brazil launches probe into alleged Trump administration plan to fund far-right causes in the country",
+      "link": "https://www.euronews.com/2026/10/02/brazil-launches-probe-into-alleged-trump-administration-plan-to-fund-far-right-causes-in-t"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Trump administration diverts human rights funds to push far-right agenda abroad",
+      "link": "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Lang na goede invalbeurt blij weer van waarde voor Oranje te zijn",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5656700/lang-na-goede-invalbeurt-blij-weer-van-waarde-voor-oranje-te-zijn"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Olifanten stemmen hun gebrom op elkaar af als de kudde een plan maakt",
+      "link": "https://scientias.nl/olifanten-stemmen-hun-gebrom-op-elkaar-af-als-de-kudde-een-plan-maakt/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "algerije voert doodstraf in voor moedwillig aansteken bosbrand",
+      "link": "https://nos.nl/artikel/2633356-algerije-voert-doodstraf-in-voor-moedwillig-aansteken-bosbrand"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "700 000 euro boete voor schoonmaakbedrijven die personeel contant betaalden",
+      "link": "https://nos.nl/artikel/2633267-700-000-euro-boete-voor-schoonmaakbedrijven-die-personeel-contant-betaalden"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "doorbraak in hersteloperatie van de clitoris legt achterstand vrouwenzorg bloot",
+      "link": "https://nos.nl/artikel/2633313-doorbraak-in-hersteloperatie-van-de-clitoris-legt-achterstand-vrouwenzorg-bloot"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "terdoodveroordeelde christa pike na marteling in kritieke toestand zegt advocaat",
+      "link": "https://nos.nl/artikel/2633325-terdoodveroordeelde-christa-pike-na-marteling-in-kritieke-toestand-zegt-advocaat"
+    }
+  ]
+}
