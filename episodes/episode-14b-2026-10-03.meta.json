@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-03",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1575,
+  "est_minutes": 13,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Dominican Republic bans Haiti from its stadiums after football fans clash",
+      "link": "https://www.aljazeera.com/sports/2026/10/3/dominican-republic-bans-haiti-from-its-stadiums-after-football-fans-clash?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+      "link": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Riot police clash with students as education protests rage in France",
+      "link": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Tension rises in Ceuta: two migrant children stabbed and bacteria-contaminated beach",
+      "link": "https://www.euronews.com/2026/10/02/tension-rises-in-ceuta-two-migrant-children-stabbed-and-bacteria-contaminated-beach"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "US suspends consular services in Brazil as Lula and Bolsonaro fight for election",
+      "link": "https://www.euronews.com/2026/10/02/us-suspends-consular-services-in-brazil-as-lula-and-bolsonaro-fight-for-election"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+      "link": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Israeli air attack on Gaza City apartment kills at least five",
+      "link": "https://www.aljazeera.com/news/2026/10/3/israeli-air-attack-on-gaza-city-apartment-kills-at-least-five?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Sánchez begins reflection on early election as protesters call for general strike",
+      "link": "https://www.euronews.com/2026/10/02/sanchez-begins-reflection-on-early-election-as-protesters-call-for-general-strike"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Koploper Heracles Almelo verspeelt punten bij Helmond Sport",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5656908/koploper-heracles-almelo-verspeelt-punten-bij-helmond-sport"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Schaakrating voor rekensommen: wat levert adaptieve software op de basisschool op?",
+      "link": "https://scientias.nl/schaakrating-voor-rekensommen-wat-levert-adaptieve-software-op-de-basisschool-op/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "franse scholieren en studentenorganisaties roepen op tot nieuwe protesten dinsdag",
+      "link": "https://nos.nl/artikel/2633464-franse-scholieren-en-studentenorganisaties-roepen-op-tot-nieuwe-protesten-dinsdag"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "vragen over de nieuwe zelfstandigenwet wat verandert er per 2028",
+      "link": "https://nos.nl/artikel/2633383-vragen-over-de-nieuwe-zelfstandigenwet-wat-verandert-er-per-2028"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "rotterdam sluit tijdelijk club villa thalia wegens dreiging tegen rapper joeyak",
+      "link": "https://nos.nl/artikel/2633438-rotterdam-sluit-tijdelijk-club-villa-thalia-wegens-dreiging-tegen-rapper-joeyak"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "crisis in spaanse politiek parlement verwerpt maatregelen tegen woningcrisis",
+      "link": "https://nos.nl/artikel/2633457-crisis-in-spaanse-politiek-parlement-verwerpt-maatregelen-tegen-woningcrisis"
+    }
+  ]
+}
