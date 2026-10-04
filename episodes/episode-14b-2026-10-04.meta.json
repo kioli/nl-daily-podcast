@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-04",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1478,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Houthis claim strike on Saudi energy facility as Yemen fighting intensifies",
+      "link": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Scientists uncover how the brain adds new information to an existing memory",
+      "link": "https://www.euronews.com/2026/10/04/scientists-uncover-how-the-brain-adds-new-information-to-an-existing-memory"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Zimbabweans struggle to rebuild after fleeing xenophobia in South Africa",
+      "link": "https://www.aljazeera.com/news/2026/10/4/zimbabweans-struggle-to-rebuild-after-fleeing-xenophobia-in-south-africa?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Cornell president says university 'must do better' after frat house rape allegations",
+      "link": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Azerbaijan, Turkey and Uzbekistan join forces in major military exercise",
+      "link": "https://www.euronews.com/2026/10/03/azerbaijan-turkey-and-uzbekistan-join-forces-in-major-military-exercise"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Brazil's Lula and Flávio Bolsonaro wrap up campaigns on eve of tight vote",
+      "link": "https://www.euronews.com/2026/10/03/brazils-lula-and-flavio-bolsonaro-wrap-up-campaigns-on-eve-of-tight-vote"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Tennessee prison chief to resign after Christa Pike's failed execution",
+      "link": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
+      "link": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Dallinga loopt kruisbandblessure op in oefenduel 1. FC Köln",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5657021/dallinga-loopt-kruisbandblessure-op-oefenduel-1-fc-koln"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Saturnus, vallende sterren en een maan die de Plejaden bezoekt: oktober 2026 is een feest voor sterrenkijkers",
+      "link": "https://scientias.nl/waarnemen-okt-2026/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "rector cornell belooft beterschap na aanklacht groepsverkrachting door studenten",
+      "link": "https://nos.nl/artikel/2633575-rector-cornell-belooft-beterschap-na-aanklacht-groepsverkrachting-door-studenten"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "vragen over de nieuwe zelfstandigenwet wat verandert er per 2028",
+      "link": "https://nos.nl/artikel/2633383-vragen-over-de-nieuwe-zelfstandigenwet-wat-verandert-er-per-2028"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "politie houdt man aan na dodelijke schietpartij bij bar amsterdam",
+      "link": "https://nos.nl/artikel/2633560-politie-houdt-man-aan-na-dodelijke-schietpartij-bij-bar-amsterdam"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Code rood voor uitzonderlijk noodweer in en rondom Barcelona: theaters en bioscopen dicht",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5657007/code-rood-barcelona-catalonie-noodweer-zware-regenval-verkeer"
+    }
+  ]
+}
