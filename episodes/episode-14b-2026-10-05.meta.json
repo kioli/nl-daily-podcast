@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-05",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1279,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US coastguard suspends search for six on board crashed medical jet",
+      "link": "https://www.aljazeera.com/news/2026/10/5/us-coastguard-suspends-search-for-six-on-board-crashed-medical-jet?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
+      "link": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Brazil’s presidential race: Three key takeaways from the first round",
+      "link": "https://www.aljazeera.com/news/2026/10/5/brazils-presidential-race-three-key-takeaways-from-the-first-round?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Judo 2026 World Championships: Koga and Yusifov Strike Gold on Opening Day in Baku",
+      "link": "https://www.euronews.com/2026/10/04/judo-2026-world-championships-koga-and-yusifov-strike-gold-on-opening-day-in-baku"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Sánchez in talks with coalition partners on reflection day: will he call elections in Spain?",
+      "link": "https://www.euronews.com/2026/10/04/sanchez-in-talks-with-coalition-partners-on-reflection-day-will-he-call-elections-in-spain"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Yemen's government announces all-out war to reclaim land from Houthis",
+      "link": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Egyptian journalist faces terrorism charges after entire newsroom detained",
+      "link": "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Libyan unity talks upended as warlord’s son linked to drone attacks on fuel facilities",
+      "link": "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Xavi houdt goed gevoel over aan start, maar ziet verbeterpunten",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5657141/xavi-houdt-goed-gevoel-over-aan-start-maar-ziet-verbeterpunten"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "OSIRIS-APEX koerst af op Apophis: de asteroïde die in 2029 langs de aarde scheert",
+      "link": "https://scientias.nl/osiris-apex-koerst-af-op-apophis-de-asteroide-die-in-2029-langs-de-aarde-scheert/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "nederlander benoemd tot minister in omstreden parallelle regering sudan",
+      "link": "https://nos.nl/artikel/2633698-nederlander-benoemd-tot-minister-in-omstreden-parallelle-regering-sudan"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "vragen over de nieuwe zelfstandigenwet wat verandert er per 2028",
+      "link": "https://nos.nl/artikel/2633383-vragen-over-de-nieuwe-zelfstandigenwet-wat-verandert-er-per-2028"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "100 jaar michelinsterren wat maakt een restaurant michelinwaardig en wie bepaalt dat",
+      "link": "https://nos.nl/artikel/2633599-100-jaar-michelinsterren-wat-maakt-een-restaurant-michelinwaardig-en-wie-bepaalt-dat"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "aanhoudingen bij betoging van kremlin gezinde communistische partij in moskou",
+      "link": "https://nos.nl/artikel/2633674-aanhoudingen-bij-betoging-van-kremlin-gezinde-communistische-partij-in-moskou"
+    }
+  ]
+}
