@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-06",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1908,
+  "est_minutes": 15,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Trump says US moved their B-1 bombers from RAF Fairford airbase after additional threats were made",
+      "link": "https://www.euronews.com/2026/10/06/trump-says-us-moved-their-b-1-bombers-from-raf-fairford-airbase-after-additional-threats-w"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Secessionist party wins Quebec election in Canada",
+      "link": "https://www.aljazeera.com/news/2026/10/6/secessionist-parti-quebecois-wins-quebec-election-in-canada?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
+      "link": "https://www.aljazeera.com/news/2026/10/6/un-rights-council-condemns-attacks-on-civilians-in-sudan-calls-for-truce?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+      "link": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Saudi Arabia urged to spare man sentenced to death over Facebook post",
+      "link": "https://www.bbc.co.uk/news/articles/cq14d438vx24o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
+      "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Romanian president signs law regulating bear population cull",
+      "link": "https://www.euronews.com/2026/10/05/romanian-president-signs-law-regulating-bear-population-cull"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump says taxpayers will no longer fund TV ads that praise him",
+      "link": "https://www.aljazeera.com/news/2026/10/6/trump-says-taxpayers-will-no-longer-fund-tv-ads-that-praise-him?traffic_source=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Van Bommel met België opnieuw onderuit tegen Frankrijk",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5657316/van-bommel-met-belgie-opnieuw-onderuit-tegen-frankrijk"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "ISS verwelkomt nieuwe bemanning: Crew-12 draagt fakkel over",
+      "link": "https://scientias.nl/ruimtevaartupdate-051026/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "rechtbankdocumenten tate broers ronselden vrouwen met loverboy methode",
+      "link": "https://nos.nl/artikel/2633814-rechtbankdocumenten-tate-broers-ronselden-vrouwen-met-loverboy-methode"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "meer mensen met 50 000 euro studieschuld of meer niemand kiest daarvoor",
+      "link": "https://nos.nl/artikel/2633798-meer-mensen-met-50-000-euro-studieschuld-of-meer-niemand-kiest-daarvoor"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "wachtlijst stroomnet weer langer maar netbeheerders zien ook lichtpuntjes",
+      "link": "https://nos.nl/artikel/2633767-wachtlijst-stroomnet-weer-langer-maar-netbeheerders-zien-ook-lichtpuntjes"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Britse bestsellerauteur Jeffrey Archer (86), bekend van thrillers en meineed, overleden",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5657330/britse-bestsellerauteur-jeffrey-archer-overleden-boeken-thrillers"
+    }
+  ]
+}
