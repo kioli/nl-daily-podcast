@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-07",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1520,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US stock market hits all-time high as investors bet big on AI",
+      "link": "https://www.aljazeera.com/economy/2026/10/7/us-stock-market-hits-all-time-high-as-investors-bet-big-on-ai?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Oman evacuates injured crew from attacked tanker in Strait of Hormuz",
+      "link": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+      "link": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "A beautiful Himalayan bird is changing its voice due to human activity, research shows",
+      "link": "https://www.bbc.co.uk/news/articles/cq9868z88rexo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Judo: Japan crowns two new world champions in Baku",
+      "link": "https://www.euronews.com/2026/10/06/judo-japan-crowns-two-new-world-champions-in-baku"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "UK trial of three Iranians over alleged plot to target Iran dissident journalists",
+      "link": "https://www.euronews.com/2026/10/06/uk-trial-of-three-iranians-over-alleged-plot-to-target-iran-dissident-journalists"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "Commission seeks 15-year safeguards on future member states, but says reforms won’t create two-tier EU",
+      "link": "https://euobserver.com/241396/commission-seeks-15-year-safeguards-on-future-member-states-but-says-reforms-wont-create-two-tier-eu/"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Tear gas in Paris and Marseille as school protests grow across France",
+      "link": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Ronaldo haalt in verklaring van paar kantjes uit naar bondscoach, maar blijft wel",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5657522/ronaldo-blijft-ondanks-conflict-beschikbaar-voor-portugal"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Dit dier leefde honderdduizenden jaren in Siberië en niemand wist dat het bestond",
+      "link": "https://scientias.nl/dit-dier-leefde-honderdduizenden-jaren-in-siberie-en-niemand-wist-dat-het-bestond/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "oscarwinnares eva marie saint 102 overleden bekend van on the waterfront",
+      "link": "https://nos.nl/artikel/2633945-oscarwinnares-eva-marie-saint-102-overleden-bekend-van-on-the-waterfront"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "meer mensen met 50 000 euro studieschuld of meer niemand kiest daarvoor",
+      "link": "https://nos.nl/artikel/2633798-meer-mensen-met-50-000-euro-studieschuld-of-meer-niemand-kiest-daarvoor"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "kamer hoopt 130 000 burgers te kunnen inzetten bij crises",
+      "link": "https://nos.nl/artikel/2633930-kamer-hoopt-130-000-burgers-te-kunnen-inzetten-bij-crises"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "spionagezaak schaadt reputatie duitse inlichtingendienst",
+      "link": "https://nos.nl/artikel/2633928-spionagezaak-schaadt-reputatie-duitse-inlichtingendienst"
+    }
+  ]
+}
