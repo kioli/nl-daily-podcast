@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-08",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1436,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Algemeen",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Maricarmen, the 87-year-old woman whose eviction triggered major protests, has died in hospital, lawyer says",
+      "link": "https://www.euronews.com/2026/10/08/maricarmen-the-87-year-old-woman-whose-eviction-triggered-major-protests-has-died-in-hospi"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "France's school protests: what lies behind the anger",
+      "link": "https://www.bbc.co.uk/news/articles/c6n9rgg80z94o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump wants a new Camp David retreat at his posh Florida golf club",
+      "link": "https://www.bbc.co.uk/news/articles/c9gkvxjvl7v3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Tanker hit by multiple projectiles off north coast of Qatar, UKMTO says",
+      "link": "https://www.aljazeera.com/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+      "link": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Russian man who swam from Kaliningrad to Lithuania in asylum attempt sentenced to six years hard labour",
+      "link": "https://www.euronews.com/2026/10/08/russian-man-who-swam-from-kaliningrad-to-lithuania-in-asylum-attempt-sentenced-to-six-year"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US bars Fiji-based man over corruption tied to China",
+      "link": "https://www.aljazeera.com/news/2026/10/8/us-bars-fiji-based-man-over-corruption-tied-to-china?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "French prime minister says government not indifferent to students' concerns in TV address",
+      "link": "https://www.euronews.com/2026/10/07/french-prime-minister-says-government-not-indifferent-to-students-concerns-in-tv-address"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Napoli kan weer beschikken over McTominay na hartoperatie",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5657749/napoli-kan-weer-beschikken-over-mctominay-na-hartoperatie"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Ultrabewerkt eten beïnvloedt de spijsvertering misschien anders dan gedacht",
+      "link": "https://scientias.nl/ultrabewerkt-eten-beinvloedt-de-spijsvertering-misschien-anders-dan-gedacht/"
+    },
+    {
+      "source": "RTL Algemeen",
+      "category": "algemeen",
+      "title": "Halsema: steun voor Hamas op de Dam op 7 oktober 'shockerend en onsmakelijk'",
+      "link": "https://www.rtl.nl/nieuws/binnenland/artikel/5657755/steun-voor-hamas-vlag-demonstratie-7-oktober-amsterdam-halsema"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "polder praat met kabinet dat hoopt op ideeen voor economie en wia",
+      "link": "https://nos.nl/artikel/2633953-polder-praat-met-kabinet-dat-hoopt-op-ideeen-voor-economie-en-wia"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "pro palestijns protest met hamas steunbetuigingen in amsterdam ontbonden",
+      "link": "https://nos.nl/artikel/2634063-pro-palestijns-protest-met-hamas-steunbetuigingen-in-amsterdam-ontbonden"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "boegbeeld van spaanse woningprotesten maricarmen abascal 87 overleden",
+      "link": "https://nos.nl/artikel/2634066-boegbeeld-van-spaanse-woningprotesten-maricarmen-abascal-87-overleden"
+    }
+  ]
+}
