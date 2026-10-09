@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-09",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1605,
+  "est_minutes": 13,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Kyiv open to 'constructive dialogue' after Seoul recalls its ambassador amid North Korean POW disclosure row",
+      "link": "https://www.euronews.com/2026/10/09/kyiv-open-to-constructive-dialogue-after-seoul-recalls-its-ambassador-amid-north-korean-po"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Barcelona team develops AI that detects ageing in blood stem cells",
+      "link": "https://www.euronews.com/2026/10/09/barcelona-research-team-creates-ai-to-detect-ageing-in-blood-stem-cells"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "ICE agent shoots man in car with five-year-old child in New York: Mayor",
+      "link": "https://www.aljazeera.com/news/2026/10/9/ice-agent-shoots-man-in-car-with-five-year-old-child-in-new-york-mayor?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Christa Pike case underscores prevalence of botched executions in US",
+      "link": "https://www.aljazeera.com/news/2026/10/9/christa-pike-case-underscores-prevalence-of-botched-executions-in-us?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Key takeaways from US Senate debate in Michigan between El-Sayed, Rogers",
+      "link": "https://www.aljazeera.com/news/2026/10/9/key-takeaways-from-us-senate-debate-in-michigan-between-el-sayed-rogers?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC from Ukrainian prison",
+      "link": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Scientists discover 180,000 giant tortoises on one Seychelles island",
+      "link": "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Steenbergen verbetert eigen Europees record 100 meter wisselslag",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5658007/steenbergen-verbetert-eigen-europees-record-100-meter-wisselslag"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Een chatbot kan eerst netjes antwoorden, maar daarna ongemerkt ontsporen",
+      "link": "https://scientias.nl/een-chatbot-kan-eerst-netjes-antwoorden-maar-daarna-ongemerkt-ontsporen/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "franse minister komt met noodplan na protesten 3000 invaldocenten",
+      "link": "https://nos.nl/artikel/2634214-franse-minister-komt-met-noodplan-na-protesten-3000-invaldocenten"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "energieverbruik op piekuren vanaf 2029 voor iedereen duurder dalgebruik goedkoper",
+      "link": "https://nos.nl/artikel/2634132-energieverbruik-op-piekuren-vanaf-2029-voor-iedereen-duurder-dalgebruik-goedkoper"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "veel rook door brand in parkeergarage onder olympisch stadion",
+      "link": "https://nos.nl/artikel/2634192-veel-rook-door-brand-in-parkeergarage-onder-olympisch-stadion"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "goed bewaard fossiel vertelt hoe zoogdieren anders gingen eten dan de dino s",
+      "link": "https://nos.nl/artikel/2634205-goed-bewaard-fossiel-vertelt-hoe-zoogdieren-anders-gingen-eten-dan-de-dino-s"
+    }
+  ]
+}
