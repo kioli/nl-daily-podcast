@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-10",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 2224,
+  "est_minutes": 18,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
+      "link": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Putin tells Trump peace talks are unlikely, cites Ukraine drone attacks",
+      "link": "https://www.aljazeera.com/news/2026/10/10/putin-tells-trump-peace-talks-are-unlikely-cites-ukraine-drone-attacks?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Two Renoir paintings recovered after France museum heist, mayor says",
+      "link": "https://www.aljazeera.com/news/2026/10/10/two-renoir-paintings-recovered-after-france-museum-heist-mayor-says?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+      "link": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau",
+      "link": "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Historic Gold for Lytvynenko as Sulamanidze Triumphs in Baku",
+      "link": "https://www.euronews.com/2026/10/09/historic-gold-for-lytvynenko-as-sulamanidze-triumphs-in-baku"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
+      "link": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Heracles Almelo eerste periodekampioen in eerste divisie",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5658216/heracles-almelo-eerste-periodekampioen-eerste-divisie"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Tattoo-inkt die alleen onder uv-licht verschijnt kan bestralingsstipjes verbergen",
+      "link": "https://scientias.nl/tattoo-inkt-die-alleen-onder-uv-licht-verschijnt-kan-bestralingsstipjes-verbergen/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "winnaar prestigieuze wetenschappelijke beeldwedstrijd gediskwalificeerd om ai",
+      "link": "https://nos.nl/artikel/2634372-winnaar-prestigieuze-wetenschappelijke-beeldwedstrijd-gediskwalificeerd-om-ai"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "fietsmerken batavus koga en babboe blijven bestaan verkocht aan dutech",
+      "link": "https://nos.nl/artikel/2634305-fietsmerken-batavus-koga-en-babboe-blijven-bestaan-verkocht-aan-dutech"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "ijsbanen open ondanks hoge temperatuur anders in de knel met wedstrijden",
+      "link": "https://nos.nl/artikel/2634314-ijsbanen-open-ondanks-hoge-temperatuur-anders-in-de-knel-met-wedstrijden"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "rusland gaat diesel leveren aan de vs en aan de wereld",
+      "link": "https://nos.nl/artikel/2634362-rusland-gaat-diesel-leveren-aan-de-vs-en-aan-de-wereld"
+    }
+  ]
+}
