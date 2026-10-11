@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-11",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1438,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+      "link": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Taiz hospitals near collapse as Houthis tighten siege: Yemen government",
+      "link": "https://www.aljazeera.com/news/2026/10/11/taiz-hospitals-near-collapse-as-houthis-tighten-siege-yemen-government?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US forces disable ship ‘attempting to run’ Iran blockade in Gulf of Oman",
+      "link": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+      "link": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Young men live in fear of being snatched off the streets and sold to Myanmar's army",
+      "link": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Lee Claims World Gold as Tasoev Secures His Third World Title in Baku",
+      "link": "https://www.euronews.com/2026/10/10/lee-claims-world-gold-as-tasoev-secures-his-third-world-title-in-baku"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Spanish PM Sánchez launches campaign with housing as key theme",
+      "link": "https://www.euronews.com/2026/10/10/spanish-pm-sanchez-launches-campaign-with-housing-as-key-theme"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Left-wing primary: more than half of registered voters have already voted, say organisers",
+      "link": "https://www.euronews.com/2026/10/10/left-wing-primary-more-than-half-of-registered-voters-have-already-voted-say-organisers"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "FC Twente verspeelt na drie zeges op rij punten bij Fortuna",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5658351/fc-twente-verspeelt-na-drie-zeges-op-rij-punten-bij-fortuna"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Bataviaproject brengt betrokkenen bij elkaar: ‘Kennis, ambacht en wetenschap hebben elkaar gevonden’",
+      "link": "https://scientias.nl/bataviaproject-brengt-betrokkenen-bij-elkaar-kennis-ambacht-en-wetenschap-hebben-elkaar-gevonden/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "justitie amerika onderzoekt tv zenders na protest tegen uitsluiting journalisten",
+      "link": "https://nos.nl/artikel/2634521-justitie-amerika-onderzoekt-tv-zenders-na-protest-tegen-uitsluiting-journalisten"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "fietsmerken batavus koga en babboe blijven bestaan verkocht aan dutech",
+      "link": "https://nos.nl/artikel/2634305-fietsmerken-batavus-koga-en-babboe-blijven-bestaan-verkocht-aan-dutech"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "treinverkeer rond schiphol urenlang ontregeld door stroomstoring",
+      "link": "https://nos.nl/artikel/2634439-treinverkeer-rond-schiphol-urenlang-ontregeld-door-stroomstoring"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Tijger bijt man dood die in zijn verblijf klom in Britse dierentuin",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5658341/man-overleden-die-tijgerverblijf-britse-dierentuin-inklom"
+    }
+  ]
+}
