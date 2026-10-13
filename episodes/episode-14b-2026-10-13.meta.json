@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-13",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1478,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "Europe’s skills passport is missing a page, EMPASS wants to add it",
+      "link": "https://euobserver.com/242377/europes-skills-passport-is-missing-a-page-empasswants-to-add-it/"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "This French AI stock is up 570% in 2026: Analysts see a further 90% upside",
+      "link": "https://www.euronews.com/2026/10/13/this-french-ai-stock-is-up-570-in-2026-analysts-see-a-further-90-upside"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
+      "link": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "IMF forecasts 3.1% global growth in 2026, with eurozone at 1.1%",
+      "link": "https://www.euronews.com/2026/10/13/imf-forecasts-31-global-growth-in-2026-with-eurozone-at-11"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "‘Unprecedented’ cyberattack hits French supermarkets, causing food losses",
+      "link": "https://www.aljazeera.com/news/2026/10/13/unprecedented-cyberattack-hits-french-supermarkets-causing-food-losses?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+      "link": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "France, Greece, and Netherlands see steep fall in crisis-resilience, study finds",
+      "link": "https://euobserver.com/242285/france-greece-and-netherlands-see-steep-fall-in-crisis-resilience-study-finds/"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Botman kan met treffer forse nederlaag Newcastle niet voorkomen",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5658686/botman-kan-met-treffer-forse-nederlaag-newcastle-niet-voorkomen"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Van splashdown tot Korea’s raketsucces: de ruimteweek in vogelvlucht",
+      "link": "https://scientias.nl/ruimtevaartupdate-121026/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "meldpunt veilig thuis alarmeert we kunnen het werk niet meer aan",
+      "link": "https://nos.nl/artikel/2634752-meldpunt-veilig-thuis-alarmeert-we-kunnen-het-werk-niet-meer-aan"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "andere online supermarkten hebben het drukker door problemen bij albert heijn",
+      "link": "https://nos.nl/artikel/2634728-andere-online-supermarkten-hebben-het-drukker-door-problemen-bij-albert-heijn"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "storing bij ah zou cyberaanval kunnen zijn je neemt niet zomaar zulke maatregelen",
+      "link": "https://nos.nl/artikel/2634740-storing-bij-ah-zou-cyberaanval-kunnen-zijn-je-neemt-niet-zomaar-zulke-maatregelen"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "musk steekt stilletjes honderden miljoenen in congresverkiezingen vs",
+      "link": "https://nos.nl/artikel/2634727-musk-steekt-stilletjes-honderden-miljoenen-in-congresverkiezingen-vs"
+    }
+  ]
+}
