@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-16",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1511,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Binnenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Wind Sled, Spanish invention to cross Antarctica without emissions: 'Unique in the world'",
+      "link": "https://www.euronews.com/2026/10/16/wind-sled-spanish-invention-to-cross-antarctica-without-emissions-unique-in-the-world"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Three children and teacher killed in US primary school shooting",
+      "link": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "China tells Israel to stop ‘forced establishment’ of West Bank settlements",
+      "link": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Argentine students protest on campus over Milei’s austerity",
+      "link": "https://www.aljazeera.com/news/2026/10/16/argentine-students-protest-on-campus-over-mileis-austerity?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Four killed in Oregon elementary school shooting, including three children aged 5 to 11",
+      "link": "https://www.euronews.com/2026/10/16/four-killed-in-oregon-elementary-school-shooting-including-three-children-aged-5-to-11"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "EU ‘open’ to curbs on imports of Chinese chemicals and machinery, after hybrid-car deal",
+      "link": "https://euobserver.com/243011/eu-open-to-curbs-on-imports-of-chinese-chemicals-and-machinery-after-hybrid-car-deal/"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+      "link": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "How Slovakia’s Fico became Putin’s top ally inside the EU",
+      "link": "https://euobserver.com/242837/how-slovakias-fico-became-putins-top-ally-inside-the-eu/"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "NEC pakt eerste punt in Europa League tegen Levski Sofia",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5659302/nec-pakt-eerste-punt-europa-league-tegen-levski-sofia"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Werd deze neanderthaler 75.000 jaar geleden gedood met een houten speer?",
+      "link": "https://scientias.nl/werd-deze-neanderthaler-75-000-jaar-geleden-gedood-met-een-houten-speer/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "meer meldingen van arbeidsuitbuiting en te weinig daders gestraft zegt rapporteur",
+      "link": "https://nos.nl/artikel/2635154-meer-meldingen-van-arbeidsuitbuiting-en-te-weinig-daders-gestraft-zegt-rapporteur"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "nog een accell merk verkocht sparta naar chinees nederlandse eigenaar",
+      "link": "https://nos.nl/artikel/2635118-nog-een-accell-merk-verkocht-sparta-naar-chinees-nederlandse-eigenaar"
+    },
+    {
+      "source": "RTL Binnenland",
+      "category": "binnenland",
+      "title": "Dagenlang onrust in Floradorp, vreugdevuur mag niet doorgaan",
+      "link": "https://www.rtl.nl/nieuws/binnenland/video/3c49fa4c-dd2b-4961-b87b-c1e2bfcce266/dagenlang-onrust-floradorp-vreugdevuur"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "bbc onderzoeken van israelische leger blijven vaak op de plank liggen",
+      "link": "https://nos.nl/artikel/2635145-bbc-onderzoeken-van-israelische-leger-blijven-vaak-op-de-plank-liggen"
+    }
+  ]
+}
