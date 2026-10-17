@@ -8,7 +8,16 @@
     <itunes:category text="News"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://kioli.github.io/nl-daily-podcast/Cover.jpeg"/>
-    <lastBuildDate>Fri, 16 Oct 2026 04:13:59 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 04:14:42 +0200</lastBuildDate>
+    <item>
+      <title>Aflevering 2026-10-17</title>
+      <pubDate>Sat, 17 Oct 2026 06:00:00 +0200</pubDate>
+      <guid isPermaLink="false">nl-daily-2026-10-17-episode-14b-2026-10-17</guid>
+      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-10-17.mp3" length="8446791" type="audio/mpeg"/>
+      <itunes:image href="https://kioli.github.io/nl-daily-podcast/Cover.jpeg"/>
+      <itunes:duration>703</itunes:duration>
+      <podcast:transcript url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-10-17.txt" type="text/plain" language="nl" rel="captions"/>
+    </item>
     <item>
       <title>Aflevering 2026-10-16</title>
       <pubDate>Fri, 16 Oct 2026 06:00:00 +0200</pubDate>
@@ -134,15 +143,6 @@
       <itunes:image href="https://kioli.github.io/nl-daily-podcast/Cover.jpeg"/>
       <itunes:duration>530</itunes:duration>
       <podcast:transcript url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-10-03.txt" type="text/plain" language="nl" rel="captions"/>
-    </item>
-    <item>
-      <title>Aflevering 2026-10-02</title>
-      <pubDate>Fri, 02 Oct 2026 06:00:00 +0200</pubDate>
-      <guid isPermaLink="false">nl-daily-2026-10-02-episode-14b-2026-10-02</guid>
-      <enclosure url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-10-02.mp3" length="6199215" type="audio/mpeg"/>
-      <itunes:image href="https://kioli.github.io/nl-daily-podcast/Cover.jpeg"/>
-      <itunes:duration>516</itunes:duration>
-      <podcast:transcript url="https://kioli.github.io/nl-daily-podcast/episodes/episode-14b-2026-10-02.txt" type="text/plain" language="nl" rel="captions"/>
     </item>
   </channel>
 </rss>

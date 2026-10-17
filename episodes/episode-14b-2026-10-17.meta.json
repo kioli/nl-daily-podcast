@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-17",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 2127,
+  "est_minutes": 17,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
+      "link": "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Cameroonians await government reshuffle after Biya’s return",
+      "link": "https://www.aljazeera.com/news/2026/10/17/cameroonians-await-government-reshuffle-after-biyas-return?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+      "link": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Brazil’s Amazon deforestation hits lowest level on record",
+      "link": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump waives several Russia sanctions as new US law takes effect",
+      "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "link": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Sanchez rejects criticism of Spain's migration policy: 'Words do not match reality'",
+      "link": "https://www.euronews.com/2026/10/16/sanchez-rejects-criticism-of-spains-migration-policy-words-do-not-match-reality"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "Denmark lashes out again at Sánchez over Spain’s migration regularisation, but EU summit avoids linking migration to crime",
+      "link": "https://euobserver.com/243228/sanchez-defends-spains-migrant-regularisation-as-danish-pm-leads-criticism-at-eu-summit/"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Heerenveen verslaat Excelsior en viert 1000e treffer in stadion",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5659508/heerenveen-verslaat-excelsior-en-viert-1000e-treffer-stadion"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "De zee rukt op rond koraaleilanden, maar waar zeevogels broeden groeit het rif mee",
+      "link": "https://scientias.nl/de-zee-rukt-op-rond-koraaleilanden-maar-waar-zeevogels-broeden-groeit-het-rif-mee/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "nieuwe tegenvaller oekraine trump zet sancties tegen rusland op pauze",
+      "link": "https://nos.nl/artikel/2635297-nieuwe-tegenvaller-oekraine-trump-zet-sancties-tegen-rusland-op-pauze"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "sancties vs tegen strafhof brengen abn amro nu al in lastig parket",
+      "link": "https://nos.nl/artikel/2635241-sancties-vs-tegen-strafhof-brengen-abn-amro-nu-al-in-lastig-parket"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "frustratie en teleurstelling na bekendmaking infrastructuurplannen kabinet",
+      "link": "https://nos.nl/artikel/2635287-frustratie-en-teleurstelling-na-bekendmaking-infrastructuurplannen-kabinet"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "chinese man blijft 19 jaar uit handen van politie door identiteit dode broer over te nemen",
+      "link": "https://nos.nl/artikel/2635291-chinese-man-blijft-19-jaar-uit-handen-van-politie-door-identiteit-dode-broer-over-te-nemen"
+    }
+  ]
+}
