@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-19",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1318,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Can Spain afford its pensions? What to know about the funding debate ahead of the election",
+      "link": "https://www.euronews.com/2026/10/19/pensions-become-key-issue-in-spains-election-campaign-are-they-going-bust"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Trump endorses Netanyahu nine days before Israeli election, breaking months of silence",
+      "link": "https://www.euronews.com/2026/10/19/trump-endorses-netanyahu-days-before-israeli-election-breaking-months-of-silence"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Anthropic says it will commit 5% of shares to ‘public benefit’ fund",
+      "link": "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
+      "link": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+      "link": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Major fire at Canada military base leaves four dead, dozens injured",
+      "link": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "THIS WEEK: Budget fallout, Russian provocations, and could the ICC be awarded the EU’s Sakharov prize?",
+      "link": "https://euobserver.com/243224/this-weekbudget-fallout-russian-provocations-and-could-the-icc-be-awarded-the-eus-sakharov-prize/"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Macron calls for 'calm and order' after riots across France",
+      "link": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Real Madrid via fraaie treffers Güler en Mbappé langs Sevilla",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5659744/real-madrid-fraaie-treffers-guler-en-mbappe-langs-sevilla"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "ESA kijkt toe én vooruit: Phobos’ maanlander lanceert morgen, maan-GPS en het oog op aarde",
+      "link": "https://scientias.nl/ruimtevaartupdate-esa-181026/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "macron haalt in tv toespraak uit naar relschoppers terwijl rellen in parijs doorgaan",
+      "link": "https://nos.nl/artikel/2635534-macron-haalt-in-tv-toespraak-uit-naar-relschoppers-terwijl-rellen-in-parijs-doorgaan"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "ah moest hack melden vanwege nieuwe cyberwet verantwoordelijkheid reikt verder",
+      "link": "https://nos.nl/artikel/2635327-ah-moest-hack-melden-vanwege-nieuwe-cyberwet-verantwoordelijkheid-reikt-verder"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "fryslans oudste communist en langstzittende raadslid rinze visser 87 overleden",
+      "link": "https://nos.nl/artikel/2635469-fryslans-oudste-communist-en-langstzittende-raadslid-rinze-visser-87-overleden"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Ruim honderd arrestaties bij nieuwe onrust in Parijs: 'Criminele intenties'",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5659751/ruim-honderd-arrestaties-bij-nieuwe-onrust-parijs"
+    }
+  ]
+}
