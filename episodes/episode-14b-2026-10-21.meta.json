@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-21",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1430,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
+      "link": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Faecal waste pollutes drinking water in Mexico’s Yucatan, Greenpeace says",
+      "link": "https://www.aljazeera.com/news/2026/10/21/faecal-waste-pollutes-drinking-water-in-mexicos-yucatan-greenpeace-says?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Portugal cost-of-living protesters pour back into camps cleared by police",
+      "link": "https://www.aljazeera.com/news/2026/10/21/portugal-cost-of-living-protesters-pour-back-into-camps-cleared-by-police?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "France is divided over who to blame for and what to learn from weekend riots",
+      "link": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+      "link": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Elon Musk says Tesla-SpaceX merger being considered",
+      "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Severe weather in southern France: one dead near Marseille, one missing in Corsica",
+      "link": "https://www.euronews.com/2026/10/21/severe-weather-in-southern-france-one-dead-near-marseille-one-missing-in-corsica"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "'Time to make a deal,' Trump tells Zelenskyy as he complains US has got 'nothing back' from Ukraine",
+      "link": "https://www.euronews.com/2026/10/20/time-to-make-a-deal-trump-tells-zelenskyy-as-he-complains-us-has-got-nothing-back-from-ukr"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Paris Saint-Germain verslaat FC Barcelona in Champions League",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5660195/paris-saint-germain-verslaat-fc-barcelona-champions-league"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "De Orioniden komen eraan: waarom de vroege ochtend je beste kans is",
+      "link": "https://scientias.nl/orioniden-2026/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "ook veel van wat er in de tweede kamer wordt gezegd komt van ai",
+      "link": "https://nos.nl/artikel/2636031-ook-veel-van-wat-er-in-de-tweede-kamer-wordt-gezegd-komt-van-ai"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "polen als groeikampioen van europa waarom overname van buurtsuper zabka veel zegt",
+      "link": "https://nos.nl/artikel/2635882-polen-als-groeikampioen-van-europa-waarom-overname-van-buurtsuper-zabka-veel-zegt"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "verdachte in zaak hajar opgepakt na mishandeling pleegvader",
+      "link": "https://nos.nl/artikel/2636027-verdachte-in-zaak-hajar-opgepakt-na-mishandeling-pleegvader"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Na ontmoeting in Oslo 'deelt VS weer inlichtingen met Oekraïne', zegt Zelensky",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5660202/oekraine-krijgt-weer-inlichtingen-van-vs-volgens-zelensky-na"
+    }
+  ]
+}
