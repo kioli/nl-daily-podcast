@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-22",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1277,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
+      "link": "https://www.aljazeera.com/news/2026/10/22/trump-administration-seeks-supreme-court-approval-to-build-big-bend-wall?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Tigray resumes daily life amid fears of wider war",
+      "link": "https://www.aljazeera.com/news/2026/10/22/tigray-resumes-daily-life-amid-fears-of-wider-war?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Disappointed after meeting, French unions call for 5 November action",
+      "link": "https://www.euronews.com/2026/10/21/disappointed-after-meeting-french-unions-call-for-5-november-action"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "link": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+      "link": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Controversial US-backed vaccine trial in African newborns halted",
+      "link": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Severely ill ICE detainees face imminent deportation to unknown African states, advocates say",
+      "link": "https://www.theguardian.com/us-news/2026/oct/21/ice-detention-illness-deportation-florida"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Nigeria confirms Ebola case as outbreak spreads into western Africa",
+      "link": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Van Bronckhorst vindt dat Feyenoord meer had verdiend bij Betis",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5660384/van-bronckhorst-vindt-dat-feyenoord-meer-had-verdiend-bij-betis"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Jonge tieners belanden steeds vaker met een breuk in het ziekenhuis na val met e-step",
+      "link": "https://scientias.nl/jonge-tieners-belanden-steeds-vaker-met-een-breuk-in-het-ziekenhuis-na-val-met-e-step/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "vs haalt deel ambassadepersoneel uit saudi arabie weg na dodelijke houthi aanvallen",
+      "link": "https://nos.nl/artikel/2636156-vs-haalt-deel-ambassadepersoneel-uit-saudi-arabie-weg-na-dodelijke-houthi-aanvallen"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "vgz wil dat 34 gemeenten polis voor mensen met laag inkomen her invoeren",
+      "link": "https://nos.nl/artikel/2636107-vgz-wil-dat-34-gemeenten-polis-voor-mensen-met-laag-inkomen-her-invoeren"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "politie hajar vermoedelijk om het leven gebracht in antikraakpand amsterdam",
+      "link": "https://nos.nl/artikel/2636113-politie-hajar-vermoedelijk-om-het-leven-gebracht-in-antikraakpand-amsterdam"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "gouverneurskandidaat ohio zet vervreemde moeder in bij aanval op tegenstander",
+      "link": "https://nos.nl/artikel/2636145-gouverneurskandidaat-ohio-zet-vervreemde-moeder-in-bij-aanval-op-tegenstander"
+    }
+  ]
+}
