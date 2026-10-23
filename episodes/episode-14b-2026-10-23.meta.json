@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-23",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1229,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "The EU media connects Europe’s connectors – allow us to help",
+      "link": "https://euobserver.com/244439/media-connects-europes-connectors/"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US tech stocks tumble as investors fret over AI spending",
+      "link": "https://www.aljazeera.com/economy/2026/10/23/us-tech-stocks-tumble-as-investors-fret-over-ai-spending?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Venezuelans demand elections in first national protest in nearly two years",
+      "link": "https://www.aljazeera.com/news/2026/10/23/venezuelans-demand-elections-in-first-national-protest-in-nearly-two-years?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump backs Ramaswamy ad featuring rival Amy Acton’s estranged mother",
+      "link": "https://www.aljazeera.com/news/2026/10/23/trump-backs-ramaswamy-ad-featuring-rival-amy-actons-estranged-mother?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+      "link": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "L'Oreal says weight loss drugs are impacting beauty and skin care sales",
+      "link": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Magnitude 7 earthquake strikes Tibet killing at least 16 people and destroying hundreds of homes",
+      "link": "https://www.euronews.com/2026/10/23/magnitude-7-earthquake-strikes-tibet-killing-at-least-16-people-and-destroying-hundreds-of"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix",
+      "link": "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Scorende Kluivert verslaat AC Milan met Bournemouth",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5660589/scorende-kluivert-verslaat-ac-milan-met-bournemouth"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Astronomen zien de echte ochtendhemel in De sterrennacht, expert Van Gogh Museum is niet overtuigd",
+      "link": "https://scientias.nl/van-gogh-bracht-meerdere-nachten-samen-op-een-doek-de-echte-hemel-achter-de-sterrennacht/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "advocaat christa pike fout geprikt infuus veroorzaakte mogelijk kapotte aderen",
+      "link": "https://nos.nl/artikel/2636281-advocaat-christa-pike-fout-geprikt-infuus-veroorzaakte-mogelijk-kapotte-aderen"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "airbnb verhuurders mogen gasten niet meer verplichten de afwas te doen",
+      "link": "https://nos.nl/artikel/2636177-airbnb-verhuurders-mogen-gasten-niet-meer-verplichten-de-afwas-te-doen"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "veilig uitgaan en thuiskomen tijdens ade ook deze editie extra maatregelen",
+      "link": "https://nos.nl/artikel/2636252-veilig-uitgaan-en-thuiskomen-tijdens-ade-ook-deze-editie-extra-maatregelen"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Invallers Arokodare en Ouazane helpen Ajax aan zege op Atalanta",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5660588/invallers-arokodare-en-ouazane-helpen-ajax-aan-zege-op-atalanta"
+    }
+  ]
+}
