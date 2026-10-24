@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-24",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1852,
+  "est_minutes": 15,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Binnenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Israel raids towns, detains dozens of Palestinians in occupied West Bank",
+      "link": "https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
+      "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Pentagon designates Confucius Institutes a national security threat",
+      "link": "https://www.aljazeera.com/news/2026/10/24/pentagon-designates-confucius-institutes-a-national-security-threat?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Princess and prizewinners champion hope against 'darker times' at Princess of Asturias Awards",
+      "link": "https://www.euronews.com/2026/10/23/princess-and-prizewinners-champion-hope-against-darker-times-at-princess-of-asturias-award"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
+      "link": "https://www.bbc.co.uk/news/articles/cx7vpmn6qzmlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Jihadists reportedly urge attacks during protests in Portugal and Spain",
+      "link": "https://www.euronews.com/2026/10/23/jihadists-reportedly-urge-attacks-during-protests-in-portugal-and-spain"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+      "link": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "US designates helium as critical material as Europe faces supply squeeze",
+      "link": "https://www.euronews.com/2026/10/23/us-designates-helium-as-critical-material-as-europe-faces-supply-squeeze"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Turnster Visser elfde in meerkampfinale, goud Blakely",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5660756/turnster-visser-elfde-meerkampfinale-goud-blakely"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Waarom volgen we liever een overtreder dan iemand die zich netjes aan de regels houdt?",
+      "link": "https://scientias.nl/waarom-volgen-we-liever-een-overtreder-dan-iemand-die-zich-netjes-aan-de-regels-houdt/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "pepperspray en houten platen parijs zet zich schrap voor nieuwe actiedag",
+      "link": "https://nos.nl/artikel/2636414-pepperspray-en-houten-platen-parijs-zet-zich-schrap-voor-nieuwe-actiedag"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "zijn door het php lek slimme apparaten nog wel veilig te gebruiken",
+      "link": "https://nos.nl/artikel/2636368-zijn-door-het-php-lek-slimme-apparaten-nog-wel-veilig-te-gebruiken"
+    },
+    {
+      "source": "RTL Binnenland",
+      "category": "binnenland",
+      "title": "Kritiek op politie na dood Hajar, zaak niet meteen als urgent bestempeld",
+      "link": "https://www.rtl.nl/nieuws/binnenland/artikel/5660699/zaak-hajar-politie-vermissing"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "israelische leger valt meerdere plaatsen op westelijke jordaanoever binnen",
+      "link": "https://nos.nl/artikel/2636411-israelische-leger-valt-meerdere-plaatsen-op-westelijke-jordaanoever-binnen"
+    }
+  ]
+}
