@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-25",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1621,
+  "est_minutes": 13,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "New York Archdiocese agrees to pay $800m to 1,300 sexual abuse survivors",
+      "link": "https://www.aljazeera.com/news/2026/10/25/new-york-archdiocese-agrees-to-pay-800m-to-1300-sexual-abuse-survivors?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "El Clasico awaits a Yamal vs Mbappe showdown on Mourinho’s return to La Liga",
+      "link": "https://www.aljazeera.com/sports/2026/10/25/el-clasico-awaits-a-yamal-vs-mbappe-showdown-on-mourinhos-return-to-la-liga?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+      "link": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Protests sweep across Europe from France to Albania, Italy, Spain and Portugal.",
+      "link": "https://www.euronews.com/2026/10/24/protests-sweep-across-europe-from-france-to-albania-italy-spain-and-portugal"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Mystery over source of Ebola infection in Nigeria fuels concern about spread of virus",
+      "link": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix",
+      "link": "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Controversial US-backed vaccine trial in African newborns halted",
+      "link": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Atlético Madrid boekt minimale zege in aanloop naar Clásico",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5660886/atletico-madrid-boekt-minimale-zege-aanloop-naar-clasico"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Klimaatmodellen blijken El Niño na een La Niña wél een jaar vooruit te kunnen voorspellen",
+      "link": "https://scientias.nl/klimaatmodellen-blijken-el-nino-na-een-la-nina-wel-een-jaar-vooruit-te-kunnen-voorspellen/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "op verschillende plekken overlast door storm boelo",
+      "link": "https://nos.nl/artikel/2636535-op-verschillende-plekken-overlast-door-storm-boelo"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "zijn door het php lek slimme apparaten nog wel veilig te gebruiken",
+      "link": "https://nos.nl/artikel/2636368-zijn-door-het-php-lek-slimme-apparaten-nog-wel-veilig-te-gebruiken"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "topdrukte bij gelders tankstation met stuntprijzen uur lang tanken voor 1 euro",
+      "link": "https://nos.nl/artikel/2636486-topdrukte-bij-gelders-tankstation-met-stuntprijzen-uur-lang-tanken-voor-1-euro"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "bijna 1000 arrestaties in frankrijk minister tevreden over verloop protesten",
+      "link": "https://nos.nl/artikel/2636520-bijna-1000-arrestaties-in-frankrijk-minister-tevreden-over-verloop-protesten"
+    }
+  ]
+}
