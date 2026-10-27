@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-27",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1358,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Binnenland",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "US-brokered ceasefire begins in Russian-occupied Oleshky as strikes hit Kyiv",
+      "link": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Israel heads to the polls as shift to the right dominates critical election",
+      "link": "https://www.aljazeera.com/news/2026/10/27/israel-heads-to-the-polls-as-shift-to-the-right-dominates-critical-election?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Meghan to co-host Junior MasterChef Australia",
+      "link": "https://www.bbc.co.uk/news/articles/crgqwg3ll1v1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Ex-FBI chief James Comey faces federal charges for third time",
+      "link": "https://www.bbc.co.uk/news/articles/ckly0xqjnlwvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Turkey-Libya maritime boundaries deal 'remains null and void,' Greek foreign minister says",
+      "link": "https://www.euronews.com/2026/10/26/turkey-libya-maritime-boundaries-deal-remains-null-and-void-greek-foreign-minister-says"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Lula wins fourth term in dramatic Brazil election comeback",
+      "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+      "link": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
+      "link": "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Kane voor het eerst verkozen tot beste voetballer ter wereld",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5661200/kane-voor-het-eerst-verkozen-tot-beste-voetballer-ter-wereld"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Psychedelicum uit paddengif verlicht depressie wekenlang, maar “nazorg blijft nodig”",
+      "link": "https://scientias.nl/psychedelicum-uit-paddengif-verlicht-depressie-wekenlang-maar-nazorg-blijft-nodig/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "onderzoek aanzienlijke groep nederlanders voelt zich achtergesteld",
+      "link": "https://nos.nl/artikel/2636817-onderzoek-aanzienlijke-groep-nederlanders-voelt-zich-achtergesteld"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "anthropic waarschuwt richting beursgang dat ai veiligheidsprobleem voor wereld kan worden",
+      "link": "https://nos.nl/artikel/2636787-anthropic-waarschuwt-richting-beursgang-dat-ai-veiligheidsprobleem-voor-wereld-kan-worden"
+    },
+    {
+      "source": "RTL Binnenland",
+      "category": "binnenland",
+      "title": "Woningen in Amsterdam Nieuw-West ontruimd om vondst mogelijk explosief",
+      "link": "https://www.rtl.nl/nieuws/binnenland/artikel/5661191/woningen-amsterdam-nieuw-west-ontruimd-om-vondst-mogelijk"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "stembureaus israel geopend aanslagen 7 oktober en hervormingen belangrijke thema s",
+      "link": "https://nos.nl/artikel/2636820-stembureaus-israel-geopend-aanslagen-7-oktober-en-hervormingen-belangrijke-thema-s"
+    }
+  ]
+}
