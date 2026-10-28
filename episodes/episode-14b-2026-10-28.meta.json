@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-28",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1617,
+  "est_minutes": 13,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "NYT - World",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "The pact that aims to return tourism's wealth to residents",
+      "link": "https://www.euronews.com/2026/10/28/the-pact-that-aims-to-return-tourisms-wealth-to-residents"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Boeing shares tumble after it releases cautious growth forecast",
+      "link": "https://www.euronews.com/2026/10/28/boeing-shares-tumble-after-it-releases-cautious-growth-forecast"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Mahmoud Khalil credits Palestinian activism for reshaping US politics",
+      "link": "https://www.aljazeera.com/news/2026/10/28/mahmoud-khalil-credits-palestinian-activism-for-reshaping-us-politics?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Climate change should be declared health emergency as health risks can no longer be ignored",
+      "link": "https://www.euronews.com/2026/10/28/climate-change-should-be-declared-health-emergency-as-health-risks-can-no-longer-be-ignore"
+    },
+    {
+      "source": "NYT - World",
+      "category": "buitenland",
+      "title": "Israel Election Live Updates: Rivals Strike Tone of Triumph, but Outcome Is Far From Clear",
+      "link": "https://www.nytimes.com/live/2026/10/27/world/israel-elections"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Global stock markets rise as investors continue to bet on AI",
+      "link": "https://www.aljazeera.com/news/2026/10/28/global-stock-markets-rise-as-investors-continue-to-bet-on-ai?traffic_source=rss"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "Revealed: New data shows Big Tech lobbying pushing EU towards sweeping data-protection rollback",
+      "link": "https://euobserver.com/245206/revealed-new-data-shows-big-tech-lobbying-pushing-eu-towards-sweeping-data-protection-rollback/"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
+      "link": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Oud-bekerwinnaar Go Ahead wint in eerste ronde van amateurs HFC",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5661510/oud-bekerwinnaar-go-ahead-wint-eerste-ronde-van-amateurs-hfc"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Een dode ster met twee ringen: mogelijk het lot van ons zonnestelsel",
+      "link": "https://scientias.nl/witte-dwerg-dubbele-puinschijf/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "spanningen tussen vs en cuba leiden tot ruzie en geschreeuw bij vn",
+      "link": "https://nos.nl/artikel/2636958-spanningen-tussen-vs-en-cuba-leiden-tot-ruzie-en-geschreeuw-bij-vn"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "mysterieuze cryptobaas en handige ai ontwikkelaar wie zijn de nieuwkomers in de quote 500",
+      "link": "https://nos.nl/artikel/2636937-mysterieuze-cryptobaas-en-handige-ai-ontwikkelaar-wie-zijn-de-nieuwkomers-in-de-quote-500"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "drukste avondspits van het jaar ruim 1100 kilometer file",
+      "link": "https://nos.nl/artikel/2636917-drukste-avondspits-van-het-jaar-ruim-1100-kilometer-file"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "'Bolsonaro heeft Brazilië verlaten, is in VS aangekomen'",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5661463/flavio-bolsonaro-heeft-brazilie-verlaten-zou-naar-vs-zijn-gereisd"
+    }
+  ]
+}
