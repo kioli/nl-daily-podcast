@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-29",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1830,
+  "est_minutes": 15,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Europe’s oil bill: EU pays €10bn more per month than in 2025",
+      "link": "https://www.euronews.com/2026/10/29/europes-oil-bill-eu-pays-10bn-more-per-month-than-in-2025"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Sánchez pledges tough line on possible safety failures after Toledo train crash",
+      "link": "https://www.euronews.com/2026/10/29/sanchez-pledges-tough-line-on-possible-safety-failures-after-toledo-train-crash"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Activists accuse Israeli settlers of assault in occupied West Bank",
+      "link": "https://www.aljazeera.com/news/2026/10/29/activists-accuse-israeli-settlers-of-assault-in-occupied-west-bank?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "30-year sentence in Minnesota fraud that drew Trump backlash",
+      "link": "https://www.aljazeera.com/news/2026/10/29/30-year-sentence-in-minnesota-fraud-that-drew-trump-backlash?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Support for UN vote to end US embargo on Cuba falls to 30-year low",
+      "link": "https://www.euronews.com/2026/10/28/support-for-un-vote-to-end-us-embargo-on-cuba-falls-to-30-year-low"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "High-speed train crash kills at least 68 people in Spain",
+      "link": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Liverpool verslaat Chelsea na strafschoppen in League Cup",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5661705/liverpool-verslaat-chelsea-na-strafschoppen-league-cup"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Elke zes dagen vliegt een radarsatelliet over Amsterdam; een kunstenaar maakte er een beat van",
+      "link": "https://scientias.nl/elke-zes-dagen-vliegt-een-radarsatelliet-over-amsterdam-een-kunstenaar-maakte-er-een-beat-van/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "activist en vakbondsleider dolores huerta 96 overleden vrouw achter slogan obama",
+      "link": "https://nos.nl/artikel/2637105-activist-en-vakbondsleider-dolores-huerta-96-overleden-vrouw-achter-slogan-obama"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "rechter geeft booking gelijk personeel moet verplicht vaker naar kantoor",
+      "link": "https://nos.nl/artikel/2637007-rechter-geeft-booking-gelijk-personeel-moet-verplicht-vaker-naar-kantoor"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "podcast de monarchie hoe het koningshuis en defensie elkaar omarmen",
+      "link": "https://nos.nl/artikel/2637053-podcast-de-monarchie-hoe-het-koningshuis-en-defensie-elkaar-omarmen"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "democraten manipuleerden stembiljetten alaska trump eist terugtrekking kandidaat",
+      "link": "https://nos.nl/artikel/2637097-democraten-manipuleerden-stembiljetten-alaska-trump-eist-terugtrekking-kandidaat"
+    }
+  ]
+}
