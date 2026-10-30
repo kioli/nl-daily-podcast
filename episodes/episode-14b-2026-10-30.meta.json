@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-30",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1856,
+  "est_minutes": 15,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Venezuela’s Machado lauds Trump for ‘freedom’, urges 2027 elections",
+      "link": "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US judge blocks Trump’s Medicaid rule forcing ill to prove impairment",
+      "link": "https://www.aljazeera.com/news/2026/10/30/us-judge-blocks-trumps-medicaid-rule-forcing-ill-to-prove-impairment?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+      "link": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Actor Patrick Stewart, star of 'Star Trek' and 'X-Men', dies aged 86",
+      "link": "https://www.euronews.com/2026/10/29/patrick-stewart-star-of-star-trek-and-x-men-dies-aged-86"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+      "link": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Ukraine: Russian strike kills two teenage girls in Chernihiv",
+      "link": "https://www.euronews.com/video/2026/10/30/ukraine-russian-strike-kills-two-teenage-girls-in-chernihiv"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
+      "link": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
+      "link": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Djokovic op ATP-toernooi Bazel uitgeschakeld door Struff",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5661915/djokovic-op-atp-toernooi-bazel-uitgeschakeld-door-struff"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Dezelfde oogst in kilo’s, maar zwaardere peren dankzij een laserscan van de boom",
+      "link": "https://scientias.nl/dezelfde-oogst-in-kilos-maar-zwaardere-peren-dankzij-een-laserscan-van-de-boom/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "megaoperatie in vught monumentaal stationsgebouw wordt opgetild en verplaatst",
+      "link": "https://nos.nl/artikel/2637244-megaoperatie-in-vught-monumentaal-stationsgebouw-wordt-opgetild-en-verplaatst"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "met een dikke kat zegt het franse ai bedrijf mistral kijk ook eens naar ons",
+      "link": "https://nos.nl/artikel/2637207-met-een-dikke-kat-zegt-het-franse-ai-bedrijf-mistral-kijk-ook-eens-naar-ons"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "herman brood opgenomen in kunstcollectie rijk als goud winnen op de olympische spelen",
+      "link": "https://nos.nl/artikel/2637189-herman-brood-opgenomen-in-kunstcollectie-rijk-als-goud-winnen-op-de-olympische-spelen"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "veroordeelde paddenstoelenmoord australie verliest beroepzaak komt nooit meer vrij",
+      "link": "https://nos.nl/artikel/2637241-veroordeelde-paddenstoelenmoord-australie-verliest-beroepzaak-komt-nooit-meer-vrij"
+    }
+  ]
+}
