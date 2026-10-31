@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-31",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1442,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Economie",
+    "RTL Binnenland",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US jails two Chinese nationals for spying",
+      "link": "https://www.aljazeera.com/news/2026/10/31/us-jails-two-chinese-nationals-for-spying?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US execution survivor Christa Pike says she is now in ‘constant pain’",
+      "link": "https://www.aljazeera.com/news/2026/10/31/us-execution-survivor-christa-pike-says-she-is-now-in-constant?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Police deployed during stand-off over control of top Poland court",
+      "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Polish president turns back mid-flight amid court 'coup d'état' claims",
+      "link": "https://www.euronews.com/2026/10/30/polish-president-turns-back-mid-flight-amid-coup-detat-allegations"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Brazil claims it questioned Argentina over Bolsonaro's escape, Buenos Aires denies it",
+      "link": "https://www.euronews.com/2026/10/30/brazil-claims-it-questioned-argentina-over-bolsonaros-escape-buenos-aires-denies-it"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Canada aims to become EU's first 'associate member' by June 2027, Carney says",
+      "link": "https://www.euronews.com/2026/10/30/canada-aims-to-become-eus-first-associate-member-by-june-2027-carney-says"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "PSV-tegenstander Club Brugge koploper na uitzege op Zulte Waregem",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5662151/psv-tegenstander-club-brugge-koploper-na-uitzege-op-zulte-waregem"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Sneeuwstormen brengen microplastics tot diep in de Sierra Nevada",
+      "link": "https://scientias.nl/sneeuwstormen-brengen-microplastics-tot-diep-in-de-sierra-nevada/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "evacues olesjky aangekomen op de krim eindelijk vrede we verhongerden",
+      "link": "https://nos.nl/artikel/2637396-evacues-olesjky-aangekomen-op-de-krim-eindelijk-vrede-we-verhongerden"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "wat leren we van de grootste cryptoroof ooit hou je mond over wat je bezit",
+      "link": "https://nos.nl/artikel/2637333-wat-leren-we-van-de-grootste-cryptoroof-ooit-hou-je-mond-over-wat-je-bezit"
+    },
+    {
+      "source": "RTL Binnenland",
+      "category": "binnenland",
+      "title": "Brand jaagt Sinterklaas in Amsterdam op kosten: 164 pietenpakken in vlammen op",
+      "link": "https://www.rtl.nl/nieuws/binnenland/artikel/5661985/pietenpakken-intocht-amsterdam-brand-sinterklaas"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "VS keurt mogelijke verkoop van 500 Patriot-raketten aan Oekraïne goed",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5662148/vs-keurt-mogelijke-verkoop-van-500-patriot-raketten-aan-oekraine"
+    }
+  ]
+}
