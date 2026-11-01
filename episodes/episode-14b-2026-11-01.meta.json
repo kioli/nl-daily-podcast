@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-01",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1376,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Ukrainian evacuees from Russian-occupied Oleshky reunite with family",
+      "link": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Shops looted as German cost of living protests turn violent",
+      "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Bolivia declares state of emergency over El Nino weather pattern",
+      "link": "https://www.aljazeera.com/news/2026/11/1/bolivia-declares-state-of-emergency-over-el-nino-weather-pattern?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Poland crisis: Donald Tusk strikes defiant tone vowing ‘no compromise’ on rule of law after Tribunal clash",
+      "link": "https://www.euronews.com/2026/10/31/poland-crisis-donald-tusk-strikes-defiant-tone-vowing-no-compromise-on-rule-of-law-after-t"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Berlin student protests: youth demands meet extremist mobilisation",
+      "link": "https://www.euronews.com/2026/10/31/berlin-student-protests-youth-demands-meet-extremist-mobilisation"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "France's third weekend of social protests sees lower turnout and early clashes in major cities",
+      "link": "https://www.euronews.com/2026/10/31/frances-third-weekend-of-social-protests-sees-lower-turnout-and-early-clashes-in-major-cit"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Verstappen start na straf als vijfde in Mexico, Hamilton op pole",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5662272/verstappen-start-na-straf-als-vijfde-mexico-hamilton-op-pole"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Hubble en Webb vangen een spookachtige kattenkop in de Carinanevel",
+      "link": "https://scientias.nl/kattenkopnevel-ruimtefoto/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "rechter wijst trumps miljardenclaim om verjaardagsbrief aan epstein af",
+      "link": "https://nos.nl/artikel/2637543-rechter-wijst-trumps-miljardenclaim-om-verjaardagsbrief-aan-epstein-af"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "wat leren we van de grootste cryptoroof ooit hou je mond over wat je bezit",
+      "link": "https://nos.nl/artikel/2637333-wat-leren-we-van-de-grootste-cryptoroof-ooit-hou-je-mond-over-wat-je-bezit"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "tientallen aanhoudingen in den haag geen grote demonstraties in nederland",
+      "link": "https://nos.nl/artikel/2637449-tientallen-aanhoudingen-in-den-haag-geen-grote-demonstraties-in-nederland"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Onrustig bij demonstraties in Frankrijk en Duitsland",
+      "link": "https://www.rtl.nl/nieuws/buitenland/video/2aaf409f-55cb-4fbd-93e3-fe1bea0a85c5/onrustig-bij-demonstraties-frankrijk"
+    }
+  ]
+}
