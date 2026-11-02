@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-02",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1308,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Kimi Antonelli becomes youngest F1 champion as Max Verstappen wins race",
+      "link": "https://www.euronews.com/2026/11/02/kimi-antonelli-becomes-youngest-f1-champion-as-max-verstappen-wins-race"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Write-In Ralph: South Carolina Republicans challenge Trump’s Senate pick",
+      "link": "https://www.aljazeera.com/news/2026/11/2/write-in-ralph-south-carolina-republicans-challenge-trumps-senate-pick?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump leans into Islamophobia and conspiracy in last-ditch campaign rallies",
+      "link": "https://www.aljazeera.com/news/2026/11/2/trump-leans-into-islamophobia-and-conspiracy-in-last-ditch-campaign-rallies?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US midterms: What to know about independent voters and candidates",
+      "link": "https://www.aljazeera.com/news/2026/11/2/us-midterms-what-to-know-about-independent-voters-and-candidates?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+      "link": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+      "link": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+      "link": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Bulgaria's acting President Yotova leads in exit polls of runoff election",
+      "link": "https://www.euronews.com/2026/11/01/bulgarias-acting-president-yotova-leads-in-exit-polls-of-runoff-election"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Verstappen klimt na 'hectische' zege naar tweede plaats in WK",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5662409/verstappen-klimt-na-hectische-zege-naar-tweede-plaats-wk"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Deze roze steen uit Mali is één van de oudste stukken Mars die we ooit vonden",
+      "link": "https://scientias.nl/teghaza-001/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "privejet stort neer in woonwijk in florida alle negen inzittenden omgekomen",
+      "link": "https://nos.nl/artikel/2637682-privejet-stort-neer-in-woonwijk-in-florida-alle-negen-inzittenden-omgekomen"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "ondanks grootste game ooit deze maand verdwijnen banen in de game industrie",
+      "link": "https://nos.nl/artikel/2637565-ondanks-grootste-game-ooit-deze-maand-verdwijnen-banen-in-de-game-industrie"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "800 jaar oude kerken in groningen kraken onder zomerse droogte",
+      "link": "https://nos.nl/artikel/2637650-800-jaar-oude-kerken-in-groningen-kraken-onder-zomerse-droogte"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Negen doden bij crash privéjet in woonwijk Florida, toestel ontploft naast drukke weg",
+      "link": "https://www.rtl.nl/nieuws/artikel/5662394/negen-doden-bij-crash-privejet-woonwijk-florida-ontploft-verenigde-staten"
+    }
+  ]
+}
