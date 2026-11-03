@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-03",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1388,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Spain introduces paid menopause sick leave from December 2026",
+      "link": "https://www.euronews.com/2026/11/03/spain-introduces-paid-menopause-sick-leave-from-december-2026"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US midterms present a test for Republican redistricting in Texas and beyond",
+      "link": "https://www.aljazeera.com/news/2026/11/3/us-midterms-present-a-test-for-republican-redistricting-in-texas-and-beyond?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "El-Sayed, Rogers hold dueling rallies as bitter campaign comes to a close",
+      "link": "https://www.aljazeera.com/news/2026/11/3/el-sayed-rogers-hold-dueling-rallies-as-bitter-campaign-comes-to-a-close?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+      "link": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+      "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+      "link": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "British government sets out tougher rules for migrants looking to settle in the UK",
+      "link": "https://www.euronews.com/2026/11/02/british-government-sets-out-tougher-rules-for-migrants-looking-to-settle-in-the-uk"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
+      "link": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Vollering en Van der Poel gekozen tot wielrenners van het jaar",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5662574/vollering-en-van-der-poel-gekozen-tot-wielrenners-van-het-jaar"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Deze bij maakt haar eigen plastic – dat wél afbreekt",
+      "link": "https://scientias.nl/deze-bij-maakt-haar-eigen-plastic-dat-wel-afbreekt/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "hotel in amsterdam ontruimd na grote brand",
+      "link": "https://nos.nl/artikel/2637811-hotel-in-amsterdam-ontruimd-na-grote-brand"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "weer aanval op winkelkoelingen door heel europa bedrijven hebben zitten slapen",
+      "link": "https://nos.nl/artikel/2637775-weer-aanval-op-winkelkoelingen-door-heel-europa-bedrijven-hebben-zitten-slapen"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "2 miljoen voor gouden tip bolle jos gonst het in sierra leone wordt hij verraden",
+      "link": "https://nos.nl/artikel/2637789-2-miljoen-voor-gouden-tip-bolle-jos-gonst-het-in-sierra-leone-wordt-hij-verraden"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "in florida gecrashte privejet verloor mogelijk in de lucht onderdelen",
+      "link": "https://nos.nl/artikel/2637800-in-florida-gecrashte-privejet-verloor-mogelijk-in-de-lucht-onderdelen"
+    }
+  ]
+}
