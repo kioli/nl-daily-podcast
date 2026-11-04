@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-04",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1406,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "China is leading the clean energy industry. Will it redraw the lines of global power?",
+      "link": "https://www.euronews.com/2026/11/04/china-is-leading-the-clean-energy-industry-will-it-redraw-the-lines-of-global-power"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "UK Supreme Court to hear appeal against ban on Palestine Action group",
+      "link": "https://www.euronews.com/2026/11/04/uk-supreme-court-to-hear-appeal-against-ban-on-palestine-action-group"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Thousands join Czech protest against public media financing plan",
+      "link": "https://www.euronews.com/2026/11/04/thousands-join-czech-protest-against-public-media-financing-plan"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Talarico wins Texas Senate race, ending decades of Republican dominance",
+      "link": "https://www.aljazeera.com/news/2026/11/4/talarico-wins-texas-senate-race-ending-decades-of-republican-dominance?traffic_source=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "ANC faces anger over poor services as South Africans vote in local elections",
+      "link": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Democratic rising star Ossoff projected to hold Georgia seat",
+      "link": "https://www.bbc.co.uk/news/articles/cqwyrmm2k4mpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Spanish transport minister resigns days after deadly train crash",
+      "link": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Democrat Amy Acton beats Republican Vivek Ramaswamy in Ohio governor’s race",
+      "link": "https://www.aljazeera.com/news/2026/11/4/democrat-amy-acton-beats-republican-vivek-ramaswamy-in-ohio-governors-race?traffic_source=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Feyenoord lijdt kansloze nederlaag tegen Internazionale",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5662811/feyenoord-lijdt-kansloze-nederlaag-tegen-internazionale"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Een nieuw dwergplaneetje? Rubin vindt groot ijswereldje voorbij Pluto",
+      "link": "https://scientias.nl/2026-ed138-rubin/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "enorme winst democraten bij midterms republikeinen verliezen meerderheid senaat",
+      "link": "https://nos.nl/artikel/2637958-enorme-winst-democraten-bij-midterms-republikeinen-verliezen-meerderheid-senaat"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "nachtwerk vaak onnodig en werknemers onvoldoende beschermd waarschuwt arbeidsinspectie",
+      "link": "https://nos.nl/artikel/2637903-nachtwerk-vaak-onnodig-en-werknemers-onvoldoende-beschermd-waarschuwt-arbeidsinspectie"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "overheid was onbetrouwbaar voor boeren zegt nationale ombudsman",
+      "link": "https://nos.nl/artikel/2637945-overheid-was-onbetrouwbaar-voor-boeren-zegt-nationale-ombudsman"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "opnieuw duizenden tsjechen de straat op tegen hervorming publieke omroep",
+      "link": "https://nos.nl/artikel/2637936-opnieuw-duizenden-tsjechen-de-straat-op-tegen-hervorming-publieke-omroep"
+    }
+  ]
+}
