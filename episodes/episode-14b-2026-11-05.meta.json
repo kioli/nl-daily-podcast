@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-05",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1537,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Economie",
+    "RTL Buitenland",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "What teeth from a centuries-old cemetery can teach us about climate shocks and disease",
+      "link": "https://www.euronews.com/2026/11/05/how-teeth-from-a-centuries-old-cemetery-can-teach-us-about-climate-shocks-and-disease"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
+      "link": "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "link": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+      "link": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "As tiger mosquitoes spread, Europe races to stop tropical diseases",
+      "link": "https://www.euronews.com/2026/11/05/europes-tropical-disease-threat-is-moving-north-can-it-stop-mosquitoes-in-their-tracks"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Serbia arrests police over excessive violence against student protesters",
+      "link": "https://www.euronews.com/2026/11/05/serbia-arrests-police-officers-accused-of-using-violence-against-student-protesters"
+    },
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "Two fatal train disasters in less than a year: I never thought I would see this happen in my native Spain",
+      "link": "https://euobserver.com/246831/two-fatal-train-disasters-in-less-than-a-year-i-never-thought-i-would-see-this-happen-in-my-native-spain/"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
+      "link": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Oekraïne bespreekt financiering oorlog met VS en Europa",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5663049/oekraine-bespreekt-financiering-oorlog-met-vs-en-europa"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Het zijn net mensen: de complexe persoonlijkheid van katten",
+      "link": "https://scientias.nl/het-zijn-net-mensen-de-complexe-persoonlijkheid-van-katten/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "duitse politicus dood aangetroffen in hotelkamer",
+      "link": "https://nos.nl/artikel/2638085-duitse-politicus-dood-aangetroffen-in-hotelkamer"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "hema 100 jaar hoe blijft een winkel een eeuw lang overeind",
+      "link": "https://nos.nl/artikel/2638038-hema-100-jaar-hoe-blijft-een-winkel-een-eeuw-lang-overeind"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "organisaties voor mensenrechten breken onder amerikaanse druk met strafhof",
+      "link": "https://nos.nl/artikel/2638063-organisaties-voor-mensenrechten-breken-onder-amerikaanse-druk-met-strafhof"
+    },
+    {
+      "source": "RTL Buitenland",
+      "category": "buitenland",
+      "title": "Ruimtetelescoop vergaan in dampkring, onduidelijk of brokstukken zijn ingeslagen",
+      "link": "https://www.rtl.nl/nieuws/buitenland/artikel/5663031/ruimtetelescoop-swift-nasa-missie"
+    }
+  ]
+}
