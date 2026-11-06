@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-06",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1361,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Binnenland",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "[Investigation] How the EU’s methane rules came undone, and ended up giving Trump exactly what he wanted",
+      "link": "https://euobserver.com/247183/investigation-how-the-eus-methane-rules-came-undone/"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump issues proclamation declaring Oval Office national monument",
+      "link": "https://www.aljazeera.com/news/2026/11/6/trump-issues-proclamation-declaring-oval-office-national-monument?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Israeli settlers seize 8 Palestinian homes in Jericho, displacing dozens",
+      "link": "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Trump signs order preventing future presidents from changing Oval Office",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Zelenskyy urges Latin American leaders to help repair Ukraine's power grid",
+      "link": "https://www.euronews.com/2026/11/06/zelenskyy-urges-latin-american-leaders-to-help-repair-ukraines-power-grid"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+      "link": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Paraguayan president resigns amid bank collapse leaving 3M people without access to bank accounts",
+      "link": "https://www.euronews.com/2026/11/05/paraguayan-president-resigns-amid-bank-collapse-leaving-3m-people-without-access-to-bank-a"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Smit spreekt bij rentree bij AZ van 'leermoment' bij blessure",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5663427/smit-spreekt-bij-rentree-bij-az-van-leermoment-bij-blessure"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Archeologische vondst onthult dat cannabis 2.800 jaar geleden al werd gebruikt als geestverruimend middel",
+      "link": "https://scientias.nl/archeologische-vondst-onthult-dat-cannabis-2-800-jaar-geleden-al-werd-gebruikt-als-geestverruimend-middel/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "wekdienst 6 11 paus leo op werkbezoek naar zuid amerika keniaanse sekteleider hoort straf",
+      "link": "https://nos.nl/artikel/2638234-wekdienst-6-11-paus-leo-op-werkbezoek-naar-zuid-amerika-keniaanse-sekteleider-hoort-straf"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "techaandelen krijgen flinke klappen amerikaanse nasdaq zo n 5 procent omlaag",
+      "link": "https://nos.nl/artikel/2638178-techaandelen-krijgen-flinke-klappen-amerikaanse-nasdaq-zo-n-5-procent-omlaag"
+    },
+    {
+      "source": "RTL Binnenland",
+      "category": "binnenland",
+      "title": "KLM-vlucht in Boekarest na bommelding niet verder naar Tel Aviv door technisch mankement",
+      "link": "https://www.rtl.nl/nieuws/binnenland/artikel/5663266/klm-vlucht-niet-verder-naar-tel-aviv-na-bommelding-door-technisch"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "duitse supermarktmedewerker int 2 ton met duizenden nepstatiegeldbonnen",
+      "link": "https://nos.nl/artikel/2638223-duitse-supermarktmedewerker-int-2-ton-met-duizenden-nepstatiegeldbonnen"
+    }
+  ]
+}
