@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-07",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1911,
+  "est_minutes": 15,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
+      "link": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump confirms new US strikes on Iran’s Qeshm Island",
+      "link": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Polar vortex weakens weeks ahead of schedule, raising risk of cold spells",
+      "link": "https://www.euronews.com/2026/11/06/polar-vortex-weakens-weeks-ahead-of-schedule-raising-risk-of-cold-spells"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "From gastronomy to sports: What to discover in Spain's Region of Valencia",
+      "link": "https://www.euronews.com/2026/11/06/from-gastronomy-to-sports-what-to-discover-in-spains-region-of-valencia"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "A trip to the Philippines offers hidden gems, slow food and colourful events",
+      "link": "https://www.euronews.com/2026/11/06/a-trip-to-the-philippines-offers-hidden-gems-slow-food-and-colourful-events"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+      "link": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+      "link": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Tennisser Alcaraz verslaat Fritz in Parijs, Jodar naar ATP Finals",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5663720/tennisser-alcaraz-verslaat-fritz-parijs-jodar-naar-atp-finals"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Bijna uitgestorven, toch gered",
+      "link": "https://scientias.nl/bijna-uitgestorven-maar-niet-verloren/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "alliana nieuwe president van paraguay pena officieel afgezet na bankcrisis",
+      "link": "https://nos.nl/artikel/2638382-alliana-nieuwe-president-van-paraguay-pena-officieel-afgezet-na-bankcrisis"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "amerikanen stemmen tegen datacenters wat betekent dat voor techbedrijven",
+      "link": "https://nos.nl/artikel/2638344-amerikanen-stemmen-tegen-datacenters-wat-betekent-dat-voor-techbedrijven"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "man op schiphol opgepakt voor bommelding op vlucht naar praag",
+      "link": "https://nos.nl/artikel/2638366-man-op-schiphol-opgepakt-voor-bommelding-op-vlucht-naar-praag"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "groen licht voor trumps triomfboog maar rechter legt bouw direct stil",
+      "link": "https://nos.nl/artikel/2638361-groen-licht-voor-trumps-triomfboog-maar-rechter-legt-bouw-direct-stil"
+    }
+  ]
+}
