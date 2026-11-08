@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-08",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1399,
+  "est_minutes": 11,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Algemeen",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US launches task force to disrupt Iran’s land-based supply routes",
+      "link": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "What we know so far after Krakow gun attack",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Earthquake hits central Japan, injuring more than 20 people",
+      "link": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Liverpool FC targets counterfeit pro-Palestinian shirts using altered club crest",
+      "link": "https://www.euronews.com/2026/11/07/liverpool-fc-targets-counterfeit-pro-palestinian-shirts-using-altered-club-crest"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump asks UFC chief Dana White to be White House press secretary",
+      "link": "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "link": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+      "link": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Koploper PSG wint van Troyes zevende competitiewedstrijd op rij",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5663871/koploper-psg-wint-van-troyes-zevende-competitiewedstrijd-op-rij"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Hera nadert Didymos: het ruimtelijk onderzoek naar de DART-inslag begint bijna",
+      "link": "https://scientias.nl/hera-nadert-didymos-het-ruimtelijk-onderzoek-naar-de-dart-inslag-begint-bijna/"
+    },
+    {
+      "source": "RTL Algemeen",
+      "category": "algemeen",
+      "title": "Nicolas Cage: ik ben niet echt dakloos",
+      "link": "https://www.rtl.nl/boulevard/artikel/5663877/nicolas-cage-ik-ben-niet-echt-dakloos"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "topman chipgigant nvidia had intieme relatie met chinese spion",
+      "link": "https://nos.nl/artikel/2638442-topman-chipgigant-nvidia-had-intieme-relatie-met-chinese-spion"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "schietpartij in schiedamse woonwijk een dode klopjacht op schutters",
+      "link": "https://nos.nl/artikel/2638491-schietpartij-in-schiedamse-woonwijk-een-dode-klopjacht-op-schutters"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "twee vrouwen en een man dood gevonden in huis schutter krakau vermoedelijk familie",
+      "link": "https://nos.nl/artikel/2638496-twee-vrouwen-en-een-man-dood-gevonden-in-huis-schutter-krakau-vermoedelijk-familie"
+    }
+  ]
+}
