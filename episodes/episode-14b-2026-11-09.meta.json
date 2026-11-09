@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-09",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1161,
+  "est_minutes": 9,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Algemeen",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Nvidia investigates whether CEO Jensen Huang was targeted by Chinese spy following alleged affair",
+      "link": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+      "link": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Mexico arrests alleged major leader of Jalisco cartel",
+      "link": "https://www.aljazeera.com/news/2026/11/9/mexico-arrests-major-leader-of-jalisco-cartel?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wvrrgln13o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
+      "link": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Asian stock markets climb after earlier tech rout",
+      "link": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Pope Leo XIV ends his visit to Uruguay with a tribute to women before departing to Argentina",
+      "link": "https://www.euronews.com/2026/11/08/pope-leo-xiv-ends-his-visit-to-uruguay-with-a-tribute-to-women-before-departing-to-argenti"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Seven dead and more than 100 injured after trains collide in Egypt",
+      "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "FC Barcelona wint topper in La Liga bij Atlético Madrid",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5663991/fc-barcelona-wint-topper-la-liga-bij-atletico-madrid"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Hubble ontdekt waar de zuurstof van kleine sterrenstelsels bleef",
+      "link": "https://scientias.nl/zuurstof-glow-study/"
+    },
+    {
+      "source": "RTL Algemeen",
+      "category": "algemeen",
+      "title": "Dag begint mistig in het noordoosten en zonnig in het zuiden, vannacht mogelijk lichte vorst",
+      "link": "https://www.rtl.nl/nieuws/weer/artikel/5663999/dag-begint-mistig-het-noordoosten-zonnig-het-zuiden"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "nvidia start onderzoek naar spionnen affaire ceo topman erkent vreemdgaan",
+      "link": "https://nos.nl/artikel/2638649-nvidia-start-onderzoek-naar-spionnen-affaire-ceo-topman-erkent-vreemdgaan"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "zeker 200 000 mensen bij rode lijn demonstratie in amsterdam zegt organisatie",
+      "link": "https://nos.nl/artikel/2638553-zeker-200-000-mensen-bij-rode-lijn-demonstratie-in-amsterdam-zegt-organisatie"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "trump noemt aankondiging ufc baas dana white als perschef witte huis grap",
+      "link": "https://nos.nl/artikel/2638658-trump-noemt-aankondiging-ufc-baas-dana-white-als-perschef-witte-huis-grap"
+    }
+  ]
+}
