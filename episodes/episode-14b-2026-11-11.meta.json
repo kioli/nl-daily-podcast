@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-11",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1270,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "US Republicans block efforts to impeach US Defence Secretary Pete Hegseth over Iran war",
+      "link": "https://www.euronews.com/2026/11/11/us-republicans-block-efforts-to-impeach-us-defence-secretary-pete-hegseth-over-iran-war"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+      "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+      "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+      "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
+      "link": "https://www.aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Russia claims interception of 146 drones in Leningrad region",
+      "link": "https://www.aljazeera.com/news/2026/11/11/russia-claims-interception-of-146-drones-in-leningrad-region?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Pope Leo XIV draws huge crowds in Córdoba after record Buenos Aires mass",
+      "link": "https://www.euronews.com/2026/11/10/pope-leo-xiv-draws-huge-crowds-in-cordoba-after-record-buenos-aires-mass"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Collision of two trains in Egypt kills at least seven",
+      "link": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Treffers Casparij en Van Dooren in Champions League",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5664405/treffers-casparij-en-van-dooren-champions-league"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Stoppen met afslankmedicatie mogelijk niet zonder risico",
+      "link": "https://scientias.nl/stoppen-met-afslankmedicatie-mogelijk-niet-zonder-risico/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "schietpartij in amsterdam kogel komt in rijdende bus terecht",
+      "link": "https://nos.nl/artikel/2638947-schietpartij-in-amsterdam-kogel-komt-in-rijdende-bus-terecht"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "druk neemt toe na spionageschandaal kan de chipgigant zonder mister nvidia",
+      "link": "https://nos.nl/artikel/2638935-druk-neemt-toe-na-spionageschandaal-kan-de-chipgigant-zonder-mister-nvidia"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "spanjaard spreekt van martelingen in rotterdam en utrecht door criminelen",
+      "link": "https://nos.nl/artikel/2638936-spanjaard-spreekt-van-martelingen-in-rotterdam-en-utrecht-door-criminelen"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "meer en snellere treinen nederland en duitsland sluiten spoorakkoord",
+      "link": "https://nos.nl/artikel/2638924-meer-en-snellere-treinen-nederland-en-duitsland-sluiten-spoorakkoord"
+    }
+  ]
+}
