@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-12",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1869,
+  "est_minutes": 15,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
+      "link": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "At least two dead while others are trapped in the rubble after a building collapse in New York City",
+      "link": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Amnesty says UN, South Sudan officials failed to prevent village massacre",
+      "link": "https://www.aljazeera.com/news/2026/11/12/amnesty-says-un-south-sudan-officials-failed-to-prevent-village-massacre?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Bolivia arrests former judge on suspicion of drug trafficking",
+      "link": "https://www.aljazeera.com/news/2026/11/12/bolivia-arrests-former-judge-on-suspicion-of-drug-trafficking?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
+      "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
+      "link": "https://www.euronews.com/2026/11/11/frances-11-november-ceremonies-macron-le-pen-melenchon-between-memory-and-pacifism"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Advocaat blij met Bergraaf en Thomas bij Curaçao tegen Panama",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5664651/advocaat-blij-met-bergraaf-en-thomas-bij-curacao-tegen-panama"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Welk antidepressivum je krijgt, maakt meer uit dan je denkt",
+      "link": "https://scientias.nl/welk-antidepressivum-je-krijgt-maakt-meer-uit-dan-je-denkt/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "europa zoekt onderhandelaar oekraine maar dat gaat stroef dreigen anders irrelevant te worden",
+      "link": "https://nos.nl/artikel/2639094-europa-zoekt-onderhandelaar-oekraine-maar-dat-gaat-stroef-dreigen-anders-irrelevant-te-worden"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "wederom sterke cijfers abn amro personeel wil meeprofiteren",
+      "link": "https://nos.nl/artikel/2638958-wederom-sterke-cijfers-abn-amro-personeel-wil-meeprofiteren"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "jongeren vieren toch elfde van de elfde in tilburg we kennen onze grenzen",
+      "link": "https://nos.nl/artikel/2639061-jongeren-vieren-toch-elfde-van-de-elfde-in-tilburg-we-kennen-onze-grenzen"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "ook historische uitslag mississippi democraat wint senaatszetel in dieprode staat",
+      "link": "https://nos.nl/artikel/2639091-ook-historische-uitslag-mississippi-democraat-wint-senaatszetel-in-dieprode-staat"
+    }
+  ]
+}
