@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-13",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1474,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+      "link": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
+      "link": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "US senator Chris Van Hollen to challenge Chuck Schumer for Senate majority leader",
+      "link": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+      "link": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+      "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Who is US Senator Chris Van Hollen?",
+      "link": "https://www.aljazeera.com/news/2026/11/13/who-is-us-senator-chris-van-hollen?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Huang's exit, AI bubble and financial crisis fears in focus on Web Summit's last day",
+      "link": "https://www.euronews.com/2026/11/12/huangs-exit-ai-bubble-and-financial-crisis-fears-in-focus-on-web-summits-last-day"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Engeland met zege op Kroatië naar kwartfinale Nations League",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5664864/engeland-met-zege-op-kroatie-naar-kwartfinale-nations-league"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Als zelfs cactussen niet tegen de droogte kunnen",
+      "link": "https://scientias.nl/als-zelfs-cactussen-niet-tegen-de-droogte-kunnen/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "zorgpremies stijgen volgend jaar flink maar er zijn grote verschillen",
+      "link": "https://nos.nl/artikel/2639241-zorgpremies-stijgen-volgend-jaar-flink-maar-er-zijn-grote-verschillen"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "belastingplan levert zware coalitiecrisis op vier vragen en antwoorden",
+      "link": "https://nos.nl/artikel/2639201-belastingplan-levert-zware-coalitiecrisis-op-vier-vragen-en-antwoorden"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "maatschappelijke organisaties uiten onvrede over kabinetscrisis los dit samen op",
+      "link": "https://nos.nl/artikel/2639206-maatschappelijke-organisaties-uiten-onvrede-over-kabinetscrisis-los-dit-samen-op"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "nog eens zes vrouwen beschuldigen russell brand van seksueel wangedrag",
+      "link": "https://nos.nl/artikel/2639238-nog-eens-zes-vrouwen-beschuldigen-russell-brand-van-seksueel-wangedrag"
+    }
+  ]
+}
