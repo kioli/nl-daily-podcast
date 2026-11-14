@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-14",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1696,
+  "est_minutes": 14,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump, Xi and Putin to hold first three-way summit in China",
+      "link": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Lagos Art Week confronts history, identity and belonging",
+      "link": "https://www.aljazeera.com/news/2026/11/14/lagos-art-week-confronts-history-identity-and-belonging?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "German spies granted sweeping new powers",
+      "link": "https://www.aljazeera.com/news/2026/11/14/german-spies-granted-sweeping-new-powers?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+      "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "EU leaders bring Italy and Poland into Ukraine peace talks team as Kallas fights for spot",
+      "link": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Russia sends major business delegation to Kabul for business talks with the Taliban",
+      "link": "https://www.euronews.com/2026/11/13/russia-sends-major-business-delegation-to-kabul-for-business-talks-with-the-taliban"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Reijnders geeft wedstrijdbal na hattrick voor Oranje aan zoontje",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5665100/reijnders-geeft-wedstrijdbal-na-hattrick-voor-oranje-aan-zoontje"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Waarom we verliefd worden op iemand die niet ons type is",
+      "link": "https://scientias.nl/waarom-we-verliefd-worden-op-iemand-die-niet-ons-type-is/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "passagiers in onzekerheid na grote vliegstop in vs ik zit hier vast",
+      "link": "https://nos.nl/artikel/2639423-passagiers-in-onzekerheid-na-grote-vliegstop-in-vs-ik-zit-hier-vast"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "kansen van klaas knot slinken volgende week duidelijk wie ecb president wordt",
+      "link": "https://nos.nl/artikel/2639342-kansen-van-klaas-knot-slinken-volgende-week-duidelijk-wie-ecb-president-wordt"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "snel grote boom met veel schaduw laten groeien proef moet uitwijzen welke grond daarvoor het best is",
+      "link": "https://nos.nl/artikel/2639365-snel-grote-boom-met-veel-schaduw-laten-groeien-proef-moet-uitwijzen-welke-grond-daarvoor-het-best-is"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "vliegverkeer vs hervat na grote communicatiestoring apparatuur raakte overbelast",
+      "link": "https://nos.nl/artikel/2639391-vliegverkeer-vs-hervat-na-grote-communicatiestoring-apparatuur-raakte-overbelast"
+    }
+  ]
+}
