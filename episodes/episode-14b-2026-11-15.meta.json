@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-15",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1539,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Zimbabwe’s HIV gains face a test among young people",
+      "link": "https://www.aljazeera.com/news/2026/11/15/zimbabwes-hiv-gains-face-a-test-among-young-people?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
+      "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+      "link": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Portugal sees fresh protests over government policies seen as worsening housing crisis",
+      "link": "https://www.euronews.com/2026/11/14/portugal-sees-fresh-protests-over-government-policies-seen-as-worsening-housing-crisis"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "France sees fifth consecutive Saturday of nationwide protests",
+      "link": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Collision of two trains in Egypt kills at least seven",
+      "link": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "How African philosophies inspired a new approach to staging film festivals in Manchester",
+      "link": "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "In zevende minuut staande ovatie voor recordinternational Ronaldo",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5665194/portugal-staat-stil-bij-afscheid-van-recordinternational-ronaldo"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "BepiColombo komt volgende week aan bij Mercurius: na acht jaar is het eindelijk zover",
+      "link": "https://scientias.nl/bepicolombo-14-11-26/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "veiling van gogh schilderij op losse schroeven werk mogelijk onder druk nazi s verkocht",
+      "link": "https://nos.nl/artikel/2639532-veiling-van-gogh-schilderij-op-losse-schroeven-werk-mogelijk-onder-druk-nazi-s-verkocht"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "ai verandert de manier waarop we winkelen gaat enorme impact hebben",
+      "link": "https://nos.nl/artikel/2639452-ai-verandert-de-manier-waarop-we-winkelen-gaat-enorme-impact-hebben"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "duizenden stiekem gemaakte foto s van borsten en billen in achterhoekse appgroep",
+      "link": "https://nos.nl/artikel/2639515-duizenden-stiekem-gemaakte-foto-s-van-borsten-en-billen-in-achterhoekse-appgroep"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "iran meldt brand op twee schepen in straat van hormuz zevende incident in 24 uur",
+      "link": "https://nos.nl/artikel/2639527-iran-meldt-brand-op-twee-schepen-in-straat-van-hormuz-zevende-incident-in-24-uur"
+    }
+  ]
+}
