@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-17",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1901,
+  "est_minutes": 15,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "EU Observer",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "EU Observer",
+      "category": "buitenland",
+      "title": "‘Forever chemicals’ lobbyists met EU Commission 37 times in push to escape ban ahead of key decision",
+      "link": "https://euobserver.com/249008/forever-plastics-lobbyists-met-eu-commission-37-times-in-bid-to-escape-ban/"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+      "link": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "US moves to block China’s remote access to AI chips amid Nvidia scandal",
+      "link": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
+      "link": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
+      "link": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Five EU countries announce migrant deportation centre in Rwanda",
+      "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Houthi rebel advance in Yemen may further destabilise global economy",
+      "link": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Duitse krant over overwinning: Nederlandse verdediging 'ging in vlammen op'",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5665525/duitse-krant-over-overwinning-nederlandse-verdediging-ging-vlammen-op"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Vulcan verliest 40 satellieten, Starship vangt zichzelf: een week van extremen",
+      "link": "https://scientias.nl/ruimtevaartupdate-16-11-2026/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "roken en vapen onder mbo ers blijft populair alcoholgebruik neemt wel af",
+      "link": "https://nos.nl/artikel/2639817-roken-en-vapen-onder-mbo-ers-blijft-populair-alcoholgebruik-neemt-wel-af"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "lobby voor terugkeer huang maar top nvidia zou er niets voor voelen",
+      "link": "https://nos.nl/artikel/2639784-lobby-voor-terugkeer-huang-maar-top-nvidia-zou-er-niets-voor-voelen"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "verkiezingen geen optie bij gemeentelijke coalitiecrises drink een borrel met elkaar",
+      "link": "https://nos.nl/artikel/2639769-verkiezingen-geen-optie-bij-gemeentelijke-coalitiecrises-drink-een-borrel-met-elkaar"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "britse premier burnham we zijn slechter af na brexit",
+      "link": "https://nos.nl/artikel/2639800-britse-premier-burnham-we-zijn-slechter-af-na-brexit"
+    }
+  ]
+}
