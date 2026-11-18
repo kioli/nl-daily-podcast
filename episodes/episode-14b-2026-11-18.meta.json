@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-18",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1730,
+  "est_minutes": 14,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "NYT - World",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "NYT - World",
+      "category": "buitenland",
+      "title": "Live Updates: Trump Meets Philippine Leader Before Flying to China",
+      "link": "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "European Commission accused of sugarcoating figures to release funds to Egypt",
+      "link": "https://www.theguardian.com/world/2026/nov/18/european-commission-accused-sugarcoating-figures-egypt-loans"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Europe risks returning to ‘pre-antibiotic era’ amid growing threat of drug-resistant superbugs",
+      "link": "https://www.euronews.com/2026/11/18/europe-risks-returning-to-pre-antibiotic-era-amid-growing-threat-of-drug-resistant-superbu"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Waymo suspends driverless freeway rides across US after California ban",
+      "link": "https://www.aljazeera.com/news/2026/11/18/waymo-suspends-driverless-freeway-rides-across-us-after-california-ban?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Mary Peltola flips Alaska Senate seat in another Democratic win",
+      "link": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
+      "link": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "US criticises Ukraine's 'deep strike' campaign against Russia",
+      "link": "https://www.euronews.com/2026/11/17/us-criticises-ukraines-deep-strike-campaign-against-russia"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Tennisser Zverev na zege op Shelton naar halve finales ATP Finals",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5665728/tennisser-zverev-na-zege-op-shelton-naar-halve-finales-atp-finals"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Grote Amerikaanse datacenters verbruiken meer stroom dan heel België",
+      "link": "https://scientias.nl/grote-amerikaanse-datacenters-verbruiken-meer-stroom-dan-heel-belgie/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "ook laatste senaatszetel nu definitief naar democraten winst peltola in alaska",
+      "link": "https://nos.nl/artikel/2639952-ook-laatste-senaatszetel-nu-definitief-naar-democraten-winst-peltola-in-alaska"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "nieuwe europese boete dreigt voor webwinkel temu",
+      "link": "https://nos.nl/artikel/2639893-nieuwe-europese-boete-dreigt-voor-webwinkel-temu"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "man die monument op de dam bekladde moet gemeente 2000 euro betalen",
+      "link": "https://nos.nl/artikel/2639923-man-die-monument-op-de-dam-bekladde-moet-gemeente-2000-euro-betalen"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "ier in vs aangeklaagd voor vernielen militair vliegtuig",
+      "link": "https://nos.nl/artikel/2639944-ier-in-vs-aangeklaagd-voor-vernielen-militair-vliegtuig"
+    }
+  ]
+}
