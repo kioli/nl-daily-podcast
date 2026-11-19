@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-19",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1456,
+  "est_minutes": 12,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl",
+    "The Guardian - World"
+  ],
+  "articles": [
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump makes third Supreme Court bid to end Venezuelan migrant protections",
+      "link": "https://www.aljazeera.com/news/2026/11/19/trump-makes-third-supreme-court-bid-to-end-venezuelan-migrant-protections?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Elon Musk says he feels ‘pretty foolish’ about US midterm spending",
+      "link": "https://www.aljazeera.com/news/2026/11/19/elon-musk-says-he-feels-pretty-foolish-about-us-midterm-spending?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+      "link": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "The Guardian - World",
+      "category": "buitenland",
+      "title": "One in four women globally unable to refuse sex within marriage, says UN",
+      "link": "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Miami court convicts US-Haitian pastor over 2021 assassination of president",
+      "link": "https://www.aljazeera.com/news/2026/11/19/miami-court-convicts-us-haitian-pastor-over-2021-assassination-of-president?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+      "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "GTA VI launch sparks celebrations in Miami and Dublin",
+      "link": "https://www.euronews.com/video/2026/11/19/gta-vi-launch-sparks-celebrations-in-miami-and-dublin"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Wattimena stunt tegen Littler op Grand Slam of Darts",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5665933/wattimena-stunt-tegen-littler-op-grand-slam-darts"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Brutale eekhoorns hebben de halve wereld",
+      "link": "https://scientias.nl/brutale-eekhoorns-hebben-de-halve-wereld/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "minister hegseth bezoekt venezuela en kondigt militaire deal aan met vs",
+      "link": "https://nos.nl/artikel/2640093-minister-hegseth-bezoekt-venezuela-en-kondigt-militaire-deal-aan-met-vs"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "datacenters verbruikten vorig jaar 5 procent van alle stroom",
+      "link": "https://nos.nl/artikel/2639955-datacenters-verbruikten-vorig-jaar-5-procent-van-alle-stroom"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "fvd royeert twee leden na zembla uitzending over neonazi s en hitler verering",
+      "link": "https://nos.nl/artikel/2640076-fvd-royeert-twee-leden-na-zembla-uitzending-over-neonazi-s-en-hitler-verering"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "rekenkamer maant eu meer te doen om burgers tegen pfas te beschermen",
+      "link": "https://nos.nl/artikel/2640084-rekenkamer-maant-eu-meer-te-doen-om-burgers-tegen-pfas-te-beschermen"
+    }
+  ]
+}
