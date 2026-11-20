@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-20",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1302,
+  "est_minutes": 10,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "UK and EU to agree youth mobility scheme, BBC understands",
+      "link": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Thousands protest Colombia’s tax plans amid row over US military role",
+      "link": "https://www.aljazeera.com/news/2026/11/20/thousands-protest-colombias-tax-plans-amid-row-over-us-military-role?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Lula visits ailing Chief Raoni as Brazil recognises Indigenous land",
+      "link": "https://www.aljazeera.com/news/2026/11/20/lula-visits-ailing-chief-raoni-as-brazil-recognises-indigenous-land?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
+      "link": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+      "link": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "10,000 identical inflatable rings raise questions over Ceuta migrant crossing",
+      "link": "https://www.euronews.com/2026/11/19/10000-identical-inflatable-rings-raise-questions-over-ceuta-migrant-crossing"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Nobel economist Joseph Stiglitz deems youth protests across Europe 'legitimate'",
+      "link": "https://www.euronews.com/2026/11/19/nobel-economist-joseph-stiglitz-deems-youth-protests-across-europe-legitimate"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "FIA wil vanaf 2027 toe naar vaste groep stewards in Formule 1",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5666152/fia-wil-vanaf-2027-toe-naar-vaste-groep-stewards-formule-1"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Aseksueel voortplanten: kelpen doen het bij gebrek aan een partner",
+      "link": "https://scientias.nl/aseksueel-voortplanten-kelpen-doen-het-bij-gebrek-aan-een-partner/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "strafzaak tegen tata steel om opzettelijke luchtvervuiling van start",
+      "link": "https://nos.nl/artikel/2640220-strafzaak-tegen-tata-steel-om-opzettelijke-luchtvervuiling-van-start"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "succesvolle eerste beursdag voor anthropic afwachten of optimisme doorzet",
+      "link": "https://nos.nl/artikel/2640208-succesvolle-eerste-beursdag-voor-anthropic-afwachten-of-optimisme-doorzet"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "politie begint onderzoek naar achterhoekse appgroep met stiekem gemaakte foto s",
+      "link": "https://nos.nl/artikel/2640204-politie-begint-onderzoek-naar-achterhoekse-appgroep-met-stiekem-gemaakte-foto-s"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "haitiaanse politie meldt tientallen doden bij grote operatie tegen bendes",
+      "link": "https://nos.nl/artikel/2640215-haitiaanse-politie-meldt-tientallen-doden-bij-grote-operatie-tegen-bendes"
+    }
+  ]
+}
