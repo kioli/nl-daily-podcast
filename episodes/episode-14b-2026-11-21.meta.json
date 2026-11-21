@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-21",
+  "model": "qwen2.5:14b",
+  "tts": "piper",
+  "voice": "nl_NL-alex-medium.onnx",
+  "length_scale": "1.15",
+  "words": 1570,
+  "est_minutes": 13,
+  "n_articles": 14,
+  "n_world_sources": 8,
+  "sources_used": [
+    "Al Jazeera - All",
+    "BBC News - World",
+    "Euronews",
+    "NOS Algemeen",
+    "NOS Binnenland",
+    "NOS Buitenland",
+    "NOS Economie",
+    "RTL Sport",
+    "Scientias.nl"
+  ],
+  "articles": [
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "link": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Three French police officers sentenced over racist assault on Black man",
+      "link": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang",
+      "link": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "BBC News - World",
+      "category": "buitenland",
+      "title": "French police officers sentenced for beating of music producer Michel Zecler",
+      "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera - All",
+      "category": "buitenland",
+      "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+      "link": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Germany intensifies engagement with South Caucasus as 'region of opportunities'",
+      "link": "https://www.euronews.com/2026/11/20/germany-intensifies-engagement-with-south-caucasus-as-region-of-opportunities"
+    },
+    {
+      "source": "Euronews",
+      "category": "buitenland",
+      "title": "Trump defends Putin ties and accuses Iran of dishonesty in negotiations",
+      "link": "https://www.euronews.com/2026/11/20/trump-accuses-iran-of-dishonesty-while-defending-putin-ties"
+    },
+    {
+      "source": "RTL Sport",
+      "category": "sport",
+      "title": "Tennisser Medvedev door naar halve finales ATP Finals",
+      "link": "https://www.rtl.nl/nieuws/sport/artikel/5666361/tennisser-medvedev-door-naar-halve-finales-atp-finals"
+    },
+    {
+      "source": "Scientias.nl",
+      "category": "wetenschap",
+      "title": "Kan zuurstofarme lucht bijenvolken beschermen tegen de dodelijke varroamijt?",
+      "link": "https://scientias.nl/kan-zuurstofarme-lucht-bijenvolken-beschermen-tegen-de-dodelijke-varroamijt/"
+    },
+    {
+      "source": "NOS Algemeen",
+      "category": "algemeen",
+      "title": "amerikaanse rechter keurt miljardenschikking bayer over roundup goed",
+      "link": "https://nos.nl/artikel/2640358-amerikaanse-rechter-keurt-miljardenschikking-bayer-over-roundup-goed"
+    },
+    {
+      "source": "NOS Economie",
+      "category": "economie",
+      "title": "ai bedrijf anthropic daalt hard op dag na historische beursgang",
+      "link": "https://nos.nl/artikel/2640298-ai-bedrijf-anthropic-daalt-hard-op-dag-na-historische-beursgang"
+    },
+    {
+      "source": "NOS Binnenland",
+      "category": "binnenland",
+      "title": "45 kinderpornobezitters krijgen waarschuwing van de politie",
+      "link": "https://nos.nl/artikel/2640339-45-kinderpornobezitters-krijgen-waarschuwing-van-de-politie"
+    },
+    {
+      "source": "NOS Buitenland",
+      "category": "buitenland",
+      "title": "franse senaat keurt wet goed die schietende politieagenten beschermt",
+      "link": "https://nos.nl/artikel/2640354-franse-senaat-keurt-wet-goed-die-schietende-politieagenten-beschermt"
+    }
+  ]
+}
